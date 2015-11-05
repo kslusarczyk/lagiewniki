@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Mobile</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="titleAktualnosci">Aktualności</string>
+    <string name="titleDzienniczek">Dzienniczek św. Faustyny</string>
+    <string name="titleNabozenstwo">Nabożeństwo do Miłosierdzia Bożego</string>
+    <string name="titleFaustyna">Święta Siostra Faustyna</string>
+    <string name="titleSanktuarium">Sanktuarium w Krakowie-Łagiewnikach</string>
+    <string name="titleGaleria">Galeria</string>
+    <string name="titleTransmisja">Transmisja on-line</string>
+    <string name="titleKoronka">Koronka za konających</string>
+    <string name="titleSklep">Sklep MISERICORDIA</string>
+    <string name="titleKwartalnik">Kwartalnik ORĘDZIE MIŁOSIERDZIA</string>
+    <string name="titleFacebook">Facebook</string>
+    <string name="titleSDM">ŚDM 2016</string>
+    <string name="titleYt">YouTube</string>
+    <string name="titleWsparcie">Wsparcie</string>
+    <string name="titleWiecej">Więcej</string>
+
+    <string name="titleNabozenstwoIstota">Istota</string>
+    <string name="titleNabozenstwoObraz">Obraz</string>
+    <string name="titleNabozenstwoSwieto">Święto Miłosierdzia</string>
+    <string name="titleNabozenstwoKoronka">Koronka do Miłosierdzia Bożego</string>
+    <string name="titleNabozenstwoGodzina">Godzina Miłosierdzia</string>
+    <string name="titleNabozenstwoSzerzenie">Szerzenie czci Miłosierdzia</string>
+
+    <string name="titleFaustynaBiografia">Biografia</string>
+    <string name="titleFaustynaMisja">Misja głoszenia orędzia Miłosierdzia</string>
+    <string name="titleFaustynaSzkola">Szkoła Duchowości</string>
+    <string name="titleFaustynaZgromadzenie">Nowe Zgromadzenie</string>
+    <string name="titleFaustynaLitania">Litania do Św. Siostry Faustyny</string>
+    <string name="titleFaustynaModlitwa">Modlitwa przez przyczynę św. Faustyny</string>
+
+    <string name="titleSanktuariumObraz">Cudowny obraz</string>
+    <string name="titleSanktuariumBazylika">Bazylika</string>
+    <string name="titleSanktuariumKaplica">Kaplica</string>
+    <string name="titleSanktuariumPorzadek">Porządek nabożeństw</string>
+    <string name="titleSanktuariumOprowadzanie">Oprowadzanie pielgrzymów</string>
+    <string name="titleSanktuariumNoclegi">Noclegi</string>
+    <string name="titleSanktuariumKontakt">Kontakt</string>
+    <string name="titleSanktuariumMapa">Mapa</string>
+    <string name="titleSanktuariumDojazd">Dojazd</string>
+
+    <string name="titleTransmisjaAudio">Audio</string>
+    <string name="titleTransmisjaVideo">Video</string>
+
+    <string name="titleWsparcieTransmisja">Transmisja on-line</string>
+    <string name="titleWsparcieKoronka">Nieustanna Koronka</string>
+    <string name="titleWsparcieRozbudowa">Rozbudowa Sanktuarium</string>
+
+    <string name="phoneNumber">+48505060205</string>
+    <string name="smsPrompt">[wpisz imie konajacego] </string>
+</resources>
