@@ -38,6 +38,30 @@ public class MainActivity extends AppCompatActivity {
         // setting list adapter
         expListView.setAdapter(listAdapter);
 
+        expListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
+            @Override
+            public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) {
+                String groupName;
+
+                groupName = listDataHeader.get(groupPosition);
+                groupName = groupName.replaceAll("\\s+", "");
+                groupName = groupName.replaceAll("ą","a");
+                groupName = groupName.replaceAll("ś","s");
+
+                try {
+                startNewActivity(groupName);
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            } catch (InstantiationException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+
+                return false;
+            }
+        });
+
         expListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
 
             @Override
@@ -56,6 +80,8 @@ public class MainActivity extends AppCompatActivity {
                         .show();
 
                 sectionName = listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition);
+                sectionName = sectionName.replaceAll("\\s+", "");
+                sectionName = sectionName.replaceAll("ą", "a");
 
                 try {
                     startNewActivity(sectionName);

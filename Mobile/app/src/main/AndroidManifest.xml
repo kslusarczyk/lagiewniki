@@ -22,6 +22,15 @@
         <activity
             android:name=".Obraz">
         </activity>
+        <activity
+            android:name=".Aktualnosci">
+        </activity>
+        <activity
+            android:name=".Facebook">
+        </activity>
+        <activity
+            android:name=".Koronkazakonajacych">
+        </activity>
     </application>
 
 </manifest>
