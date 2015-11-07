@@ -4,6 +4,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+
+    <string name="titleDojazd">Dojazd</string>
     <string name="titleAktualnosci">Aktualności</string>
     <string name="titleDzienniczek">Dzienniczek św. Faustyny</string>
     <string name="titleNabozenstwo">Nabożeństwo do Miłosierdzia Bożego</string>
@@ -19,6 +21,7 @@
     <string name="titleYt">YouTube</string>
     <string name="titleWsparcie">Wsparcie</string>
     <string name="titleWiecej">Więcej</string>
+
 
     <string name="titleNabozenstwoIstota">Istota</string>
     <string name="titleNabozenstwoObraz">Obraz</string>
@@ -57,4 +60,5 @@
     <string name="urlFacebook">https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/</string>
     <string name="urlSDM">https://www.facebook.com/Faustyna2016?fref=ts</string>
     <string name="urlWiecej">http://www.faustyna.pl/zmbm/</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
