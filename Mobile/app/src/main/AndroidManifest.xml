@@ -7,13 +7,13 @@
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the 'MyLocation' functionality. 
     -->
-    <uses-permission android:name="com.agh.faustyna.mobile.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.agh.faustyna.mobile.permission.READ_GSERVICES" />
     <uses-permission android:name="com.agh.faustyna.mobile.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -54,6 +54,12 @@
         <activity
             android:name=".Dojazd"
             android:label="@string/title_activity_maps" >
+        </activity>
+        <activity android:name=".Kontakt" >
+        </activity>
+        <activity android:name=".Video" >
+        </activity>
+        <activity android:name=".Audio" >
         </activity>
     </application>
 

@@ -159,7 +159,6 @@ public class MainActivity extends AppCompatActivity {
         titleSanktuarium.add(getString(R.string.titleSanktuariumOprowadzanie));
         titleSanktuarium.add(getString(R.string.titleSanktuariumNoclegi));
         titleSanktuarium.add(getString(R.string.titleSanktuariumKontakt));
-        titleSanktuarium.add(getString(R.string.titleSanktuariumMapa));
         titleSanktuarium.add(getString(R.string.titleSanktuariumDojazd));
 
         List<String> titleGaleria = new ArrayList<String>();

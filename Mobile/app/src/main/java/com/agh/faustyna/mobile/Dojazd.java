@@ -14,6 +14,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.util.List;
 
@@ -44,12 +45,14 @@ public class Dojazd extends FragmentActivity implements OnMapReadyCallback, DCAC
         LatLng sanktuarium = new LatLng(50.0201514,19.9353783);
         //LatLng devicePos = new LatLng(50.0204177, 19.9379689);
         Location myLocation = getLastKnownLocation();
-        LatLng devicePos = new LatLng(myLocation.getLatitude(),myLocation.getLongitude());
-        //mMap.addMarker(new MarkerOptions().position(sanktuarium));
+        if (myLocation == null) {
+            mMap.addMarker(new MarkerOptions().position(sanktuarium));
+        } else {
+            LatLng devicePos = new LatLng(myLocation.getLatitude(),myLocation.getLongitude());
+            GDirectionsApiUtils.getDirection(this, devicePos, sanktuarium, GDirectionsApiUtils.MODE_DRIVING);
+        }
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sanktuarium));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(13));
-
-        GDirectionsApiUtils.getDirection(this, devicePos, sanktuarium, GDirectionsApiUtils.MODE_WALKING);
     }
 
     @Override
