@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
 
+import org.apache.commons.lang3.text.WordUtils;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -43,21 +45,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) {
                 String groupName;
+                String preparedGroupString;
 
                 groupName = listDataHeader.get(groupPosition);
-                groupName = groupName.replaceAll("\\s+", "");
-                groupName = groupName.replaceAll("ą","a");
-                groupName = groupName.replaceAll("ś","s");
+                preparedGroupString = prepareToCreateClass(groupName);
 
                 try {
-                startNewActivity(groupName);
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-            } catch (InstantiationException e) {
-                e.printStackTrace();
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
-            }
+                    startNewActivity(preparedGroupString);
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
 
                 return false;
             }
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
                 String sectionName;
+                String preparedSectionString;
 
                 // only for testing
                 Toast.makeText(
@@ -81,11 +83,10 @@ public class MainActivity extends AppCompatActivity {
                         .show();
 
                 sectionName = listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition);
-                sectionName = sectionName.replaceAll("\\s+", "");
-                sectionName = sectionName.replaceAll("ą", "a");
+                preparedSectionString = prepareToCreateClass(sectionName);
 
                 try {
-                    startNewActivity(sectionName);
+                    startNewActivity(preparedSectionString);
                 } catch (ClassNotFoundException e) {
                     Log.d("karolina", "ClassNotFoundException");
                     e.printStackTrace();
@@ -98,6 +99,25 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    public String prepareToCreateClass(String labelName) {
+        Log.d("prepareToBefore", labelName);
+
+        labelName = labelName.replaceAll("[Ąą]", "a");
+        labelName = labelName.replaceAll("[Ćć]", "c");
+        labelName = labelName.replaceAll("[Ęę]", "e");
+        labelName = labelName.replaceAll("[Łł]", "l");
+        labelName = labelName.replaceAll("[Ńń]", "n");
+        labelName = labelName.replaceAll("[Śś]", "s");
+        labelName = labelName.replaceAll("[Óó]", "o");
+        labelName = labelName.replaceAll("[ŹŻźż]", "z");
+        labelName = labelName.replaceAll("\\-", " ");
+        labelName = labelName.replaceAll("\\.", "");
+        labelName = WordUtils.capitalizeFully(labelName);
+        labelName = labelName.replaceAll("\\s+", "");
+        Log.d("prepareToAfter", labelName);
+        return labelName;
     }
 
     public void startNewActivity(String className) throws ClassNotFoundException, InstantiationException, IllegalAccessException{

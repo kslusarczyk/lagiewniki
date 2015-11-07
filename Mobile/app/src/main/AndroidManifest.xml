@@ -37,7 +37,7 @@
         </activity>
         <activity android:name=".Facebook" >
         </activity>
-        <activity android:name=".Koronkazakonajacych" >
+        <activity android:name=".KoronkaZaKonajacych">
         </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

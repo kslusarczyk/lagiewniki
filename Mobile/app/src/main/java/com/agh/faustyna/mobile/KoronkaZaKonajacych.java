@@ -6,9 +6,9 @@ import android.net.Uri;
 import android.os.Bundle;
 
 /**
- * Created by Karolina on 2015-11-06.
+ * Created by Karolina on 2015-11-07.
  */
-public class Koronkazakonajacych extends Activity {
+public class KoronkaZaKonajacych extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
