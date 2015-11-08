@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     ExpandableListView expListView;
     List<String> listDataHeader;
     HashMap<String, List<String>> listDataChild;
-    String packageName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -122,8 +121,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void startNewActivity(String className) throws ClassNotFoundException, InstantiationException, IllegalAccessException{
         Log.d("startNewActivity", className);
-        packageName = "com.agh.faustyna.mobile";
-        Class classTemp = Class.forName(packageName+"."+className);
+        Class classTemp = Class.forName(getPackageName()+"."+className);
         Log.d("Klasy", className);
         Intent intent = new Intent(this, classTemp);
         startActivity(intent);
@@ -193,12 +191,13 @@ public class MainActivity extends AppCompatActivity {
         List<String> titleFacebook = new ArrayList<String>();
         List<String> titleSDM = new ArrayList<String>();
         List<String> titleYt = new ArrayList<String>();
+
         List<String> titleWsparcie = new ArrayList<String>();
+        titleWsparcie.add(getString(R.string.titleWsparcieTransmisja));
+        titleWsparcie.add(getString(R.string.titleWsparcieKoronka));
+        titleWsparcie.add(getString(R.string.titleWsparcieRozbudowa));
 
         List<String> titleWiecej = new ArrayList<String>();
-        titleWiecej.add(getString(R.string.titleWsparcieTransmisja));
-        titleWiecej.add(getString(R.string.titleWsparcieKoronka));
-        titleWiecej.add(getString(R.string.titleWsparcieRozbudowa));
 
         listDataChild.put(listDataHeader.get(0), titleAktualnosci); // Header, Child data
         listDataChild.put(listDataHeader.get(1), titleDzienniczek);
