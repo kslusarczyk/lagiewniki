@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/porzadek_swieto_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/porzadek_swieto_title"/>
+    <TextView
+        android:id="@+id/porzadek_swieto_nowenna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/porzadek_swieto_title"
+        android:text="@string/porzadek_swieto_nowenna"/>
+    <TextView
+        android:id="@+id/porzadek_swieto_czuwanie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/porzadek_swieto_nowenna"
+        android:text="@string/porzadek_swieto_czuwanie"/>
+    <TextView
+        android:id="@+id/porzadek_swieto_msze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/porzadek_swieto_czuwanie"
+        android:text="@string/porzadek_swieto_msze"/>
+    <TextView
+        android:id="@+id/porzadek_swieto_koronka"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/porzadek_swieto_msze"
+        android:text="@string/porzadek_swieto_koronka"/>
+    <View
+        android:id="@+id/underscore_swieto"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/porzadek_swieto_koronka"
+        android:background="@color/divider_color"/>
+
+    <TextView
+        android:id="@+id/porzadek_uroczystosc_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/underscore_swieto"
+        android:text="@string/porzadek_swieto_title"/>
+    <TextView
+        android:id="@+id/porzadek_uroczystosc_triduum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/porzadek_uroczystosc_title"
+        android:text="@string/porzadek_uroczystosc_triduum"/>
+    <TextView
+        android:id="@+id/porzadek_uroczystosc_ceremonie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/porzadek_uroczystosc_triduum"
+        android:text="@string/porzadek_uroczystosc_ceremonie"/>
+    <View
+        android:id="@+id/underscore_uroczystosc"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/porzadek_uroczystosc_ceremonie"
+        android:background="@color/divider_color"/>
+
+</RelativeLayout>
+</ScrollView>
