@@ -94,6 +94,20 @@
     <string name="kontakt_redakcja_tel">+48123518800</string>
     <string name="kontakt_redakcja_mail">redakcja@faustyna.pl</string>
 
+    <string name="kontakt_informacja_text">Punkt informacyjny</string>
+    <string name="kontakt_informacja_tel_1">+48122523311</string>
+    <string name="kontakt_informacja_tel_2">+48122523333</string>
+    <string name="kontakt_informacja_mail_1">pielgrzymki@milosierdzie.pl</string>
+    <string name="kontakt_informacja_mail_2">adoracja@milosierdzie.pl</string>
+    <string name="kontakt_informacja_mail_3">informacja@pastorallodge.com.pl</string>
+
+    <string name="kontakt_dom_duszpasterski_text">Dom Duszpasterski - recepcja</string>
+    <string name="kontakt_dom_duszpasterski_tel">+48122523300</string>
+    <string name="kontakt_dom_duszpasterski_mail">domduszpasterski@milosierdzie.pl</string>
+
+    <string name="kontakt_poradnia">Poradnia Miłosierdzie</string>
+    <string name="kontakt_poradnia_tel">+48122523300</string>
+
     <string name="porzadek_swieto_title">Święto Miłosierdzia w pierwszą niedzielę po Wielkanocy</string>
     <string name="porzadek_swieto_nowenna">- Poprzedzone nowenną, która rozpoczyna się w Wielki Piątek po modlitwie w Godzinie Miłosierdzia (15:00)</string>
     <string name="porzadek_swieto_czuwanie">- Nocne czuwanie przed Świętem Miłosierdzia w bazylice od 21:00</string>

@@ -6,14 +6,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-import android.widget.AdapterView.OnItemSelectedListener;
 
 import static com.agh.faustyna.mobile.R.id.*;
 
-public class Kontakt extends AppCompatActivity implements OnItemSelectedListener, View.OnLongClickListener {
+public class Kontakt extends AppCompatActivity implements View.OnLongClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,33 +66,6 @@ public class Kontakt extends AppCompatActivity implements OnItemSelectedListener
 
         View kontaktRedakcjaMail = findViewById(kontakt_redakcja_mail);
         kontaktRedakcjaMail.setOnLongClickListener(this);
-
-        Spinner spinnerKontakt = (Spinner) findViewById(spinner_kontakt);
-        // Create an ArrayAdapter using the string array and a default spinner layout
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.kontakt_array, android.R.layout.simple_spinner_item);
-        // Specify the layout to use when the list of choices appears
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        // Apply the adapter to the spinner
-        spinnerKontakt.setAdapter(adapter);
-
-        spinnerKontakt.setOnItemSelectedListener(this);
-    }
-
-    @Override
-    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
-        if (position == 0){
-            Log.d("getItemAtPosition", "zgromadzenie");
-        }
-        else{
-            Log.d("getItemAtPosition", "rektorat");
-        }
-    }
-
-    @Override
-    public void onNothingSelected(AdapterView<?> parent) {
-
     }
 
     public boolean onLongClick(View v) {
