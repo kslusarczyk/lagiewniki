@@ -53,6 +53,7 @@
     <string name="phoneNumber">+48505060205</string>
     <string name="smsPrompt">[wpisz imie konajacego]</string>
 
+    <string name="urlFaustyna">http://www.faustyna.pl/zmbm/</string>
     <string name="urlFacebook">https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/</string>
     <string name="urlSDM">https://www.facebook.com/Faustyna2016?fref=ts</string>
     <string name="urlWiecej">http://www.faustyna.pl/zmbm/</string>
@@ -94,4 +95,13 @@
     <string name="kontakt_redakcja_tel">+48123518800</string>
     <string name="kontakt_redakcja_mail">redakcja@faustyna.pl</string>
 
+    <!-- Aktualnosci -->
+    <string name="news_load_error">Wystąpił błąd podczas wczytywania aktualności</string>
+    <string name="thumbnail_description">Thumbnail</string>
+
+
+    <string name="load_error">Wystąpił błąd podczas wczytywania danych</string>
+    <!-- REST API -->
+    <string name="rest_news">blog/category/aktualnosci/?json=1</string>
+    <string name="rest_istota">istota/?json=1</string>
 </resources>
