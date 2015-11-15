@@ -37,7 +37,8 @@
         </activity>
         <activity android:name=".Obraz"></activity>
         <activity android:name=".Aktualnosci"></activity>
-        <activity android:name=".Facebook"></activity>
+        <activity android:name=".Facebook"
+            android:theme="@style/Theme.AppCompat"></activity>
         <activity android:name=".Wiecej"></activity>
         <activity android:name=".KoronkaZaKonajacych"></activity>
         <activity android:name=".PorzadekNabozenstw"></activity>
