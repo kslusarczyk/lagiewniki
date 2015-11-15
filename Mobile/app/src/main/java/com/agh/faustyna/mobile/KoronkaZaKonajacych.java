@@ -18,6 +18,7 @@ public class KoronkaZaKonajacych extends Activity {
 
         Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.koronka_toast), Toast.LENGTH_LONG);
         toast.show();
+        finish();
     }
 
     public void sendSMS(String phoneNumber, String message){
