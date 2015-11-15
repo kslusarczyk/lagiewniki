@@ -14,6 +14,7 @@ public class KoronkaZaKonajacych extends Activity {
 
         super.onCreate(savedInstanceState);
         sendSMS(getString(R.string.phoneNumber), getString(R.string.smsPrompt));
+        finish();
     }
 
     public void sendSMS(String phoneNumber, String message){
@@ -23,5 +24,6 @@ public class KoronkaZaKonajacych extends Activity {
         if (sendSMSIntent.resolveActivity(getPackageManager()) != null){
             startActivity(sendSMSIntent);
         }
+
     }
 }

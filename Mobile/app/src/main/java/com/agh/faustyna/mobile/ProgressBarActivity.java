@@ -1,10 +1,9 @@
 package com.agh.faustyna.mobile;
 
 import android.app.Activity;
+import android.os.AsyncTask;
 import android.view.View;
 import android.widget.ProgressBar;
-
-import com.agh.faustyna.mobile.http.HttpTask;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +13,7 @@ import java.util.List;
  */
 public abstract class ProgressBarActivity extends Activity {
     protected ProgressBar progressBar;
-    private List<HttpTask> httpTasks;
+    private List<AsyncTask> httpTasks;
 
     public void showProgressBar(){
         progressBar.setVisibility(View.VISIBLE);
@@ -23,15 +22,17 @@ public abstract class ProgressBarActivity extends Activity {
         progressBar.setVisibility(View.GONE);
     }
 
-    public void registerTask(HttpTask task){
-        if(httpTasks == null) httpTasks = new ArrayList<HttpTask>();
+    public void registerTask(AsyncTask task){
+        if(httpTasks == null) httpTasks = new ArrayList<AsyncTask>();
         httpTasks.add(task);
     }
 
     @Override
     public void onBackPressed(){
-        for(HttpTask task : httpTasks){
-            task.cancel(true);
+        if(httpTasks != null) {
+            for (AsyncTask task : httpTasks) {
+                task.cancel(true);
+            }
         }
 
         super.onBackPressed();

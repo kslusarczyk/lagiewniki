@@ -193,7 +193,6 @@ public class MainActivity extends AppCompatActivity {
         List<String> titleYt = new ArrayList<String>();
 
         List<String> titleWsparcie = new ArrayList<String>();
-        titleWsparcie.add(getString(R.string.titleWsparcieTransmisja));
         titleWsparcie.add(getString(R.string.titleWsparcieKoronka));
         titleWsparcie.add(getString(R.string.titleWsparcieRozbudowa));
 
