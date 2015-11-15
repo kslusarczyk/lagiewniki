@@ -59,7 +59,7 @@
     <string name="urlWiecej">http://www.faustyna.pl/zmbm/</string>
     <string name="title_activity_maps">Map</string>
     <string name="urlStream">http://livestream.com/accounts/11477776/events/3773195/player?width=560&amp;height=315&amp;autoPlay=true&amp;mute=false</string>
-    <string name="urlAudio">http://www.radiofaustyna.pl/audio/demo-08-bm.htm</string>
+    <string name="urlAudio">http://faustyna.pl/media2011.swf?v_url=Godzina_Milosierdzia/Nicecast_Archived_Audio_20151114_1501.mp3</string>
 
     <string-array name="kontakt_array">
         <item>Zgromadzenie Sióstr Matki Bożej Miłosierdzia</item>
