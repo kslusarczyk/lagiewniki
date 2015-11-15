@@ -53,12 +53,13 @@
     <string name="phoneNumber">+48505060205</string>
     <string name="smsPrompt">[wpisz imie konajacego]</string>
 
+    <string name="urlFaustyna">http://www.faustyna.pl/zmbm/</string>
     <string name="urlFacebook">https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/</string>
     <string name="urlSDM">https://www.facebook.com/Faustyna2016?fref=ts</string>
     <string name="urlWiecej">http://www.faustyna.pl/zmbm/</string>
     <string name="title_activity_maps">Map</string>
     <string name="urlStream">http://livestream.com/accounts/11477776/events/3773195/player?width=560&amp;height=315&amp;autoPlay=true&amp;mute=false</string>
-    <string name="urlAudio">http://www.radiofaustyna.pl/audio/demo-08-bm.htm</string>
+    <string name="urlAudio">http://faustyna.pl/media2011.swf?v_url=Godzina_Milosierdzia/Nicecast_Archived_Audio_20151114_1501.mp3</string>
 
     <string-array name="kontakt_array">
         <item>Zgromadzenie Sióstr Matki Bożej Miłosierdzia</item>
@@ -170,4 +171,13 @@
     <string name="porzadek_kaplica_1_pt">I piątek miesiąca</string>
     <string name="porzadek_kaplica_1_pt_msza">- 19:00 Msza Święta</string>
 
+    <!-- Aktualnosci -->
+    <string name="news_load_error">Wystąpił błąd podczas wczytywania aktualności</string>
+    <string name="thumbnail_description">Thumbnail</string>
+
+
+    <string name="load_error">Wystąpił błąd podczas wczytywania danych</string>
+    <!-- REST API -->
+    <string name="rest_news">blog/category/aktualnosci/?json=1</string>
+    <string name="rest_istota">istota/?json=1</string>
 </resources>
