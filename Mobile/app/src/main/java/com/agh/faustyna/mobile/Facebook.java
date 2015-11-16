@@ -21,7 +21,7 @@ public class Facebook extends Activity {
         boolean internetState = checkInternetConnection();
         Log.d("internetState", "" + internetState);
         if (internetState){
-            openWebPage(getString(R.string.urlFacebook));
+            openWebPage(getString(R.string.url_facebook));
         } else {
             Log.d("Internet", "nie ma INTERNETOW");
 

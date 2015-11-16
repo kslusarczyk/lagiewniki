@@ -40,7 +40,7 @@ public abstract class HttpTask extends AsyncTask<Void, Void, JSONObject> {
 
     @Override
     protected JSONObject doInBackground(Void... params) {
-        String serwerUrl = context.getString(R.string.urlFaustyna);
+        String serwerUrl = context.getString(R.string.url_faustyna);
         String resourcePath = context.getString(restResourceId);
 
         try {

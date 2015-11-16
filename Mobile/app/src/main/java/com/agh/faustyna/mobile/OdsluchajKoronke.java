@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Audio extends ProgressBarActivity {
+public class OdsluchajKoronke extends ProgressBarActivity {
     private ImageButton playButton;
     private MediaPlayer mediaPlayer;
     private TextView stateTextView;
@@ -43,13 +43,13 @@ public class Audio extends ProgressBarActivity {
         SimpleDateFormat urlDateFormat = new SimpleDateFormat("yyyyMMdd");
 
         //obtaining url to current transmission
-        String baseUrl = getString(R.string.urlAudio);
+        String baseUrl = getString(R.string.url_audio);
         String url = baseUrl.replace("{date}", urlDateFormat.format(today));
         Log.d("url", url);
 
         // setting title
         TextView titleTextView = (TextView) findViewById(R.id.title_audio_text_view);
-        String baseTitle = getString(R.string.odsluchajKoronke);
+        String baseTitle = getString(R.string.odsluchaj_koronke);
         String title = baseTitle.replace("{date}", titleDateFormat.format(today));
         titleTextView.setText(title);
 
@@ -61,7 +61,7 @@ public class Audio extends ProgressBarActivity {
             mediaPlayer.setDataSource(url);
         } catch(IOException e) {
             //handling error that is almost impossible to occur :P
-            Toast.makeText(this, R.string.audioUrlError, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.audio_url_error, Toast.LENGTH_LONG).show();
             Log.d("player", e.getMessage(), e);
             finish();
         }
@@ -88,13 +88,13 @@ public class Audio extends ProgressBarActivity {
     public void onPlayerPrepared(){
         hideProgressBar();
         playButton.setImageResource(R.drawable.player_play);
-        stateTextView.setText(R.string.pobranaKoronka);
+        stateTextView.setText(R.string.pobrana_koronka);
         isPlayerPrepared = true;
     }
 
     public void handlePlayButton(View view){
         if(!isPlayerPrepared){
-            stateTextView.setText(R.string.pobieranieKoronki);
+            stateTextView.setText(R.string.pobieranie_koronki);
             showProgressBar();
             //start prepare player task
             new PreparePlayerTask(this).execute(mediaPlayer);

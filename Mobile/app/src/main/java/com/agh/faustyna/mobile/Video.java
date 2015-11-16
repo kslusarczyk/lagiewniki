@@ -17,7 +17,7 @@ public class Video extends AppCompatActivity {
         setContentView(R.layout.activity_video);
 
         player = (CustomWebView)findViewById(R.id.video_view);
-        String url = getString(R.string.urlStream);
+        String url = getString(R.string.url_stream);
         player.loadUrl(url);
     }
 

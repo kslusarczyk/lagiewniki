@@ -5,7 +5,7 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.agh.faustyna.mobile.Audio;
+import com.agh.faustyna.mobile.OdsluchajKoronke;
 import com.agh.faustyna.mobile.R;
 
 import java.io.IOException;
@@ -14,9 +14,9 @@ import java.io.IOException;
  * Created by Klaudia on 15.11.2015.
  */
 public class PreparePlayerTask extends AsyncTask<MediaPlayer, Void, Boolean>{
-    private Audio context;
+    private OdsluchajKoronke context;
 
-    public PreparePlayerTask(Audio context) {
+    public PreparePlayerTask(OdsluchajKoronke context) {
         this.context = context;
         context.registerTask(this);
     }
@@ -42,7 +42,7 @@ public class PreparePlayerTask extends AsyncTask<MediaPlayer, Void, Boolean>{
             context.onPlayerPrepared();
         } else {
             context.hideProgressBar();
-            Toast.makeText(context, R.string.audioUrlError, Toast.LENGTH_LONG).show();
+            Toast.makeText(context, R.string.audio_url_error, Toast.LENGTH_LONG).show();
         }
     }
 }

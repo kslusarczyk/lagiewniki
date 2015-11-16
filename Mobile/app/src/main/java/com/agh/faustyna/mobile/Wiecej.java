@@ -12,7 +12,7 @@ public class Wiecej extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        openWebPage(getString(R.string.urlWiecej));
+        openWebPage(getString(R.string.url_wiecej));
         finish();
     }
 

@@ -132,21 +132,21 @@ public class MainActivity extends AppCompatActivity {
         listDataChild = new HashMap<String, List<String>>();
 
         // Adding child data
-        listDataHeader.add(getString(R.string.titleAktualnosci));
-        listDataHeader.add(getString(R.string.titleDzienniczek));
-        listDataHeader.add(getString(R.string.titleNabozenstwo));
-        listDataHeader.add(getString(R.string.titleFaustyna));
-        listDataHeader.add(getString(R.string.titleSanktuarium));
-        listDataHeader.add(getString(R.string.titleGaleria));
-        listDataHeader.add(getString(R.string.titleTransmisja));
-        listDataHeader.add(getString(R.string.titleKoronka));
-        listDataHeader.add(getString(R.string.titleSklep));
-        listDataHeader.add(getString(R.string.titleKwartalnik));
-        listDataHeader.add(getString(R.string.titleFacebook));
-        listDataHeader.add(getString(R.string.titleSDM));
-        listDataHeader.add(getString(R.string.titleYt));
-        listDataHeader.add(getString(R.string.titleWsparcie));
-        listDataHeader.add(getString(R.string.titleWiecej));
+        listDataHeader.add(getString(R.string.title_aktualnosci));
+        listDataHeader.add(getString(R.string.title_dzienniczek));
+        listDataHeader.add(getString(R.string.title_nabozenstwo));
+        listDataHeader.add(getString(R.string.title_faustyna));
+        listDataHeader.add(getString(R.string.title_sanktuarium));
+        listDataHeader.add(getString(R.string.title_galeria));
+        listDataHeader.add(getString(R.string.title_multimedia));
+        listDataHeader.add(getString(R.string.title_koronka));
+        listDataHeader.add(getString(R.string.title_sklep));
+        listDataHeader.add(getString(R.string.title_kwartalnik));
+        listDataHeader.add(getString(R.string.title_facebook));
+        listDataHeader.add(getString(R.string.title_sdm));
+        listDataHeader.add(getString(R.string.title_yt));
+        listDataHeader.add(getString(R.string.title_wsparcie));
+        listDataHeader.add(getString(R.string.title_wiecej));
 
         // Adding child data
         List<String> titleAktualnosci = new ArrayList<String>();
@@ -154,36 +154,36 @@ public class MainActivity extends AppCompatActivity {
         List<String> titleDzienniczek = new ArrayList<String>();
 
         List<String> titleNabozenstwo = new ArrayList<String>();
-        titleNabozenstwo.add(getString(R.string.titleNabozenstwoIstota));
-        titleNabozenstwo.add(getString(R.string.titleNabozenstwoObraz));
-        titleNabozenstwo.add(getString(R.string.titleNabozenstwoSwieto));
-        titleNabozenstwo.add(getString(R.string.titleNabozenstwoKoronka));
-        titleNabozenstwo.add(getString(R.string.titleNabozenstwoGodzina));
-        titleNabozenstwo.add(getString(R.string.titleNabozenstwoSzerzenie));
+        titleNabozenstwo.add(getString(R.string.title_nabozenstwo_istota));
+        titleNabozenstwo.add(getString(R.string.title_nabozenstwo_obraz));
+        titleNabozenstwo.add(getString(R.string.title_nabozenstwo_swieto));
+        titleNabozenstwo.add(getString(R.string.title_nabozenstwo_koronka));
+        titleNabozenstwo.add(getString(R.string.title_nabozenstwo_godzina));
+        titleNabozenstwo.add(getString(R.string.title_nabozenstwo_szerzenie));
 
         List<String> titleFaustyna = new ArrayList<String>();
-        titleFaustyna.add(getString(R.string.titleFaustynaBiografia));
-        titleFaustyna.add(getString(R.string.titleFaustynaMisja));
-        titleFaustyna.add(getString(R.string.titleFaustynaSzkola));
-        titleFaustyna.add(getString(R.string.titleFaustynaZgromadzenie));
-        titleFaustyna.add(getString(R.string.titleFaustynaLitania));
-        titleFaustyna.add(getString(R.string.titleFaustynaModlitwa));
+        titleFaustyna.add(getString(R.string.title_faustyna_biografia));
+        titleFaustyna.add(getString(R.string.title_faustyna_misja));
+        titleFaustyna.add(getString(R.string.title_faustyna_szkola));
+        titleFaustyna.add(getString(R.string.title_faustyna_zgromadzenie));
+        titleFaustyna.add(getString(R.string.title_faustyna_litania));
+        titleFaustyna.add(getString(R.string.title_faustyna_modlitwa));
 
         List<String> titleSanktuarium = new ArrayList<String>();
-        titleSanktuarium.add(getString(R.string.titleSanktuariumObraz));
-        titleSanktuarium.add(getString(R.string.titleSanktuariumBazylika));
-        titleSanktuarium.add(getString(R.string.titleSanktuariumKaplica));
-        titleSanktuarium.add(getString(R.string.titleSanktuariumPorzadek));
-        titleSanktuarium.add(getString(R.string.titleSanktuariumOprowadzanie));
-        titleSanktuarium.add(getString(R.string.titleSanktuariumNoclegi));
-        titleSanktuarium.add(getString(R.string.titleSanktuariumKontakt));
-        titleSanktuarium.add(getString(R.string.titleSanktuariumDojazd));
+        titleSanktuarium.add(getString(R.string.title_sanktuarium_obraz));
+        titleSanktuarium.add(getString(R.string.title_sanktuarium_bazylika));
+        titleSanktuarium.add(getString(R.string.title_sanktuarium_kaplica));
+        titleSanktuarium.add(getString(R.string.title_sanktuarium_porzadek));
+        titleSanktuarium.add(getString(R.string.title_sanktuarium_oprowadzanie));
+        titleSanktuarium.add(getString(R.string.title_sanktuarium_noclegi));
+        titleSanktuarium.add(getString(R.string.title_sanktuarium_kontakt));
+        titleSanktuarium.add(getString(R.string.title_sanktuarium_dojazd));
 
         List<String> titleGaleria = new ArrayList<String>();
 
-        List<String> titleTransmisja = new ArrayList<String>();
-        titleTransmisja.add(getString(R.string.titleTransmisjaAudio));
-        titleTransmisja.add(getString(R.string.titleTransmisjaVideo));
+        List<String> titleMultimedia = new ArrayList<String>();
+        titleMultimedia.add(getString(R.string.title_multimedia_koronka));
+        titleMultimedia.add(getString(R.string.title_multimedia_video));
 
         List<String> titleKoronka = new ArrayList<String>();
         List<String> titleSklep = new ArrayList<String>();
@@ -193,8 +193,8 @@ public class MainActivity extends AppCompatActivity {
         List<String> titleYt = new ArrayList<String>();
 
         List<String> titleWsparcie = new ArrayList<String>();
-        titleWsparcie.add(getString(R.string.titleWsparcieKoronka));
-        titleWsparcie.add(getString(R.string.titleWsparcieRozbudowa));
+        titleWsparcie.add(getString(R.string.title_wsparcie_koronka));
+        titleWsparcie.add(getString(R.string.title_wsparcie_rozbudowa));
 
         List<String> titleWiecej = new ArrayList<String>();
 
@@ -204,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
         listDataChild.put(listDataHeader.get(3), titleFaustyna);
         listDataChild.put(listDataHeader.get(4), titleSanktuarium);
         listDataChild.put(listDataHeader.get(5), titleGaleria);
-        listDataChild.put(listDataHeader.get(6), titleTransmisja);
+        listDataChild.put(listDataHeader.get(6), titleMultimedia);
         listDataChild.put(listDataHeader.get(7), titleKoronka);
         listDataChild.put(listDataHeader.get(8), titleSklep);
         listDataChild.put(listDataHeader.get(9), titleKwartalnik);
