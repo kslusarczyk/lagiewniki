@@ -39,13 +39,20 @@ public class OdsluchajKoronke extends ProgressBarActivity {
 
         //date formats for title and url
         Date today = new Date();
+        Date yesterday = new Date(System.currentTimeMillis() - 24 * 60 * 60 * 1000);
+
+        SimpleDateFormat yesterdayDateFormat = new SimpleDateFormat("yyyyMMdd");
         SimpleDateFormat titleDateFormat = new SimpleDateFormat("dd.MM");
         SimpleDateFormat urlDateFormat = new SimpleDateFormat("yyyyMMdd");
 
+
         //obtaining url to current transmission
         String baseUrl = getString(R.string.url_audio);
+
+        String urlYesterday = baseUrl.replace("{date}", yesterdayDateFormat.format(yesterday));
         String url = baseUrl.replace("{date}", urlDateFormat.format(today));
         Log.d("url", url);
+
 
         // setting title
         TextView titleTextView = (TextView) findViewById(R.id.title_audio_text_view);
@@ -57,13 +64,29 @@ public class OdsluchajKoronke extends ProgressBarActivity {
         mediaPlayer = new MediaPlayer();
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
 
-        try {
-            mediaPlayer.setDataSource(url);
-        } catch(IOException e) {
-            //handling error that is almost impossible to occur :P
-            Toast.makeText(this, R.string.audio_url_error, Toast.LENGTH_LONG).show();
-            Log.d("player", e.getMessage(), e);
-            finish();
+
+        SimpleDateFormat df = new SimpleDateFormat("HH:mm:ss");
+        Date dateobj = new Date();
+        String compare = df.format(dateobj);
+        String hours = "15:45:00";
+        if (compare.compareTo(hours) < 0) {
+            try {
+                mediaPlayer.setDataSource(urlYesterday);
+            } catch (IOException e) {
+                //handling error that is almost impossible to occur :P
+                Toast.makeText(this, R.string.audio_url_error, Toast.LENGTH_LONG).show();
+                Log.d("player", e.getMessage(), e);
+                finish();
+            }
+        } else {
+            try {
+                mediaPlayer.setDataSource(url);
+            } catch (IOException e) {
+                //handling error that is almost impossible to occur :P
+                Toast.makeText(this, R.string.audio_url_error, Toast.LENGTH_LONG).show();
+                Log.d("player", e.getMessage(), e);
+                finish();
+            }
         }
     }
 
