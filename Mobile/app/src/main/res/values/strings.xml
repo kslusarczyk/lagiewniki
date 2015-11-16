@@ -199,5 +199,10 @@
     <string name="rest_koronka_do_milosierdzia_bozego">koronka-do-milosierdzia-bozego/?json=1</string>
     <string name="rest_godzina_milosierdzia">godzina-milosierdzia/?json=1</string>
     <string name="rest_szerzenie_czci_milosierdzia">szerzenie-czci-milosierdzia/?json=1</string>
-
+    <string name="rest_biografia">biografia/?json=1</string>
+    <string name="rest_misja_gloszenia">gloszenie-milosierdzia-boga/?json=1</string>
+    <string name="szkola_duchowosci">szkola-duchowosci/?json=1</string>
+    <string name="nowe_zgromadzenie">apostolski-ruch-bozego-milosierdzia/?json=1</string>
+    <string name="litania_do_faustyny">litania-do-sw-siostry-faustyny/?json=1</string>
+    <string name="modlitwa_przez_przyczyne">inne-modlitwy/?json=1</string>
 </resources>
