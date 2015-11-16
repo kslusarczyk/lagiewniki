@@ -11,9 +11,9 @@ import android.os.Bundle;
 import android.util.Log;
 
 /**
- * Created by Klaudia on 15.11.2015.
+ * Created by Karolina on 2015-11-16.
  */
-public class Wiecej extends Activity {
+public class SklepMisericordia extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +21,7 @@ public class Wiecej extends Activity {
         boolean internetState = checkInternetConnection();
         Log.d("internetState", "" + internetState);
         if (internetState){
-            openWebPage(getString(R.string.url_faustyna));
+            openWebPage(getString(R.string.kontakt_wydawnictwo_sklep));
         } else {
             Log.d("Internet", "nie ma INTERNETOW");
 
