@@ -42,6 +42,10 @@
         <activity android:name=".Wiecej"></activity>
         <activity android:name=".KoronkaZaKonajacych"></activity>
         <activity android:name=".PorzadekNabozenstw"></activity>
+        <activity android:name=".SwietoMilosierdzia"></activity>
+        <activity android:name=".KoronkaDoMilosierdziaBozego"></activity>
+        <activity android:name=".GodzinaMilosierdzia"></activity>
+        <activity android:name=".SzerzenieCzciMilosierdzia"></activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -67,6 +71,7 @@
         <activity android:name=".Audio"
             android:theme="@style/Theme.AppCompat">
         </activity>
+
     </application>
 
 </manifest>

@@ -194,6 +194,10 @@
     <!-- REST API -->
     <string name="rest_news">blog/category/aktualnosci/?json=1</string>
     <string name="rest_istota">istota/?json=1</string>
-
+    <string name="rest_obraz">obraz/?json=1</string>
+    <string name="rest_swieto_milosierdzia">swieto-milosierdzia/?json=1</string>
+    <string name="rest_koronka_do_milosierdzia_bozego">koronka-do-milosierdzia-bozego/?json=1</string>
+    <string name="rest_godzina_milosierdzia">godzina-milosierdzia/?json=1</string>
+    <string name="rest_szerzenie_czci_milosierdzia">szerzenie-czci-milosierdzia/?json=1</string>
 
 </resources>
