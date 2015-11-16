@@ -16,7 +16,7 @@ import org.json.JSONObject;
  */
 public class GetLitaniaTask extends HttpTask {
     public GetLitaniaTask(ProgressBarActivity context){
-        super(context, R.string.litania_do_faustyny);
+        super(context, R.string.rest_litania_do_faustyny);
     }
 
     @Override

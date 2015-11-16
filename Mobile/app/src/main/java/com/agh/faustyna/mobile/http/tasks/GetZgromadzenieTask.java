@@ -16,7 +16,7 @@ import org.json.JSONObject;
  */
 public class GetZgromadzenieTask extends HttpTask {
     public GetZgromadzenieTask(ProgressBarActivity context){
-        super(context, R.string.nowe_zgromadzenie);
+        super(context, R.string.rest_nowe_zgromadzenie);
     }
 
     @Override

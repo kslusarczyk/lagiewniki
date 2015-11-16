@@ -14,9 +14,9 @@ import org.json.JSONObject;
 /**
  * Created by Klaudia on 16.11.2015.
  */
-public class GetModlitwaTask extends HttpTask {
-    public GetModlitwaTask(ProgressBarActivity context){
-        super(context, R.string.rest_modlitwa_przez_przyczyne);
+public class GetBazylikaTask extends HttpTask {
+    public GetBazylikaTask(ProgressBarActivity context){
+        super(context, R.string.rest_bazylika);
     }
     @Override
     protected void processResult(JSONObject responseData) {

@@ -49,6 +49,12 @@
         <activity android:name=".NoweZgromadzenie"></activity>
         <activity android:name=".LitaniaDoSwSiostryFaustyny"></activity>
         <activity android:name=".ModlitwaPrzezPrzyczyneSwFaustyny"></activity>
+        <activity android:name=".CudownyObraz"></activity>
+        <activity android:name=".OprowadzaniePielgrzymow"></activity>
+        <activity android:name=".Kaplica"></activity>
+        <activity android:name=".Bazylika"></activity>
+        <activity android:name=".NieustannaKoronka"></activity>
+        <activity android:name=".RozbudowaSanktuarium"></activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

@@ -14,9 +14,9 @@ import org.json.JSONObject;
 /**
  * Created by Klaudia on 16.11.2015.
  */
-public class GetModlitwaTask extends HttpTask {
-    public GetModlitwaTask(ProgressBarActivity context){
-        super(context, R.string.rest_modlitwa_przez_przyczyne);
+public class GetNieustannaKoronkaTask extends HttpTask {
+    public GetNieustannaKoronkaTask(ProgressBarActivity context){
+        super(context, R.string.rest_nieustanna_koronka);
     }
     @Override
     protected void processResult(JSONObject responseData) {

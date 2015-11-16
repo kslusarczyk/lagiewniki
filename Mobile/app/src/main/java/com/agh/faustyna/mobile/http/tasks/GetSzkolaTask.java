@@ -16,7 +16,7 @@ import org.json.JSONObject;
  */
 public class GetSzkolaTask extends HttpTask {
     public GetSzkolaTask(ProgressBarActivity context){
-        super(context, R.string.szkola_duchowosci);
+        super(context, R.string.rest_szkola_duchowosci);
     }
 
     @Override
