@@ -216,4 +216,8 @@
     <string name="rest_rozbudowa">rozbudowa/?json=1</string>
     <string name="rest_nieustanna_koronka">nieustanna-koronka-do-milosierdzia-bozego-zapisy/?json=1</string>
 
+    <!-- zapisywane dane -->
+    <string name="brak_zasobu">Zasób niedostępny. Brak połączenia z Internetem.</string>
+
+
 </resources>

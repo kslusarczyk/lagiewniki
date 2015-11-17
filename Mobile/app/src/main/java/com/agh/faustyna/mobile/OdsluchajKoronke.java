@@ -15,6 +15,7 @@ import com.agh.faustyna.mobile.http.tasks.PreparePlayerTask;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 public class OdsluchajKoronke extends ProgressBarActivity {
@@ -39,54 +40,50 @@ public class OdsluchajKoronke extends ProgressBarActivity {
 
         //date formats for title and url
         Date today = new Date();
-        Date yesterday = new Date(System.currentTimeMillis() - 24 * 60 * 60 * 1000);
 
-        SimpleDateFormat yesterdayDateFormat = new SimpleDateFormat("yyyyMMdd");
         SimpleDateFormat titleDateFormat = new SimpleDateFormat("dd.MM");
         SimpleDateFormat urlDateFormat = new SimpleDateFormat("yyyyMMdd");
 
+        //checking if todays prayer is already uploaded (it should be after 15:40)
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(today);
+        calendar.set(Calendar.HOUR_OF_DAY, 15);
+        calendar.set(Calendar.MINUTE, 40);
+        calendar.set(Calendar.SECOND, 0);
+        Date todaysPrayer = calendar.getTime();
+
+        Log.d("date", "today: " + today);
+        Log.d("date", "todaysPrayer: " + todaysPrayer);
+
+        Date prayersDate = today;
+        if ( !today.after(todaysPrayer) ){
+            prayersDate = new Date(System.currentTimeMillis() - 24 * 60 * 60 * 1000);
+            Log.d("date", "dzis jeszcze ni ma :(");
+        }
 
         //obtaining url to current transmission
         String baseUrl = getString(R.string.url_audio);
 
-        String urlYesterday = baseUrl.replace("{date}", yesterdayDateFormat.format(yesterday));
-        String url = baseUrl.replace("{date}", urlDateFormat.format(today));
+        String url = baseUrl.replace("{date}", urlDateFormat.format(prayersDate));
         Log.d("url", url);
-
 
         // setting title
         TextView titleTextView = (TextView) findViewById(R.id.title_audio_text_view);
         String baseTitle = getString(R.string.odsluchaj_koronke);
-        String title = baseTitle.replace("{date}", titleDateFormat.format(today));
+        String title = baseTitle.replace("{date}", titleDateFormat.format(prayersDate));
         titleTextView.setText(title);
 
         //setting up player
         mediaPlayer = new MediaPlayer();
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
 
-
-        SimpleDateFormat df = new SimpleDateFormat("HH:mm:ss");
-        Date dateobj = new Date();
-        String compare = df.format(dateobj);
-        String hours = "15:45:00";
-        if (compare.compareTo(hours) < 0) {
-            try {
-                mediaPlayer.setDataSource(urlYesterday);
-            } catch (IOException e) {
-                //handling error that is almost impossible to occur :P
-                Toast.makeText(this, R.string.audio_url_error, Toast.LENGTH_LONG).show();
-                Log.d("player", e.getMessage(), e);
-                finish();
-            }
-        } else {
-            try {
-                mediaPlayer.setDataSource(url);
-            } catch (IOException e) {
-                //handling error that is almost impossible to occur :P
-                Toast.makeText(this, R.string.audio_url_error, Toast.LENGTH_LONG).show();
-                Log.d("player", e.getMessage(), e);
-                finish();
-            }
+        try {
+            mediaPlayer.setDataSource(url);
+        } catch (IOException e) {
+            //handling error that is almost impossible to occur :P
+            Toast.makeText(this, R.string.audio_url_error, Toast.LENGTH_LONG).show();
+            Log.d("player", e.getMessage(), e);
+            finish();
         }
     }
 
