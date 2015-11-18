@@ -1,6 +1,11 @@
 package com.agh.faustyna.mobile;
 
+import android.app.DialogFragment;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -8,6 +13,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
+import android.widget.Toast;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -40,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) {
                 Log.d("groupPosition -- id", "" + groupPosition + " " + id);
+                boolean internetState = checkInternetConnection();
+                Log.d("internetState", "" + internetState);
 
                 switch (groupPosition) {
                     case 0:
@@ -76,25 +85,19 @@ public class MainActivity extends AppCompatActivity {
                         }
                         break;
                     case 7:
-                        try {
-                            startNewActivity("KoronkaZaKonajacych");
-                        } catch (ClassNotFoundException e) {
-                            e.printStackTrace();
-                        } catch (InstantiationException e) {
-                            e.printStackTrace();
-                        } catch (IllegalAccessException e) {
-                            e.printStackTrace();
-                        }
+                        sendSMS(getString(R.string.koronka_phone_number), getString(R.string.sms_prompt));
+
+                        Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.koronka_toast), Toast.LENGTH_LONG);
+                        toast.show();
                         break;
                     case 8:
-                        try {
-                            startNewActivity("SklepMisericordia");
-                        } catch (ClassNotFoundException e) {
-                            e.printStackTrace();
-                        } catch (InstantiationException e) {
-                            e.printStackTrace();
-                        } catch (IllegalAccessException e) {
-                            e.printStackTrace();
+                        if (internetState){
+                            openWebPage(getString(R.string.kontakt_wydawnictwo_sklep));
+                        } else {
+                            Log.d("Internet", "nie ma INTERNETOW");
+
+                            DialogFragment newFragment = new NoInternetConnectionDialogFragment();
+                            newFragment.show(getFragmentManager(),"dialog");
                         }
                         break;
                     case 9:
@@ -109,51 +112,46 @@ public class MainActivity extends AppCompatActivity {
                         }
                         break;
                     case 10:
-                        try {
-                            startNewActivity("Facebook");
-                        } catch (ClassNotFoundException e) {
-                            e.printStackTrace();
-                        } catch (InstantiationException e) {
-                            e.printStackTrace();
-                        } catch (IllegalAccessException e) {
-                            e.printStackTrace();
+                        if (internetState){
+                            openWebPage(getString(R.string.url_facebook));
+                        } else {
+                            Log.d("Internet", "nie ma INTERNETOW");
+
+                            DialogFragment newFragment = new NoInternetConnectionDialogFragment();
+                            newFragment.show(getFragmentManager(),"dialog");
                         }
                         break;
                     case 11:
-                        try {
-                            startNewActivity("Sdm2016");
-                        } catch (ClassNotFoundException e) {
-                            e.printStackTrace();
-                        } catch (InstantiationException e) {
-                            e.printStackTrace();
-                        } catch (IllegalAccessException e) {
-                            e.printStackTrace();
+                        if (internetState){
+                            openWebPage(getString(R.string.url_sdm));
+                        } else {
+                            Log.d("Internet", "nie ma INTERNETOW");
+
+                            DialogFragment newFragment = new NoInternetConnectionDialogFragment();
+                            newFragment.show(getFragmentManager(),"dialog");
                         }
                         break;
                     case 12:
-                        try {
-                            startNewActivity("Youtube");
-                        } catch (ClassNotFoundException e) {
-                            e.printStackTrace();
-                        } catch (InstantiationException e) {
-                            e.printStackTrace();
-                        } catch (IllegalAccessException e) {
-                            e.printStackTrace();
+                        if (internetState){
+                            openWebPage(getString(R.string.url_yt));
+                        } else {
+                            Log.d("Internet", "nie ma INTERNETOW");
+
+                            DialogFragment newFragment = new NoInternetConnectionDialogFragment();
+                            newFragment.show(getFragmentManager(),"dialog");
                         }
                         break;
                     case 14:
-                        try {
-                            startNewActivity("Wiecej");
-                        } catch (ClassNotFoundException e) {
-                            e.printStackTrace();
-                        } catch (InstantiationException e) {
-                            e.printStackTrace();
-                        } catch (IllegalAccessException e) {
-                            e.printStackTrace();
+                        if (internetState){
+                            openWebPage(getString(R.string.url_faustyna));
+                        } else {
+                            Log.d("Internet", "nie ma INTERNETOW");
+
+                            DialogFragment newFragment = new NoInternetConnectionDialogFragment();
+                            newFragment.show(getFragmentManager(),"dialog");
                         }
                         break;
                 }
-
                 return false;
             }
         });
@@ -446,6 +444,31 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    public boolean checkInternetConnection(){
+        ConnectivityManager cm = (ConnectivityManager) getBaseContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+        boolean isConnected = activeNetwork != null && activeNetwork.isConnectedOrConnecting();
+
+        return isConnected;
+    }
+
+    public void openWebPage(String url){
+        Uri webPageAddress = Uri.parse(url);
+        Intent openWebPageIntent = new Intent(Intent.ACTION_VIEW, webPageAddress);
+        if (openWebPageIntent.resolveActivity(getPackageManager()) != null) {
+            startActivity(openWebPageIntent);
+        }
+    }
+
+    public void sendSMS(String phoneNumber, String message){
+        Intent sendSMSIntent = new Intent(Intent.ACTION_SENDTO);
+        sendSMSIntent.setData(Uri.parse("smsto:" + phoneNumber));
+        sendSMSIntent.putExtra("sms_body", message);
+        if (sendSMSIntent.resolveActivity(getPackageManager()) != null){
+            startActivity(sendSMSIntent);
+        }
     }
 
     public void startNewActivity(String className) throws ClassNotFoundException, InstantiationException, IllegalAccessException{
