@@ -1,6 +1,11 @@
 package com.agh.faustyna.mobile;
 
+import android.app.DialogFragment;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -9,8 +14,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
-
-import org.apache.commons.lang3.text.WordUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -43,22 +46,112 @@ public class MainActivity extends AppCompatActivity {
         expListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
             @Override
             public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) {
-                String groupName;
-                String preparedGroupString;
+                Log.d("groupPosition -- id", "" + groupPosition + " " + id);
+                boolean internetState = checkInternetConnection();
+                Log.d("internetState", "" + internetState);
 
-                groupName = listDataHeader.get(groupPosition);
-                preparedGroupString = prepareToCreateClass(groupName);
+                switch (groupPosition) {
+                    case 0:
+                        try {
+                            startNewActivity("Aktualnosci");
+                        } catch (ClassNotFoundException e) {
+                            e.printStackTrace();
+                        } catch (InstantiationException e) {
+                            e.printStackTrace();
+                        } catch (IllegalAccessException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 1:
+                        try {
+                            startNewActivity("DzienniczekSwFaustyny");
+                        } catch (ClassNotFoundException e) {
+                            e.printStackTrace();
+                        } catch (InstantiationException e) {
+                            e.printStackTrace();
+                        } catch (IllegalAccessException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 5:
+                        try {
+                            startNewActivity("Galeria");
+                        } catch (ClassNotFoundException e) {
+                            e.printStackTrace();
+                        } catch (InstantiationException e) {
+                            e.printStackTrace();
+                        } catch (IllegalAccessException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 7:
+                        sendSMS(getString(R.string.koronka_phone_number), getString(R.string.sms_prompt));
 
-                try {
-                    startNewActivity(preparedGroupString);
-                } catch (ClassNotFoundException e) {
-                    e.printStackTrace();
-                } catch (InstantiationException e) {
-                    e.printStackTrace();
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
+                        Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.koronka_toast), Toast.LENGTH_LONG);
+                        toast.show();
+                        break;
+                    case 8:
+                        if (internetState){
+                            openWebPage(getString(R.string.kontakt_wydawnictwo_sklep));
+                        } else {
+                            Log.d("Internet", "nie ma INTERNETOW");
+
+                            DialogFragment newFragment = new NoInternetConnectionDialogFragment();
+                            newFragment.show(getFragmentManager(),"dialog");
+                        }
+                        break;
+                    case 9:
+                        try {
+                            startNewActivity("KwartalnikOredzieMilosierdzia");
+                        } catch (ClassNotFoundException e) {
+                            e.printStackTrace();
+                        } catch (InstantiationException e) {
+                            e.printStackTrace();
+                        } catch (IllegalAccessException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 10:
+                        if (internetState){
+                            openWebPage(getString(R.string.url_facebook));
+                        } else {
+                            Log.d("Internet", "nie ma INTERNETOW");
+
+                            DialogFragment newFragment = new NoInternetConnectionDialogFragment();
+                            newFragment.show(getFragmentManager(),"dialog");
+                        }
+                        break;
+                    case 11:
+                        if (internetState){
+                            openWebPage(getString(R.string.url_sdm));
+                        } else {
+                            Log.d("Internet", "nie ma INTERNETOW");
+
+                            DialogFragment newFragment = new NoInternetConnectionDialogFragment();
+                            newFragment.show(getFragmentManager(),"dialog");
+                        }
+                        break;
+                    case 12:
+                        if (internetState){
+                            openWebPage(getString(R.string.url_yt));
+                        } else {
+                            Log.d("Internet", "nie ma INTERNETOW");
+
+                            DialogFragment newFragment = new NoInternetConnectionDialogFragment();
+                            newFragment.show(getFragmentManager(),"dialog");
+                        }
+                        break;
+                    case 14:
+                        if (internetState){
+                            openWebPage(getString(R.string.url_faustyna));
+                        } else {
+                            Log.d("Internet", "nie ma INTERNETOW");
+
+                            DialogFragment newFragment = new NoInternetConnectionDialogFragment();
+                            newFragment.show(getFragmentManager(),"dialog");
+                        }
+                        break;
                 }
-
                 return false;
             }
         });
@@ -68,55 +161,314 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
-                String sectionName;
-                String preparedSectionString;
 
-                // only for testing
-                Toast.makeText(
-                        getApplicationContext(),
-                        listDataHeader.get(groupPosition)
-                                + " : "
-                                + listDataChild.get(
-                                listDataHeader.get(groupPosition)).get(
-                                childPosition), Toast.LENGTH_SHORT)
-                        .show();
-
-                sectionName = listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition);
-                preparedSectionString = prepareToCreateClass(sectionName);
-
-                try {
-                    startNewActivity(preparedSectionString);
-                } catch (ClassNotFoundException e) {
-                    Log.d("karolina", "ClassNotFoundException");
-                    e.printStackTrace();
-                } catch (InstantiationException e) {
-                    e.printStackTrace();
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
-                }
-
+                if (groupPosition == 2)
+                    switch (childPosition) {
+                        case 0:
+                            try {
+                                startNewActivity("Istota");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 1:
+                            try {
+                                startNewActivity("Obraz");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 2:
+                            try {
+                                startNewActivity("SwietoMilosierdzia");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 3:
+                            try {
+                                startNewActivity("KoronkaDoMilosierdziaBozego");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 4:
+                            try {
+                                startNewActivity("GodzinaMilosierdzia");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 5:
+                            try {
+                                startNewActivity("SzerzenieCzciMilosierdzia");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                    }
+                else if (groupPosition == 3)
+                    switch (childPosition) {
+                        case 0:
+                            try {
+                                startNewActivity("Biografia");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 1:
+                            try {
+                                startNewActivity("MisjaGloszeniaOredziaMilosierdzia");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 2:
+                            try {
+                                startNewActivity("SzkolaDuchowosci");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 3:
+                            try {
+                                startNewActivity("NoweZgromadzenie");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 4:
+                            try {
+                                startNewActivity("LitaniaDoSwSiostryFaustyny");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 5:
+                            try {
+                                startNewActivity("ModlitwaPrzezPrzyczyneSwFaustyny");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                    }
+                else if (groupPosition == 4)
+                    switch (childPosition) {
+                        case 0:
+                            try {
+                                startNewActivity("CudownyObraz");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 1:
+                            try {
+                                startNewActivity("Bazylika");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 2:
+                            try {
+                                startNewActivity("Kaplica");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 3:
+                            try {
+                                startNewActivity("PorzadekNabozenstw");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 4:
+                            try {
+                                startNewActivity("OprowadzaniePielgrzymow");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 5:
+                            try {
+                                startNewActivity("Noclegi");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 6:
+                            try {
+                                startNewActivity("Kontakt");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 7:
+                            try {
+                                startNewActivity("Dojazd");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        }
+                else if (groupPosition == 6)
+                    switch (childPosition) {
+                        case 0:
+                            try {
+                                startNewActivity("OdsluchajKoronke");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 1:
+                            try {
+                                startNewActivity("Video");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                    }
+                else if (groupPosition == 13)
+                    switch (childPosition) {
+                        case 0:
+                            try {
+                                startNewActivity("NieustannaKoronka");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                        case 1:
+                            try {
+                                startNewActivity("RozbudowaSanktuarium");
+                            } catch (ClassNotFoundException e) {
+                                e.printStackTrace();
+                            } catch (InstantiationException e) {
+                                e.printStackTrace();
+                            } catch (IllegalAccessException e) {
+                                e.printStackTrace();
+                            }
+                            break;
+                    }
                 return false;
             }
         });
     }
 
-    public String prepareToCreateClass(String labelName) {
-        Log.d("prepareToBefore", labelName);
+    public boolean checkInternetConnection(){
+        ConnectivityManager cm = (ConnectivityManager) getBaseContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+        boolean isConnected = activeNetwork != null && activeNetwork.isConnectedOrConnecting();
 
-        labelName = labelName.replaceAll("[Ąą]", "a");
-        labelName = labelName.replaceAll("[Ćć]", "c");
-        labelName = labelName.replaceAll("[Ęę]", "e");
-        labelName = labelName.replaceAll("[Łł]", "l");
-        labelName = labelName.replaceAll("[Ńń]", "n");
-        labelName = labelName.replaceAll("[Śś]", "s");
-        labelName = labelName.replaceAll("[Óó]", "o");
-        labelName = labelName.replaceAll("[ŹŻźż]", "z");
-        labelName = labelName.replaceAll("\\-", " ");
-        labelName = labelName.replaceAll("\\.", "");
-        labelName = WordUtils.capitalizeFully(labelName);
-        labelName = labelName.replaceAll("\\s+", "");
-        Log.d("prepareToAfter", labelName);
-        return labelName;
+        return isConnected;
+    }
+
+    public void openWebPage(String url){
+        Uri webPageAddress = Uri.parse(url);
+        Intent openWebPageIntent = new Intent(Intent.ACTION_VIEW, webPageAddress);
+        if (openWebPageIntent.resolveActivity(getPackageManager()) != null) {
+            startActivity(openWebPageIntent);
+        }
+    }
+
+    public void sendSMS(String phoneNumber, String message){
+        Intent sendSMSIntent = new Intent(Intent.ACTION_SENDTO);
+        sendSMSIntent.setData(Uri.parse("smsto:" + phoneNumber));
+        sendSMSIntent.putExtra("sms_body", message);
+        if (sendSMSIntent.resolveActivity(getPackageManager()) != null){
+            startActivity(sendSMSIntent);
+        }
     }
 
     public void startNewActivity(String className) throws ClassNotFoundException, InstantiationException, IllegalAccessException{

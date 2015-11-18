@@ -61,11 +61,13 @@ public class OdsluchajKoronke extends ProgressBarActivity {
             Log.d("date", "dzis jeszcze ni ma :(");
         }
 
+
         //obtaining url to current transmission
         String baseUrl = getString(R.string.url_audio);
 
+
         String url = baseUrl.replace("{date}", urlDateFormat.format(prayersDate));
-        Log.d("url", url);
+
 
         // setting title
         TextView titleTextView = (TextView) findViewById(R.id.title_audio_text_view);
@@ -76,6 +78,7 @@ public class OdsluchajKoronke extends ProgressBarActivity {
         //setting up player
         mediaPlayer = new MediaPlayer();
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+
 
         try {
             mediaPlayer.setDataSource(url);
