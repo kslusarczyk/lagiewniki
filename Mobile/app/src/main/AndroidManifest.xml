@@ -11,7 +11,6 @@
     <uses-permission android:name="com.agh.faustyna.mobile.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -22,48 +21,53 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.AppCompat">
+            android:theme="@style/Theme.AppCompat" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".Istota"></activity>
-        <activity android:name=".Obraz"></activity>
-        <activity android:name=".Aktualnosci"></activity>
-        <activity android:name=".Facebook"
-            android:theme="@style/Theme.AppCompat"></activity>
-        <activity android:name=".Wiecej"
-            android:theme="@style/Theme.AppCompat"></activity>
-        <activity android:name=".SklepMisericordia"
-            android:theme="@style/Theme.AppCompat"></activity>
-        <activity android:name=".Sdm2016"
-            android:theme="@style/Theme.AppCompat"></activity>
-        <activity android:name=".Youtube"
-            android:theme="@style/Theme.AppCompat"></activity>
-        <activity android:name=".KoronkaZaKonajacych"></activity>
-        <activity android:name=".PorzadekNabozenstw"></activity>
-        <activity android:name=".SwietoMilosierdzia"></activity>
-        <activity android:name=".KoronkaDoMilosierdziaBozego"></activity>
-        <activity android:name=".GodzinaMilosierdzia"></activity>
-        <activity android:name=".SzerzenieCzciMilosierdzia"></activity>
-        <activity android:name=".Biografia"></activity>
-        <activity android:name=".MisjaGloszeniaOredziaMilosierdzia"></activity>
-        <activity android:name=".SzkolaDuchowosci"></activity>
-        <activity android:name=".NoweZgromadzenie"></activity>
-        <activity android:name=".LitaniaDoSwSiostryFaustyny"></activity>
-        <activity android:name=".ModlitwaPrzezPrzyczyneSwFaustyny"></activity>
-        <activity android:name=".CudownyObraz"></activity>
-        <activity android:name=".OprowadzaniePielgrzymow"></activity>
-        <activity android:name=".Kaplica"></activity>
-        <activity android:name=".Bazylika"></activity>
-        <activity android:name=".NieustannaKoronka"></activity>
-        <activity android:name=".RozbudowaSanktuarium"></activity>
+        <activity android:name=".Istota" />
+        <activity android:name=".Obraz" />
+        <activity android:name=".Aktualnosci" />
+        <activity
+            android:name=".Facebook"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Wiecej"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".SklepMisericordia"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Sdm2016"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Youtube"
+            android:theme="@style/Theme.AppCompat" />
+        <activity android:name=".KoronkaZaKonajacych" />
+        <activity android:name=".PorzadekNabozenstw" />
+        <activity android:name=".SwietoMilosierdzia" />
+        <activity android:name=".KoronkaDoMilosierdziaBozego" />
+        <activity android:name=".GodzinaMilosierdzia" />
+        <activity android:name=".SzerzenieCzciMilosierdzia" />
+        <activity android:name=".Biografia" />
+        <activity android:name=".MisjaGloszeniaOredziaMilosierdzia" />
+        <activity android:name=".SzkolaDuchowosci" />
+        <activity android:name=".NoweZgromadzenie" />
+        <activity android:name=".LitaniaDoSwSiostryFaustyny" />
+        <activity android:name=".ModlitwaPrzezPrzyczyneSwFaustyny" />
+        <activity android:name=".CudownyObraz" />
+        <activity android:name=".OprowadzaniePielgrzymow" />
+        <activity android:name=".Kaplica" />
+        <activity android:name=".Bazylika" />
+        <activity android:name=".NieustannaKoronka" />
+        <activity android:name=".RozbudowaSanktuarium" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -80,16 +84,22 @@
             android:name=".Dojazd"
             android:label="@string/title_activity_maps" >
         </activity>
-        <activity android:name=".Kontakt"
-            android:theme="@style/Theme.AppCompat">
+        <activity
+            android:name=".Kontakt"
+            android:theme="@style/Theme.AppCompat" >
         </activity>
-        <activity android:name=".Video"
-            android:theme="@style/Theme.AppCompat">
+        <activity
+            android:name=".Video"
+            android:theme="@style/Theme.AppCompat" >
         </activity>
-        <activity android:name=".OdsluchajKoronke"
-            android:theme="@style/Theme.AppCompat">
+        <activity
+            android:name=".OdsluchajKoronke"
+            android:theme="@style/Theme.AppCompat" >
         </activity>
-
+        <activity
+            android:name=".Galeria"
+            android:label="@string/title_activity_galeria" >
+        </activity>
     </application>
 
 </manifest>
