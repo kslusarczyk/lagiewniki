@@ -50,144 +50,144 @@
     <string name="title_wsparcie_rozbudowa">Rozbudowa Sanktuarium</string>
 
     <string name="koronka_phone_number">+48505060205</string>
-    <string name="sms_prompt">[wpisz imie konajacego]</string>
-    <string name="koronka_toast">W treści SMS wpisz imię konającego</string>
+    <string name="sms_prompt">[write in the dying\'s name]</string>
+    <string name="koronka_toast">In the text message write in the dying\'s name</string>
 
-    <string name="url_faustyna">http://www.faustyna.pl/zmbm/</string>
+    <string name="url_faustyna">http://www.faustyna.pl/zmbm/en/</string>
     <string name="url_facebook">https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/</string>
     <string name="url_sdm">https://www.facebook.com/Faustyna2016?fref=ts</string>
     <string name="url_yt">https://www.youtube.com/user/wwwfaustynapl</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps">Mapps</string>
     <string name="url_stream">http://livestream.com/accounts/11477776/events/3773195/player?width=560&amp;height=315&amp;autoPlay=true&amp;mute=false</string>
 
     <string-array name="kontakt_array">
-        <item>Zgromadzenie Sióstr Matki Bożej Miłosierdzia</item>
-        <item>Rektorat Sanktuarium</item>
+        <item>Congregation of the Sisters of Our Lady of Mercy</item>
+        <item>Rectorate of the Shrine</item>
     </string-array>
 
-    <string name="kontakt_furta_text">Furta</string>
+    <string name="kontakt_furta_text">Convent Gate</string>
     <string name="kontakt_furta_tel">+48123518800</string>
     <string name="kontakt_furta_mail_1">klasztor@faustyna.pl</string>
     <string name="kontakt_furta_mail_2">dom-krakow@faustyna.pl</string>
 
-    <string name="kontakt_mlodziezowy_osrodek_text">Młodzieżowy Ośrodek Wychowawczy</string>
+    <string name="kontakt_mlodziezowy_osrodek_text">Youth Educational Centre – MOW</string>
     <string name="kontakt_mlodziezowy_osrodek_tel_1">+48122663029</string>
     <string name="kontakt_mlodziezowy_osrodek_tel_2">+48122668431</string>
     <string name="kontakt_mlodziezowy_osrodek_tel_3">+48122668980</string>
     <string name="kontakt_mlodziezowy_osrodek_mail">mowkrakow@faustyna.pl</string>
 
-    <string name="kontakt_faustinum_text">Stowarzyszenie Faustinum</string>
+    <string name="kontakt_faustinum_text">The Faustinum Association</string>
     <string name="kontakt_faustinum_tel">+48122694855</string>
     <string name="kontakt_faustinum_mail">faustinum@faustyna.pl</string>
 
-    <string name="kontakt_wydawnictwo_text">Wydawnictwo Misericordia</string>
+    <string name="kontakt_wydawnictwo_text">Misericordia Publishing House</string>
     <string name="kontakt_wydawnictwo_tel">+48122676101</string>
     <string name="kontakt_wydawnictwo_mail_1">misericordia@faustyna.pl</string>
     <string name="kontakt_wydawnictwo_mail_2">sklepmisericordia@op.pl</string>
     <string name="kontakt_wydawnictwo_sklep">http://www.misericordia.faustyna.pl/</string>
 
-    <string name="kontakt_dom_text">Dom św. Siostry Faustyny</string>
+    <string name="kontakt_dom_text">St. Sister Faustina’s House</string>
     <string name="kontakt_dom_tel">+48123624315</string>
     <string name="kontakt_dom_mail">dom-krakow@faustyna.pl</string>
 
-    <string name="kontakt_redakcja_text">Redakcja Orędzia Miłosierdzia</string>
+    <string name="kontakt_redakcja_text">Orędzie Miłosierdzia, Message of Mercy – Quarterly Editorial Office</string>
     <string name="kontakt_redakcja_tel">+48123518800</string>
     <string name="kontakt_redakcja_mail">redakcja@faustyna.pl</string>
 
-    <string name="kontakt_informacja_text">Punkt informacyjny</string>
+    <string name="kontakt_informacja_text">Information Desk</string>
     <string name="kontakt_informacja_tel_1">+48122523311</string>
     <string name="kontakt_informacja_tel_2">+48122523333</string>
     <string name="kontakt_informacja_mail_1">pielgrzymki@milosierdzie.pl</string>
     <string name="kontakt_informacja_mail_2">adoracja@milosierdzie.pl</string>
     <string name="kontakt_informacja_mail_3">informacja@pastorallodge.com.pl</string>
 
-    <string name="kontakt_dom_duszpasterski_text">Dom Duszpasterski - recepcja</string>
+    <string name="kontakt_dom_duszpasterski_text">Pastoral House – Reception</string>
     <string name="kontakt_dom_duszpasterski_tel">+48122523300</string>
     <string name="kontakt_dom_duszpasterski_mail">domduszpasterski@milosierdzie.pl</string>
 
     <string name="kontakt_poradnia">Poradnia Miłosierdzie</string>
     <string name="kontakt_poradnia_tel">+48122523300</string>
 
-    <string name="porzadek_swieto_title">Święto Miłosierdzia w pierwszą niedzielę po Wielkanocy</string>
-    <string name="porzadek_swieto_nowenna">- Poprzedzone nowenną, która rozpoczyna się w Wielki Piątek po modlitwie w Godzinie Miłosierdzia (15:00)</string>
-    <string name="porzadek_swieto_czuwanie">- Nocne czuwanie przed Świętem Miłosierdzia w bazylice od 21:00</string>
-    <string name="porzadek_swieto_msze">- Msze Święte: 6:00, 8:00, 10:00, 12:00, 16:30, 18:00 w bazylice i przy ołtarzu polowym. O godz. 19:00 - w kaplicy klasztornej</string>
-    <string name="porzadek_swieto_koronka">Modlitwa w Godzinie Miłosierdzia i Koronka do Miłosierdzia Bożego - 15:00</string>
+    <string name="porzadek_swieto_title">Feast of Mercy on the first Sunday after Easter</string>
+    <string name="porzadek_swieto_nowenna">- Preceded by the Novena to The Divine Mercy, which begins on Good Friday after the prayer at the Hour of Mercy (15:00)</string>
+    <string name="porzadek_swieto_czuwanie">- Night vigil before the Feast of The Divine Mercy in the basilica from 21:00</string>
+    <string name="porzadek_swieto_msze">- Holy Masses: 6:00, 8:00, 10:00, 12:00, 16:30, 18:00 in the Basilica and at the field altar. At 19:00 in the convent chapel</string>
+    <string name="porzadek_swieto_koronka">- Prayer at the Hour of Mercy and the Chaplet of The Divine Mercy – 15:00</string>
 
-    <string name="porzadek_uroczystosc_title">5 października - liturgiczna uroczystość św. Faustyny</string>
-    <string name="porzadek_uroczystosc_triduum">- Poprzedzone triduum Mszy św. z okolicznościowymi kazaniami w kaplicy klasztornej o 17:00</string>
-    <string name="porzadek_uroczystosc_ceremonie">- Ceremonie stowarzyszenia Faustinum</string>
+    <string name="porzadek_uroczystosc_title">October 5 – The liturgical feast of St. Faustina</string>
+    <string name="porzadek_uroczystosc_triduum">- Preceded by a Triduum of Masses with preaching in the convent chapel at 17:00</string>
+    <string name="porzadek_uroczystosc_ceremonie">- Ceremonies of the Faustinum Association</string>
 
-    <string name="porzadek_bazylika_title">Bazylika Miłosierdzia Bożego</string>
-    <string name="porzadek_bazylika_dni_powszednie">Dni powszednie</string>
-    <string name="porzadek_bazylika_dni_powszednie_msze">- Msze Święte: 9:00, 10:00, 15:20, 18:00</string>
-    <string name="porzadek_bazylika_dni_powszednie_koronka">- 15:00 Modlitwa w Godzinie Miłosierdzia i Koronka do Miłosierdzia Bożego</string>
+    <string name="porzadek_bazylika_title">TIMES OF SERVICES IN THE BASILICA</string>
+    <string name="porzadek_bazylika_dni_powszednie">Weekdays</string>
+    <string name="porzadek_bazylika_dni_powszednie_msze">- Holy Mass: 9:00, 10:00, 15:20, 18:00</string>
+    <string name="porzadek_bazylika_dni_powszednie_koronka">- 15:00  Prayer at the Hour of Mercy and the Chaplet of The Divine Mercy</string>
 
-    <string name="porzadek_bazylika_nd">Niedziele i święta</string>
-    <string name="porzadek_bazylika_nd_msze">- Msze Święte: 9:00, 10:30, 12:00, 13:30, 15:20, 18:00</string>
-    <string name="porzadek_bazylika_nd_koronka">- 15:00 Modlitwa w Godzinie Miłosierdzia i Koronka do Miłosierdzia Bożego</string>
+    <string name="porzadek_bazylika_nd">Sundays and Holy Days</string>
+    <string name="porzadek_bazylika_nd_msze">- Holy Mass: 9:00, 10:30, 12:00, 13:30, 15:20, 18:00</string>
+    <string name="porzadek_bazylika_nd_koronka">- 15:00 Prayer at the Hour of Mercy and the Chaplet of The Divine Mercy</string>
 
-    <string name="porzadek_bazylika_codziennie">Codziennie</string>
-    <string name="porzadek_bazylika_codziennie_spowiedz">- 8:30 - 18:00 spowiedź</string>
-    <string name="porzadek_bazylika_codziennie_adoracja">- Wieczysta Adoracja Najświętszego Sakramentu w Kaplicy Wieczystej Adoracji</string>
+    <string name="porzadek_bazylika_codziennie">Daily</string>
+    <string name="porzadek_bazylika_codziennie_spowiedz">- 8:30 - 18:00 Confession (also available in different languages)</string>
+    <string name="porzadek_bazylika_codziennie_adoracja">- Perpetual Adoration of the Blessed Sacrament in the Chapel of Perpetual Adoration</string>
 
-    <string name="porzadek_bazylika_pt">I i III piątek miesiąca</string>
-    <string name="porzadek_bazylika_pt_msza">- 17:00 Msza Święta (transmisja TVP 3)</string>
+    <string name="porzadek_bazylika_pt">First and third Friday of the month</string>
+    <string name="porzadek_bazylika_pt_msza">- 17:00 Holy Mass (live broadcast by TVP 3)</string>
 
-    <string name="porzadek_bazylika_post_pt">Wielki Post - piątki</string>
-    <string name="porzadek_bazylika_post_pt_droga">- Droga krzyżowa, a po niej Msza Święta</string>
+    <string name="porzadek_bazylika_post_pt">Lent – Fridays</string>
+    <string name="porzadek_bazylika_post_pt_droga">- Way of the Cross followed by Holy Mass</string>
 
-    <string name="porzadek_bazylika_post_nd">Wielki Post - niedziele</string>
-    <string name="porzadek_bazylika_post_nd_gorzkie_zale">- 15:20  Gorzkie żale z kazaniem pasyjnym, a po nich Msza Święta</string>
+    <string name="porzadek_bazylika_post_nd">Lent – Sundays</string>
+    <string name="porzadek_bazylika_post_nd_gorzkie_zale">- 15:20  Lenten Psalms Service with a homily on the Passion, followed by Holy Mass</string>
 
-    <string name="porzadek_kaplica_title">Kaplica Cudownego Obrazu Jezusa Miłosiernego i grobu św. Faustyny</string>
-    <string name="porzadek_kaplica_dni_powszednie">Dni powszednie</string>
-    <string name="porzadek_kaplica_dni_powszednie_msze">- Msze Święte: 6:30, 17:00</string>
-    <string name="porzadek_kaplica_dni_powszednie_jutrznia">- 7:15 Jutrznia</string>
-    <string name="porzadek_kaplica_dni_powszednie_wystawienie">- 12:00 Wystawienie Najświętszego Sakramentu i adoracja do 17:00</string>
-    <string name="porzadek_kaplica_dni_powszednie_modlitwa">- 13:15 Modlitwa liturgiczna w ciągu dnia</string>
-    <string name="porzadek_kaplica_dni_powszednie_koronka">- 15:00 Modlitwa w Godzinie Miłosierdzia i Koronka do Miłosierdzia Bożego</string>
-    <string name="porzadek_kaplica_dni_powszednie_nieszpory">- 18:40 Nieszpory</string>
-    <string name="porzadek_kaplica_dni_powszednie_kompleta">- 19:00 Nabożeństwo, Kompleta</string>
-    <string name="porzadek_kaplica_dni_powszednie_rozaniec">- 20:30 Różaniec</string>
-    <string name="porzadek_kaplica_dni_powszednie_apel">-21:00 Apel Maryjny</string>
+    <string name="porzadek_kaplica_title">GENERAL SERVICES IN THE CHAPEL</string>
+    <string name="porzadek_kaplica_dni_powszednie">Weekdays</string>
+    <string name="porzadek_kaplica_dni_powszednie_msze">- Holy Mass: 6:30, 17:00</string>
+    <string name="porzadek_kaplica_dni_powszednie_jutrznia">- 7:15 Matins</string>
+    <string name="porzadek_kaplica_dni_powszednie_wystawienie">- 12:00-17:00 Exposition and Adoration of the Blessed Sacrament</string>
+    <string name="porzadek_kaplica_dni_powszednie_modlitwa">- 13:15 Liturgical prayer of the day</string>
+    <string name="porzadek_kaplica_dni_powszednie_koronka">- 15:00 Prayer at the Hour of Mercy and the Chaplet of The Divine Mercy</string>
+    <string name="porzadek_kaplica_dni_powszednie_nieszpory">- 18:40 Vespers</string>
+    <string name="porzadek_kaplica_dni_powszednie_kompleta">- 19:00 Worship and Compline</string>
+    <string name="porzadek_kaplica_dni_powszednie_rozaniec">- 20:30 The Rosary</string>
+    <string name="porzadek_kaplica_dni_powszednie_apel">-21:00 Marian Call</string>
 
-    <string name="porzadek_kaplica_nd">Niedziele i święta</string>
-    <string name="porzadek_kaplica_nd_msze">- Msze Świete: 7:00, 8:30, 19:00</string>
-    <string name="porzadek_kaplica_nd_wystawienie">- 12:00 Wystawienie Najświętszego Sakramentu i adoracja do 19:00</string>
-    <string name="porzadek_kaplica_nd_modlitwa">- 13:15 Modlitwa liturgiczna w ciagu dnia</string>
-    <string name="porzadek_kaplica_nd_koronka">- 15:00 Modlitwa w Godzinie Miłosierdzia i Koronka do Miłosierdzia Bożego</string>
-    <string name="porzadek_kaplica_nd_nabozenstwo">- 18:30 Nabożeństwo</string>
-    <string name="porzadek_kaplica_nd_rozaniec">- 20:30 Różaniec</string>
-    <string name="porzadek_kaplica_nd_apel">- 21:00 Apel Maryjny</string>
+    <string name="porzadek_kaplica_nd">Sundays and Holidays</string>
+    <string name="porzadek_kaplica_nd_msze">- Holy Mass: 7:00, 8:30, 19:00</string>
+    <string name="porzadek_kaplica_nd_wystawienie">- 12:00 - 19:00 Exposition and Adoration of the Blessed Sacrament</string>
+    <string name="porzadek_kaplica_nd_modlitwa">- 13:15 Liturgical prayer of the day</string>
+    <string name="porzadek_kaplica_nd_koronka">- 15:00 Prayer at the Hour of Mercy and the Chaplet of The Divine Mercy</string>
+    <string name="porzadek_kaplica_nd_nabozenstwo">- 18:30 Service</string>
+    <string name="porzadek_kaplica_nd_rozaniec">- 20:30 Rosary</string>
+    <string name="porzadek_kaplica_nd_apel">- 21:00 Marian Call</string>
 
-    <string name="porzadek_kaplica_codziennie">Codziennie</string>
-    <string name="porzadek_kaplica_codziennie_spowiedz">- Spowiedź: 6:00 - 6:30; 14:30 - 15:30; 17:00 - 17:30</string>
+    <string name="porzadek_kaplica_codziennie">Daily</string>
+    <string name="porzadek_kaplica_codziennie_spowiedz">- Confession: 6:00 - 6:30; 14:30 - 15:30; 17:00 - 17:30</string>
 
-    <string name="porzadek_kaplica_wt">Każdy wtorek</string>
-    <string name="porzadek_kaplica_wt_nowenna">- 16:40 Nowenna i Msza Święta ku czci św. Siostry Faustyny</string>
+    <string name="porzadek_kaplica_wt">Every Tuesday</string>
+    <string name="porzadek_kaplica_wt_nowenna">- 16:40  Novena and Mass in honour of St. Sister Faustina</string>
 
-    <string name="porzadek_kaplica_1_pt">I piątek miesiąca</string>
-    <string name="porzadek_kaplica_1_pt_msza">- 19:00 Msza Święta</string>
+    <string name="porzadek_kaplica_1_pt">The first Friday of the month</string>
+    <string name="porzadek_kaplica_1_pt_msza">- 19:00 Holy Mass</string>
 
-    <string name="wifi_dialog_message">Jeśli chcesz korzystać w pełni z tej funkcjonalności, włącz internet</string>
-    <string name="wifi_dialog_title">Brak połączenia z Internetem</string>
-    <string name="wifi_dialog_positive_button">Ustawienia</string>
-    <string name="wifi_dialog_negative_button">Ignoruj</string>
+    <string name="wifi_dialog_message">To get the full advantages of this activity enable the internet connection</string>
+    <string name="wifi_dialog_title">Lack of Internet connection</string>
+    <string name="wifi_dialog_positive_button">Settings</string>
+    <string name="wifi_dialog_negative_button">Ignore</string>
 
     <!-- Aktualnosci -->
-    <string name="news_load_error">Wystąpił błąd podczas wczytywania aktualności</string>
+    <string name="news_load_error">Errors occured during displaying news</string>
     <string name="thumbnail_description">Thumbnail</string>
-    <string name="load_error">Wystąpił błąd podczas wczytywania danych</string>
+    <string name="load_error">Errors occured during loading informations</string>
 
     <!-- OdsluchajKoronke -->
     <string name="url_audio">http://faustyna.pl/Godzina_Milosierdzia/Nicecast_Archived_Audio_{date}_1501.mp3</string>
-    <string name="odsluchaj_koronke">Odsłuchaj koronkę z dnia {date} :</string>
-    <string name="pobierz_koronke">Kliknij przycisk, aby pobrać koronkę</string>
-    <string name="pobieranie_koronki">Pobieranie ... </string>
-    <string name="pobrana_koronka">Koronka została pobrana. Kliknij przycisk aby odsłuchać</string>
-    <string name="audio_url_error">Transmisja jest obecnie niedostępna</string>
-    <string name="pause">pauza</string>
+    <string name="odsluchaj_koronke">Listen to the Chaplet from {date} :</string>
+    <string name="pobierz_koronke"> Click the button to download the Chaplet</string>
+    <string name="pobieranie_koronki">Downloading ... </string>
+    <string name="pobrana_koronka">Chaplet is downloaded. Click the button to listen to</string>
+    <string name="audio_url_error">Transmission is currently unavailable</string>
+    <string name="pause">pause</string>
 
 
 
