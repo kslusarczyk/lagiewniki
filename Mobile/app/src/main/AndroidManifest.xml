@@ -19,12 +19,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/faustyna_icon"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,26 +32,66 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Istota"></activity>
-        <activity android:name=".Obraz"></activity>
-        <activity android:name=".Aktualnosci"></activity>
-        <activity android:name=".PorzadekNabozenstw"></activity>
-        <activity android:name=".SwietoMilosierdzia"></activity>
-        <activity android:name=".KoronkaDoMilosierdziaBozego"></activity>
-        <activity android:name=".GodzinaMilosierdzia"></activity>
-        <activity android:name=".SzerzenieCzciMilosierdzia"></activity>
-        <activity android:name=".Biografia"></activity>
-        <activity android:name=".MisjaGloszeniaOredziaMilosierdzia"></activity>
-        <activity android:name=".SzkolaDuchowosci"></activity>
-        <activity android:name=".NoweZgromadzenie"></activity>
-        <activity android:name=".LitaniaDoSwSiostryFaustyny"></activity>
-        <activity android:name=".ModlitwaPrzezPrzyczyneSwFaustyny"></activity>
-        <activity android:name=".CudownyObraz"></activity>
-        <activity android:name=".OprowadzaniePielgrzymow"></activity>
-        <activity android:name=".Kaplica"></activity>
-        <activity android:name=".Bazylika"></activity>
-        <activity android:name=".NieustannaKoronka"></activity>
-        <activity android:name=".RozbudowaSanktuarium"></activity>
+        <activity android:name=".Istota"
+            android:label="@string/title_nabozenstwo_istota">
+        </activity>
+        <activity android:name=".Obraz"
+            android:label="@string/title_nabozenstwo_obraz">
+        </activity>
+        <activity android:name=".Aktualnosci"
+            android:label="@string/title_aktualnosci">
+        </activity>
+        <activity android:name=".PorzadekNabozenstw"
+            android:label="@string/title_sanktuarium_porzadek">
+        </activity>
+        <activity android:name=".SwietoMilosierdzia"
+            android:label="@string/title_nabozenstwo_swieto">
+        </activity>
+        <activity android:name=".KoronkaDoMilosierdziaBozego"
+            android:label="@string/title_nabozenstwo_koronka">
+        </activity>
+        <activity android:name=".GodzinaMilosierdzia"
+            android:label="@string/title_nabozenstwo_godzina">
+        </activity>
+        <activity android:name=".SzerzenieCzciMilosierdzia"
+            android:label="@string/title_nabozenstwo_szerzenie">
+        </activity>
+        <activity android:name=".Biografia"
+            android:label="@string/title_faustyna_biografia">
+        </activity>
+        <activity android:name=".MisjaGloszeniaOredziaMilosierdzia"
+            android:label="@string/title_faustyna_misja">
+        </activity>
+        <activity android:name=".SzkolaDuchowosci"
+            android:label="@string/title_faustyna_szkola">
+        </activity>
+        <activity android:name=".NoweZgromadzenie"
+            android:label="@string/title_faustyna_zgromadzenie">
+        </activity>
+        <activity android:name=".LitaniaDoSwSiostryFaustyny"
+            android:label="@string/title_faustyna_litania">
+        </activity>
+        <activity android:name=".ModlitwaPrzezPrzyczyneSwFaustyny"
+            android:label="@string/title_faustyna_modlitwa">
+        </activity>
+        <activity android:name=".CudownyObraz"
+            android:label="@string/title_sanktuarium_obraz">
+        </activity>
+        <activity android:name=".OprowadzaniePielgrzymow"
+            android:label="@string/title_sanktuarium_oprowadzanie">
+        </activity>
+        <activity android:name=".Kaplica"
+            android:label="@string/title_sanktuarium_kaplica">
+        </activity>
+        <activity android:name=".Bazylika"
+            android:label="@string/title_sanktuarium_bazylika">
+        </activity>
+        <activity android:name=".NieustannaKoronka"
+            android:label="@string/title_wsparcie_koronka">
+        </activity>
+        <activity android:name=".RozbudowaSanktuarium"
+            android:label="@string/title_wsparcie_rozbudowa">
+        </activity>
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -72,15 +111,18 @@
         </activity>
         <activity
             android:name=".Kontakt"
-            android:theme="@style/Theme.AppCompat" >
+            android:theme="@style/Theme.AppCompat"
+            android:label="@string/title_sanktuarium_kontakt">
         </activity>
         <activity
             android:name=".Video"
-            android:theme="@style/Theme.AppCompat" >
+            android:theme="@style/Theme.AppCompat"
+            android:label="@string/title_multimedia_video">
         </activity>
         <activity
             android:name=".OdsluchajKoronke"
-            android:theme="@style/Theme.AppCompat" >
+            android:theme="@style/Theme.AppCompat"
+            android:label="@string/title_multimedia_koronka">
         </activity>
         <activity
             android:name=".Galeria"
