@@ -13,17 +13,22 @@
 
         <TextView
             android:id="@+id/porzadek_bazylika_dni_powszednie"
+            android:textColor="@color/list_group_text"
+            android:textSize="@dimen/kontakt_header_size"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/porzadek_bazylika_dni_powszednie"/>
         <TextView
             android:id="@+id/porzadek_bazylika_dni_powszednie_msze"
+            android:textColor="@color/list_group_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_dni_powszednie"
             android:text="@string/porzadek_bazylika_dni_powszednie_msze"/>
         <TextView
             android:id="@+id/porzadek_bazylika_dni_powszednie_koronka"
+            android:paddingBottom="@dimen/kontakt_items_padding"
+            android:textColor="@color/list_item_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_dni_powszednie_msze"
@@ -33,22 +38,28 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/porzadek_bazylika_dni_powszednie_koronka"
-            android:background="@color/divider_color"/>
+            android:background="@color/background"/>
 
         <TextView
             android:id="@+id/porzadek_bazylika_nd"
+            android:paddingTop="@dimen/kontakt_items_padding"
+            android:textSize="@dimen/kontakt_header_size"
+            android:textColor="@color/list_item_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/underscore_dni_powszednie"
             android:text="@string/porzadek_bazylika_nd"/>
         <TextView
             android:id="@+id/porzadek_bazylika_nd_msze"
+            android:textColor="@color/list_item_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_nd"
             android:text="@string/porzadek_bazylika_nd_msze"/>
         <TextView
             android:id="@+id/porzadek_bazylika_nd_koronka"
+            android:paddingBottom="@dimen/kontakt_items_padding"
+            android:textColor="@color/list_item_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_nd_msze"
@@ -58,22 +69,28 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/porzadek_bazylika_nd_koronka"
-            android:background="@color/divider_color"/>
+            android:background="@color/background"/>
 
         <TextView
             android:id="@+id/porzadek_bazylika_codziennie"
+            android:textColor="@color/list_group_text"
+            android:textSize="@dimen/kontakt_header_size"
+            android:paddingTop="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/underscore_nd"
             android:text="@string/porzadek_bazylika_codziennie"/>
         <TextView
             android:id="@+id/porzadek_bazylika_codziennie_spowiedz"
+            android:textColor="@color/list_item_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_codziennie"
             android:text="@string/porzadek_bazylika_codziennie_spowiedz"/>
         <TextView
             android:id="@+id/porzadek_bazylika_codziennie_adoracja"
+            android:textColor="@color/list_item_text"
+            android:paddingBottom="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_codziennie_spowiedz"
@@ -83,16 +100,21 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/porzadek_bazylika_codziennie_adoracja"
-            android:background="@color/divider_color"/>
+            android:background="@color/background"/>
 
         <TextView
             android:id="@+id/porzadek_bazylika_pt"
+            android:textColor="@color/list_group_text"
+            android:textSize="@dimen/kontakt_header_size"
+            android:paddingTop="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/underscore_codziennie"
             android:text="@string/porzadek_bazylika_pt"/>
         <TextView
             android:id="@+id/porzadek_bazylika_pt_msza"
+            android:textColor="@color/list_item_text"
+            android:paddingBottom="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_pt"
@@ -102,16 +124,21 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/porzadek_bazylika_pt_msza"
-            android:background="@color/divider_color"/>
+            android:background="@color/background"/>
 
         <TextView
             android:id="@+id/porzadek_bazylika_post_pt"
+            android:textColor="@color/list_group_text"
+            android:textSize="@dimen/kontakt_header_size"
+            android:paddingTop="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/underscore_pt"
             android:text="@string/porzadek_bazylika_post_pt"/>
         <TextView
             android:id="@+id/porzadek_bazylika_post_pt_droga"
+            android:paddingBottom="@dimen/kontakt_items_padding"
+            android:textColor="@color/list_item_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_post_pt"
@@ -121,16 +148,21 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/porzadek_bazylika_post_pt_droga"
-            android:background="@color/divider_color"/>
+            android:background="@color/background"/>
 
         <TextView
             android:id="@+id/porzadek_bazylika_post_nd"
+            android:textColor="@color/list_group_text"
+            android:textSize="@dimen/kontakt_header_size"
+            android:paddingTop="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/underscore_post_pt"
             android:text="@string/porzadek_bazylika_post_nd"/>
         <TextView
             android:id="@+id/porzadek_bazylika_post_nd_gorzkie_zale"
+            android:textColor="@color/list_item_text"
+            android:paddingBottom="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_post_nd"
@@ -140,7 +172,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/porzadek_bazylika_post_nd_gorzkie_zale"
-            android:background="@color/divider_color"/>
+            android:background="@color/background"/>
 
     </RelativeLayout>
 </ScrollView>

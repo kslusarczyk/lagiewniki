@@ -4,14 +4,17 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="8dp"
-    android:background="#000000">
+    android:background="@color/list_group_background">
 
     <TextView
         android:id="@+id/lblListHeader"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-        android:textSize="17dp"
-        android:textColor="#19d1ff" />
+        android:textSize="@dimen/item_size"
+        android:textStyle="normal"
+        android:paddingTop="@dimen/text_padding_top"
+        android:paddingBottom="@dimen/text_padding_bottom"
+        android:textColor="@color/list_group_text" />
 
 </LinearLayout>
