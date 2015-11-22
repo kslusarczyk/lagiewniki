@@ -1,9 +1,8 @@
 <resources>
     <string name="app_name">Faustyna</string>
 
-    <string name="action_settings">Settings</string>
-
     <string name="title_dojazd">Dojazd</string>
+
     <string name="title_aktualnosci">Aktualności</string>
     <string name="title_dzienniczek">Dzienniczek św. Faustyny</string>
     <string name="title_nabozenstwo">Nabożeństwo do Miłosierdzia Bożego</string>
@@ -12,8 +11,8 @@
     <string name="title_galeria">Galeria</string>
     <string name="title_multimedia">Multimedia</string>
     <string name="title_koronka">Koronka za konających</string>
-    <string name="title_sklep">Sklep MISERICORDIA</string>
-    <string name="title_kwartalnik">Kwartalnik ORĘDZIE MIŁOSIERDZIA</string>
+    <string name="title_sklep">Sklep \'Miseridordia\'</string>
+    <string name="title_kwartalnik">Kwartalnik \'Orędzie Miłosierdzia\'</string>
     <string name="title_facebook">Facebook</string>
     <string name="title_sdm">ŚDM 2016</string>
     <string name="title_yt">YouTube</string>
