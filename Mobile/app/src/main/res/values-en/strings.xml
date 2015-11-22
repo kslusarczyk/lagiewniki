@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Faustyna</string>
-
     <string name="action_settings">Settings</string>
 
     <string name="title_dojazd">How to find us</string>
@@ -46,8 +45,8 @@
     <string name="title_multimedia_koronka">Listen to the Chaplet</string>
     <string name="title_multimedia_video">Video</string>
 
-    <string name="title_wsparcie_koronka">Nieustanna Koronka</string>
-    <string name="title_wsparcie_rozbudowa">Rozbudowa Sanktuarium</string>
+    <string name="title_wsparcie_koronka">Perpetual Chaplet to Divine Mercy</string>
+    <string name="title_wsparcie_rozbudowa">Shrine building expansion</string>
 
     <string name="koronka_phone_number">+48505060205</string>
     <string name="sms_prompt">[write in the dying\'s name]</string>
@@ -86,7 +85,7 @@
     <string name="kontakt_wydawnictwo_mail_2">sklepmisericordia@op.pl</string>
     <string name="kontakt_wydawnictwo_sklep">http://www.misericordia.faustyna.pl/</string>
 
-    <string name="kontakt_dom_text">St. Sister Faustina’s House</string>
+    <string name="kontakt_dom_text">St. Sister Faustina\’s House</string>
     <string name="kontakt_dom_tel">+48123624315</string>
     <string name="kontakt_dom_mail">dom-krakow@faustyna.pl</string>
 
@@ -105,7 +104,7 @@
     <string name="kontakt_dom_duszpasterski_tel">+48122523300</string>
     <string name="kontakt_dom_duszpasterski_mail">domduszpasterski@milosierdzie.pl</string>
 
-    <string name="kontakt_poradnia">Poradnia Miłosierdzie</string>
+    <string name="kontakt_poradnia">Poradnia Miłosierdzia</string>
     <string name="kontakt_poradnia_tel">+48122523300</string>
 
     <string name="porzadek_swieto_title">Feast of Mercy on the first Sunday after Easter</string>
@@ -170,7 +169,7 @@
     <string name="porzadek_kaplica_1_pt">The first Friday of the month</string>
     <string name="porzadek_kaplica_1_pt_msza">- 19:00 Holy Mass</string>
 
-    <string name="wifi_dialog_message">To get the full advantages of this activity enable the internet connection</string>
+    <string name="wifi_dialog_message">To get the full advantages of this activity enable the Internet connection</string>
     <string name="wifi_dialog_title">Lack of Internet connection</string>
     <string name="wifi_dialog_positive_button">Settings</string>
     <string name="wifi_dialog_negative_button">Ignore</string>
@@ -192,28 +191,28 @@
 
 
     <!-- REST API -->
-    <string name="rest_news">blog/category/aktualnosci/?json=1</string>
+    <string name="rest_news">en/category/news/?json=1</string>
 
-    <string name="rest_istota">istota/?json=1</string>
-    <string name="rest_obraz">obraz/?json=1</string>
-    <string name="rest_swieto_milosierdzia">swieto-milosierdzia/?json=1</string>
-    <string name="rest_koronka_do_milosierdzia_bozego">koronka-do-milosierdzia-bozego/?json=1</string>
-    <string name="rest_godzina_milosierdzia">godzina-milosierdzia/?json=1</string>
-    <string name="rest_szerzenie_czci_milosierdzia">szerzenie-czci-milosierdzia/?json=1</string>
+    <string name="rest_istota">en/essence/?json=1</string>
+    <string name="rest_obraz">en/image/?json=1</string>
+    <string name="rest_swieto_milosierdzia">en/feast-of-mercy/?json=1</string>
+    <string name="rest_koronka_do_milosierdzia_bozego">en/chaplet-of-the-divine-mercy/?json=1</string>
+    <string name="rest_godzina_milosierdzia">en/hour-of-mercy/?json=1</string>
+    <string name="rest_szerzenie_czci_milosierdzia">en/spreading-of-devotion-to-the-divine-mercy/?json=1</string>
 
-    <string name="rest_biografia">biografia/?json=1</string>
-    <string name="rest_misja_gloszenia">gloszenie-milosierdzia-boga/?json=1</string>
-    <string name="rest_szkola_duchowosci">szkola-duchowosci/?json=1</string>
-    <string name="rest_nowe_zgromadzenie">apostolski-ruch-bozego-milosierdzia/?json=1</string>
-    <string name="rest_litania_do_faustyny">litania-do-sw-siostry-faustyny/?json=1</string>
-    <string name="rest_modlitwa_przez_przyczyne">inne-modlitwy/?json=1</string>
+    <string name="rest_biografia">en/biography/?json=1</string>
+    <string name="rest_misja_gloszenia">en/proclaiming-god-s-mercy/?json=1</string>
+    <string name="rest_szkola_duchowosci">en/the-school-of-spirituality/?json=1</string>
+    <string name="rest_nowe_zgromadzenie">en/the-apostolic-movement-of-the-divine-mercy/?json=1</string>
+    <string name="rest_litania_do_faustyny">en/litany-to-st-faustina/?json=1</string>
+    <string name="rest_modlitwa_przez_przyczyne">en/prayer-through-the-intercession-of-st-faustina/?json=1</string>
 
-    <string name="rest_cudowny_obraz">cudowny-obraz-jezusa-milosiernego/?json=1</string>
-    <string name="rest_bazylika">bazylika/?json=1</string>
-    <string name="rest_kaplica">kaplica-z-laskami-slynacym-obrazem-jezusa-milosiernego-i-grobem-sw-faustyny/?json=1</string>
-    <string name="rest_pielgrzymi">pielgrzymi/?json=1</string>
+    <string name="rest_cudowny_obraz">en/miraculous-image-of-merciful-jesus/?json=1</string>
+    <string name="rest_bazylika">en/basilica/?json=1</string>
+    <string name="rest_kaplica">en/chapel-of-the-miraculous-image-of-the-merciful-jesus-and-the-tomb-of-st-faustina/?json=1</string>
+    <string name="rest_pielgrzymi">en/pilgrims/?json=1</string>
 
-    <string name="rest_rozbudowa">rozbudowa/?json=1</string>
+    <string name="rest_rozbudowa">en/shrine-building-expansion/</string>
     <string name="rest_nieustanna_koronka">nieustanna-koronka-do-milosierdzia-bozego-zapisy/?json=1</string>
 
 </resources>
