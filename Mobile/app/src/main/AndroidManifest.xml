@@ -128,6 +128,8 @@
             android:name=".Galeria"
             android:label="@string/title_activity_galeria" >
         </activity>
+        <activity android:name=".DzienniczekSwFaustyny"
+            android:label="@string/title_dzienniczek"></activity>
     </application>
 
 </manifest>
