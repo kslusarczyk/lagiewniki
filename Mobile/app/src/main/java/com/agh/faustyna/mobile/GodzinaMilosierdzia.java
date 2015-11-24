@@ -1,20 +1,20 @@
 package com.agh.faustyna.mobile;
 
 import android.os.Bundle;
+import android.webkit.WebView;
 import android.widget.ProgressBar;
-
-import com.agh.faustyna.mobile.http.tasks.GetGodzinaMilosierdziaTask;
 
 /**
  * Created by Klaudia on 16.11.2015.
  */
-public class GodzinaMilosierdzia extends ProgressBarActivity {
+public class GodzinaMilosierdzia extends GetResourceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.download_content);
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        new GetGodzinaMilosierdziaTask(this).execute();
+        WebView webView = (WebView) findViewById(R.id.content_webview);
+        displayResource(R.string.rest_godzina_milosierdzia, webView);
     }
 }

@@ -29,7 +29,6 @@ public abstract class GetResourceActivity extends ProgressBarActivity {
     private File getFile(String fileName){
         ContextWrapper contextWrapper = new ContextWrapper(this);
         File dataDir = contextWrapper.getFilesDir();
-        Toast.makeText(this, dataDir.getAbsolutePath(), Toast.LENGTH_LONG).show();
         File file = new File(dataDir, fileName);
         return file;
     }
@@ -64,6 +63,7 @@ public abstract class GetResourceActivity extends ProgressBarActivity {
     }
 
     public void displayResource(int resorceId, WebView webView){
+        hideProgressBar();
         String resourcePath = getString(resorceId);
         String fileName = resourcePath.replace("/?json=1", "").replace("/", "_");
         File file = getFile(fileName);
