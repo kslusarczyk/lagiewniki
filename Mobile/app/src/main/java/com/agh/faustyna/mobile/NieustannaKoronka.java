@@ -1,21 +1,21 @@
 package com.agh.faustyna.mobile;
 
 import android.os.Bundle;
+import android.webkit.WebView;
 import android.widget.ProgressBar;
-
-import com.agh.faustyna.mobile.http.tasks.GetNieustannaKoronkaTask;
 
 /**
  * Created by Klaudia on 16.11.2015.
  */
-public class NieustannaKoronka extends ProgressBarActivity {
+public class NieustannaKoronka extends GetResourceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.obraz);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        new GetNieustannaKoronkaTask(this).execute();
+        WebView webView = (WebView) findViewById(R.id.content_webview);
+        displayResource(R.string.rest_nieustanna_koronka, webView);
     }
 
 }

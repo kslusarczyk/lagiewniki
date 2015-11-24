@@ -1,21 +1,19 @@
 package com.agh.faustyna.mobile;
 
 import android.os.Bundle;
+import android.webkit.WebView;
 import android.widget.ProgressBar;
-
-import com.agh.faustyna.mobile.ProgressBarActivity;
-import com.agh.faustyna.mobile.R;
-import com.agh.faustyna.mobile.http.tasks.GetKoronkaDoMilosierdziaBozegoTask;
 /**
  * Created by Klaudia on 16.11.2015.
  */
-public class KoronkaDoMilosierdziaBozego extends ProgressBarActivity {
+public class KoronkaDoMilosierdziaBozego extends GetResourceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.download_content);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        new GetKoronkaDoMilosierdziaBozegoTask(this).execute();
+        WebView webView = (WebView) findViewById(R.id.content_webview);
+        displayResource(R.string.rest_koronka_do_milosierdzia_bozego, webView);
     }
 
 }

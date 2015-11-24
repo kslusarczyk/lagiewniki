@@ -1,14 +1,13 @@
 package com.agh.faustyna.mobile;
 
 import android.os.Bundle;
+import android.webkit.WebView;
 import android.widget.ProgressBar;
-
-import com.agh.faustyna.mobile.http.tasks.GetIstotaTask;
 
 /**
  * Created by Karolina on 2015-11-05.
  */
-public class Istota extends ProgressBarActivity {
+public class Istota extends GetResourceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -16,6 +15,7 @@ public class Istota extends ProgressBarActivity {
         setContentView(R.layout.istota);
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        new GetIstotaTask(this).execute();
+        WebView webView = (WebView) findViewById(R.id.content_webview);
+        displayResource(R.string.rest_istota, webView);
     }
 }

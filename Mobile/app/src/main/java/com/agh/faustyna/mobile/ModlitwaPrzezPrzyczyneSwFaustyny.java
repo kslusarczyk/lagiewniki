@@ -1,14 +1,13 @@
 package com.agh.faustyna.mobile;
 
 import android.os.Bundle;
+import android.webkit.WebView;
 import android.widget.ProgressBar;
-
-import com.agh.faustyna.mobile.http.tasks.GetModlitwaTask;
 
 /**
  * Created by Klaudia on 16.11.2015.
  */
-public class ModlitwaPrzezPrzyczyneSwFaustyny extends ProgressBarActivity {
+public class ModlitwaPrzezPrzyczyneSwFaustyny extends GetResourceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -16,6 +15,7 @@ public class ModlitwaPrzezPrzyczyneSwFaustyny extends ProgressBarActivity {
         setContentView(R.layout.download_content);
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        new GetModlitwaTask(this).execute();
+        WebView webView = (WebView) findViewById(R.id.content_webview);
+        displayResource(R.string.rest_modlitwa_przez_przyczyne, webView);
     }
 }

@@ -17,6 +17,5 @@ public class Bazylika extends GetResourceActivity {
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         WebView webView = (WebView) findViewById(R.id.content_webview);
         displayResource(R.string.rest_bazylika, webView);
-
     }
 }
