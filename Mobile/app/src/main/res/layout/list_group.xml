@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
     android:padding="8dp"
     android:background="@color/list_group_background">
 
-    <TextView
-        android:id="@+id/lblListHeader"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-        android:textSize="@dimen/item_size"
-        android:textStyle="normal"
-        android:paddingTop="@dimen/text_padding_top"
-        android:paddingBottom="@dimen/text_padding_bottom"
-        android:textColor="@color/list_group_text" />
+<ImageView
+    android:id="@+id/icon"
+    android:layout_width="25dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_marginRight="12dp"
+    android:layout_centerVertical="true" />
 
-</LinearLayout>
+<TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_toRightOf="@id/icon"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:gravity="center_vertical"
+    android:paddingRight="40dp"
+    android:textSize="@dimen/item_size"
+    android:textStyle="normal"
+    android:paddingTop="@dimen/text_padding_top"
+    android:paddingBottom="@dimen/text_padding_bottom"
+    android:textColor="@color/list_group_text"/>
+
+</RelativeLayout>

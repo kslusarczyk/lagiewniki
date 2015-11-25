@@ -1,13 +1,14 @@
 package com.agh.faustyna.mobile;
 
 import android.content.Context;
-import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -16,37 +17,36 @@ import java.util.List;
  */
 public class ExpandableListAdapter extends BaseExpandableListAdapter {
 
-    private Context _context;
-    private List<String> _listDataHeader; // header titles
-    // child data in format of header title, child title
-    private HashMap<String, List<String>> _listDataChild;
+    private Context context;
+    private ArrayList<MenuGroupItem> menuGroupItems;
+    private HashMap<MenuGroupItem, List<String>> menuChildItems;
 
-    public ExpandableListAdapter(Context context, List<String> listDataHeader,
-                                 HashMap<String, List<String>> listChildData) {
-        this._context = context;
-        this._listDataHeader = listDataHeader;
-        this._listDataChild = listChildData;
+    public ExpandableListAdapter(Context context, ArrayList<MenuGroupItem> menuGroupItems,
+                                 HashMap<MenuGroupItem, List<String>> menuChildItems) {
+        this.context = context;
+        this.menuGroupItems = menuGroupItems;
+        this.menuChildItems = menuChildItems;
     }
 
     @Override
     public int getGroupCount() {
-        return this._listDataHeader.size();
+        return this.menuGroupItems.size();
     }
 
     @Override
     public int getChildrenCount(int groupPosition) {
-        return this._listDataChild.get(this._listDataHeader.get(groupPosition))
+        return this.menuChildItems.get(this.menuGroupItems.get(groupPosition))
                 .size();
     }
 
     @Override
     public Object getGroup(int groupPosition) {
-        return this._listDataHeader.get(groupPosition);
+        return this.menuGroupItems.get(groupPosition);
     }
 
     @Override
     public Object getChild(int groupPosition, int childPosition) {
-        return this._listDataChild.get(this._listDataHeader.get(groupPosition))
+        return this.menuChildItems.get(this.menuGroupItems.get(groupPosition))
                 .get(childPosition);
     }
 
@@ -67,33 +67,33 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
-        String headerTitle = (String) getGroup(groupPosition);
         if (convertView == null) {
-            LayoutInflater infalInflater = (LayoutInflater) this._context
+            LayoutInflater layInflater = (LayoutInflater) this.context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = infalInflater.inflate(R.layout.list_group, null);
+            convertView = layInflater.inflate(R.layout.list_group, null);
         }
 
-        TextView lblListHeader = (TextView) convertView
-                .findViewById(R.id.lblListHeader);
-        lblListHeader.setTypeface(null, Typeface.NORMAL);
-        lblListHeader.setText(headerTitle);
+        ImageView imgIcon = (ImageView) convertView.findViewById(R.id.icon);
+        TextView txtTitle = (TextView) convertView.findViewById(R.id.title);
+
+        imgIcon.setImageResource(menuGroupItems.get(groupPosition).getIcon());
+        txtTitle.setText(menuGroupItems.get(groupPosition).getTitle());
 
         return convertView;
     }
 
     @Override
-    public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
+    public View getChildView(int groupPosition, final int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
         final String childText = (String) getChild(groupPosition, childPosition);
 
         if (convertView == null) {
-            LayoutInflater infalInflater = (LayoutInflater) this._context
+            LayoutInflater layInflater = (LayoutInflater) this.context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = infalInflater.inflate(R.layout.list_item, null);
+            convertView = layInflater.inflate(R.layout.list_item, null);
         }
 
         TextView txtListChild = (TextView) convertView
-                .findViewById(R.id.lblListItem);
+                .findViewById(R.id.childItem);
 
         txtListChild.setText(childText);
         return convertView;

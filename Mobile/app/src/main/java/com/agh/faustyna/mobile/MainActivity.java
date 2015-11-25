@@ -3,14 +3,13 @@ package com.agh.faustyna.mobile;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.TypedArray;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
@@ -24,25 +23,26 @@ public class MainActivity extends AppCompatActivity {
 
     ExpandableListAdapter listAdapter;
     ExpandableListView expListView;
-    List<String> listDataHeader;
-    HashMap<String, List<String>> listDataChild;
+    HashMap<MenuGroupItem, List<String>> menuChildItems;
+    private ArrayList<MenuGroupItem> menuGroupItems;
+
+    private String[] menuGroupTitles;
+    private TypedArray menuGroupIcons;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // get the listview
-        expListView = (ExpandableListView) findViewById(R.id.lvExp);
+        menuGroupTitles = getResources().getStringArray(R.array.title_group_items);
+        menuGroupIcons = getResources().obtainTypedArray(R.array.title_icons);
 
-        // preparing list data
+        expListView = (ExpandableListView) findViewById(R.id.list_view);
         prepareListData();
 
-        listAdapter = new ExpandableListAdapter(this, listDataHeader, listDataChild);
+        listAdapter = new ExpandableListAdapter(this, menuGroupItems, menuChildItems);
 
-        // setting list adapter
         expListView.setAdapter(listAdapter);
-
         expListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
             @Override
             public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) {
@@ -480,29 +480,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void prepareListData() {
-        listDataHeader = new ArrayList<String>();
-        listDataChild = new HashMap<String, List<String>>();
+        menuGroupItems = new ArrayList<MenuGroupItem>();
+        menuChildItems = new HashMap<MenuGroupItem, List<String>>();
+        
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[0], menuGroupIcons.getResourceId(0, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[1], menuGroupIcons.getResourceId(1, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[2], menuGroupIcons.getResourceId(2, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[3], menuGroupIcons.getResourceId(3, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[4], menuGroupIcons.getResourceId(4, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[5], menuGroupIcons.getResourceId(5, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[6], menuGroupIcons.getResourceId(6, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[7], menuGroupIcons.getResourceId(7, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[8], menuGroupIcons.getResourceId(8, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[9], menuGroupIcons.getResourceId(9, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[10], menuGroupIcons.getResourceId(10, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[11], menuGroupIcons.getResourceId(11, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[12], menuGroupIcons.getResourceId(12, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[13], menuGroupIcons.getResourceId(13, -1)));
+        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[14], menuGroupIcons.getResourceId(14, -1)));
 
-        // Adding child data
-        listDataHeader.add(getString(R.string.title_aktualnosci));
-        listDataHeader.add(getString(R.string.title_dzienniczek));
-        listDataHeader.add(getString(R.string.title_nabozenstwo));
-        listDataHeader.add(getString(R.string.title_faustyna));
-        listDataHeader.add(getString(R.string.title_sanktuarium));
-        listDataHeader.add(getString(R.string.title_galeria));
-        listDataHeader.add(getString(R.string.title_multimedia));
-        listDataHeader.add(getString(R.string.title_koronka));
-        listDataHeader.add(getString(R.string.title_sklep));
-        listDataHeader.add(getString(R.string.title_kwartalnik));
-        listDataHeader.add(getString(R.string.title_facebook));
-        listDataHeader.add(getString(R.string.title_sdm));
-        listDataHeader.add(getString(R.string.title_yt));
-        listDataHeader.add(getString(R.string.title_wsparcie));
-        listDataHeader.add(getString(R.string.title_wiecej));
+        menuGroupIcons.recycle();
 
-        // Adding child data
         List<String> titleAktualnosci = new ArrayList<String>();
-
         List<String> titleDzienniczek = new ArrayList<String>();
 
         List<String> titleNabozenstwo = new ArrayList<String>();
@@ -550,20 +549,20 @@ public class MainActivity extends AppCompatActivity {
 
         List<String> titleWiecej = new ArrayList<String>();
 
-        listDataChild.put(listDataHeader.get(0), titleAktualnosci); // Header, Child data
-        listDataChild.put(listDataHeader.get(1), titleDzienniczek);
-        listDataChild.put(listDataHeader.get(2), titleNabozenstwo);
-        listDataChild.put(listDataHeader.get(3), titleFaustyna);
-        listDataChild.put(listDataHeader.get(4), titleSanktuarium);
-        listDataChild.put(listDataHeader.get(5), titleGaleria);
-        listDataChild.put(listDataHeader.get(6), titleMultimedia);
-        listDataChild.put(listDataHeader.get(7), titleKoronka);
-        listDataChild.put(listDataHeader.get(8), titleSklep);
-        listDataChild.put(listDataHeader.get(9), titleKwartalnik);
-        listDataChild.put(listDataHeader.get(10), titleFacebook);
-        listDataChild.put(listDataHeader.get(11), titleSDM);
-        listDataChild.put(listDataHeader.get(12), titleYt);
-        listDataChild.put(listDataHeader.get(13), titleWsparcie);
-        listDataChild.put(listDataHeader.get(14), titleWiecej);
+        menuChildItems.put(menuGroupItems.get(0), titleAktualnosci);
+        menuChildItems.put(menuGroupItems.get(1), titleDzienniczek);
+        menuChildItems.put(menuGroupItems.get(2), titleNabozenstwo);
+        menuChildItems.put(menuGroupItems.get(3), titleFaustyna);
+        menuChildItems.put(menuGroupItems.get(4), titleSanktuarium);
+        menuChildItems.put(menuGroupItems.get(5), titleGaleria);
+        menuChildItems.put(menuGroupItems.get(6), titleMultimedia);
+        menuChildItems.put(menuGroupItems.get(7), titleKoronka);
+        menuChildItems.put(menuGroupItems.get(8), titleSklep);
+        menuChildItems.put(menuGroupItems.get(9), titleKwartalnik);
+        menuChildItems.put(menuGroupItems.get(10), titleFacebook);
+        menuChildItems.put(menuGroupItems.get(11), titleSDM);
+        menuChildItems.put(menuGroupItems.get(12), titleYt);
+        menuChildItems.put(menuGroupItems.get(13), titleWsparcie);
+        menuChildItems.put(menuGroupItems.get(14), titleWiecej);
     }
 }

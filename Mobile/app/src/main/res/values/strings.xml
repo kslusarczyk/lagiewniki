@@ -19,6 +19,42 @@
     <string name="title_wsparcie">Wsparcie</string>
     <string name="title_wiecej">Więcej</string>
 
+    <string-array name="title_group_items">
+        <item>Aktualności</item>
+        <item>Dzienniczek św. Faustyny</item>
+        <item>Nabożeństwo do Miłosierdzia Bożego</item>
+        <item>Święta Siostra Faustyna</item>
+        <item>Sanktuarium w Krakowie-Łagiewnikach</item>
+        <item>Galeria</item>
+        <item>Multimedia</item>
+        <item>Koronka za konających</item>
+        <item>Sklep \'Miseridordia\'</item>
+        <item>Kwartalnik \'Orędzie Miłosierdzia\'</item>
+        <item>Facebook</item>
+        <item>ŚDM 2016</item>
+        <item>YouTube</item>
+        <item>Wsparcie</item>
+        <item>Więcej</item>
+    </string-array>
+
+    <array name="title_icons">
+        <item>@mipmap/faustyna_icon</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/faustyna_icon</item>
+        <item>@mipmap/faustyna_icon</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
     <string name="title_nabozenstwo_istota">Istota</string>
     <string name="title_nabozenstwo_obraz">Obraz</string>
     <string name="title_nabozenstwo_swieto">Święto Miłosierdzia</string>

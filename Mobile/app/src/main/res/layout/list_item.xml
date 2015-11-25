@@ -6,7 +6,7 @@
     android:background="@color/list_item_background">
 
     <TextView
-        android:id="@+id/lblListItem"
+        android:id="@+id/childItem"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/item_size"
