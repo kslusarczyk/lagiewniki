@@ -37,14 +37,14 @@ public class GetGalleryListTask extends HttpTask {
             try {
                 if(!responseData.has(String.valueOf(i))) continue;
                 JSONObject gallery = responseData.getJSONObject(String.valueOf(i));
-                String thumbnailUrl = imagesUrl +  gallery.getString("1");
+                String thumbnailUrl = imagesUrl +  gallery.getString("4");
                 String  galleryTitle = gallery.getString("2");
                 GalleryListEntry entry = new GalleryListEntry(galleryTitle,thumbnailUrl);
 
-                int imageId = 3;
+                int imageId = 4;
                 while (gallery.has(String.valueOf(imageId))){
                     String imageUrl = gallery.getString(String.valueOf(imageId));
-                    entry.addImageUrl(imageUrl);
+                    entry.addImageUrl(imagesUrl + imageUrl);
 
                     imageId+=2;
                 }

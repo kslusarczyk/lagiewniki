@@ -16,10 +16,10 @@ public abstract class ProgressBarActivity extends Activity {
     private List<AsyncTask> httpTasks;
 
     public void showProgressBar(){
-        progressBar.setVisibility(View.VISIBLE);
+        if(progressBar != null) progressBar.setVisibility(View.VISIBLE);
     }
     public void hideProgressBar(){
-        progressBar.setVisibility(View.GONE);
+        if(progressBar != null) progressBar.setVisibility(View.GONE);
     }
 
     public void registerTask(AsyncTask task){
