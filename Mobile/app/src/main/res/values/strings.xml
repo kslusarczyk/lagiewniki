@@ -89,7 +89,7 @@
     <string name="koronka_toast">W treści SMS wpisz imię konającego</string>
 
     <string name="url_faustyna">http://www.faustyna.pl/zmbm/</string>
-    <string name="url_images">http://www.faustyna.pl/zmbm/wp-content/uploads/photo-gallery</string>
+    <string name="url_images">https://www.faustyna.pl/zmbm/wp-content/uploads/photo-gallery</string>
     <string name="url_facebook">https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/</string>
     <string name="url_sdm">https://www.facebook.com/Faustyna2016?fref=ts</string>
     <string name="url_yt">https://www.youtube.com/user/wwwfaustynapl</string>
@@ -255,7 +255,7 @@
     <string name="rest_rozbudowa">rozbudowa/?json=1</string>
     <string name="rest_nieustanna_koronka">nieustanna-koronka-do-milosierdzia-bozego-zapisy/?json=1</string>
 
-    <string name="rest_galeria">api/?lang=pl</string>
+    <string name="rest_galeria">api/?lang=pl&amp;action=gallery</string>
 
     <!-- zapisywane dane -->
     <string name="brak_zasobu">Zasób niedostępny. Brak połączenia z Internetem.</string>
