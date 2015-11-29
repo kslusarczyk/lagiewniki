@@ -482,22 +482,10 @@ public class MainActivity extends AppCompatActivity {
     private void prepareListData() {
         menuGroupItems = new ArrayList<MenuGroupItem>();
         menuChildItems = new HashMap<MenuGroupItem, List<String>>();
-        
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[0], menuGroupIcons.getResourceId(0, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[1], menuGroupIcons.getResourceId(1, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[2], menuGroupIcons.getResourceId(2, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[3], menuGroupIcons.getResourceId(3, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[4], menuGroupIcons.getResourceId(4, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[5], menuGroupIcons.getResourceId(5, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[6], menuGroupIcons.getResourceId(6, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[7], menuGroupIcons.getResourceId(7, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[8], menuGroupIcons.getResourceId(8, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[9], menuGroupIcons.getResourceId(9, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[10], menuGroupIcons.getResourceId(10, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[11], menuGroupIcons.getResourceId(11, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[12], menuGroupIcons.getResourceId(12, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[13], menuGroupIcons.getResourceId(13, -1)));
-        menuGroupItems.add(new MenuGroupItem(menuGroupTitles[14], menuGroupIcons.getResourceId(14, -1)));
+
+        for (int i=0; i<menuGroupTitles.length; i++) {
+            menuGroupItems.add(new MenuGroupItem(menuGroupTitles[i], menuGroupIcons.getResourceId(i, -1)));
+        }
 
         menuGroupIcons.recycle();
 
