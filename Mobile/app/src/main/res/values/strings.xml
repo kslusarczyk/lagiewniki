@@ -55,6 +55,45 @@
         <item>@mipmap/ic_launcher</item>
     </array>
 
+    <string-array name="nabozenstwo_classes">
+        <item>Istota</item>
+        <item>Obraz</item>
+        <item>SwietoMilosierdzia</item>
+        <item>KoronkaDoMilosierdziaBozego</item>
+        <item>GodzinaMilosierdzia</item>
+        <item>SzerzenieCzciMilosierdzia</item>
+    </string-array>
+
+    <string-array name="faustyna_classes">
+        <item>Biografia</item>
+        <item>MisjaGloszeniaOredziaMilosierdzia</item>
+        <item>SzkolaDuchowosci</item>
+        <item>NoweZgromadzenie</item>
+        <item>LitaniaDoSwSiostryFaustyny</item>
+        <item>ModlitwaPrzezPrzyczyneSwFaustyny</item>
+    </string-array>
+
+    <string-array name="sanktuarium_classes">
+        <item>CudownyObraz</item>
+        <item>Bazylika</item>
+        <item>Kaplica</item>
+        <item>PorzadekNabozenstw</item>
+        <item>OprowadzaniePielgrzymow</item>
+        <item>Noclegi</item>
+        <item>Kontakt</item>
+        <item>Dojazd</item>
+    </string-array>
+
+    <string-array name="multimedia_classes">
+        <item>OdsluchajKoronke</item>
+        <item>Video</item>
+    </string-array>
+
+    <string-array name="wsparcie_classes">
+        <item>NieustannaKoronka</item>
+        <item>RozbudowaSanktuarium</item>
+    </string-array>
+
     <string name="title_nabozenstwo_istota">Istota</string>
     <string name="title_nabozenstwo_obraz">Obraz</string>
     <string name="title_nabozenstwo_swieto">Święto Miłosierdzia</string>

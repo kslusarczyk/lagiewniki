@@ -29,6 +29,12 @@ public class MainActivity extends AppCompatActivity {
     private String[] menuGroupTitles;
     private TypedArray menuGroupIcons;
 
+    private String[] nabozenstwoClasses;
+    private String[] faustynaClasses;
+    private String[] sanktuariumClasses;
+    private String[] multimediaClasses;
+    private String[] wsparcieClasses;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
 
         menuGroupTitles = getResources().getStringArray(R.array.title_group_items);
         menuGroupIcons = getResources().obtainTypedArray(R.array.title_icons);
+
+        nabozenstwoClasses = getResources().getStringArray(R.array.nabozenstwo_classes);
+        faustynaClasses = getResources().getStringArray(R.array.faustyna_classes);
+        sanktuariumClasses = getResources().getStringArray(R.array.sanktuarium_classes);
+        multimediaClasses = getResources().getStringArray(R.array.multimedia_classes);
+        wsparcieClasses = getResources().getStringArray(R.array.wsparcie_classes);
 
         expListView = (ExpandableListView) findViewById(R.id.list_view);
         prepareListData();
@@ -163,283 +175,54 @@ public class MainActivity extends AppCompatActivity {
                                         int groupPosition, int childPosition, long id) {
 
                 if (groupPosition == 2)
-                    switch (childPosition) {
-                        case 0:
-                            try {
-                                startNewActivity("Istota");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 1:
-                            try {
-                                startNewActivity("Obraz");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 2:
-                            try {
-                                startNewActivity("SwietoMilosierdzia");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 3:
-                            try {
-                                startNewActivity("KoronkaDoMilosierdziaBozego");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 4:
-                            try {
-                                startNewActivity("GodzinaMilosierdzia");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 5:
-                            try {
-                                startNewActivity("SzerzenieCzciMilosierdzia");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
+                    try {
+                        startNewActivity(nabozenstwoClasses[childPosition]);
+                    } catch (ClassNotFoundException e) {
+                        e.printStackTrace();
+                    } catch (InstantiationException e) {
+                        e.printStackTrace();
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
                     }
                 else if (groupPosition == 3)
-                    switch (childPosition) {
-                        case 0:
-                            try {
-                                startNewActivity("Biografia");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 1:
-                            try {
-                                startNewActivity("MisjaGloszeniaOredziaMilosierdzia");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 2:
-                            try {
-                                startNewActivity("SzkolaDuchowosci");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 3:
-                            try {
-                                startNewActivity("NoweZgromadzenie");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 4:
-                            try {
-                                startNewActivity("LitaniaDoSwSiostryFaustyny");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 5:
-                            try {
-                                startNewActivity("ModlitwaPrzezPrzyczyneSwFaustyny");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
+                    try {
+                        startNewActivity(faustynaClasses[childPosition]);
+                    } catch (ClassNotFoundException e) {
+                        e.printStackTrace();
+                    } catch (InstantiationException e) {
+                        e.printStackTrace();
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
                     }
                 else if (groupPosition == 4)
-                    switch (childPosition) {
-                        case 0:
-                            try {
-                                startNewActivity("CudownyObraz");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 1:
-                            try {
-                                startNewActivity("Bazylika");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 2:
-                            try {
-                                startNewActivity("Kaplica");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 3:
-                            try {
-                                startNewActivity("PorzadekNabozenstw");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 4:
-                            try {
-                                startNewActivity("OprowadzaniePielgrzymow");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 5:
-                            try {
-                                startNewActivity("Noclegi");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 6:
-                            try {
-                                startNewActivity("Kontakt");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 7:
-                            try {
-                                startNewActivity("Dojazd");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        }
+                    try {
+                        startNewActivity(sanktuariumClasses[childPosition]);
+                    } catch (ClassNotFoundException e) {
+                        e.printStackTrace();
+                    } catch (InstantiationException e) {
+                        e.printStackTrace();
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
+                    }
                 else if (groupPosition == 6)
-                    switch (childPosition) {
-                        case 0:
-                            try {
-                                startNewActivity("OdsluchajKoronke");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 1:
-                            try {
-                                startNewActivity("Video");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
+                    try {
+                        startNewActivity(multimediaClasses[childPosition]);
+                    } catch (ClassNotFoundException e) {
+                        e.printStackTrace();
+                    } catch (InstantiationException e) {
+                        e.printStackTrace();
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
                     }
                 else if (groupPosition == 13)
-                    switch (childPosition) {
-                        case 0:
-                            try {
-                                startNewActivity("NieustannaKoronka");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 1:
-                            try {
-                                startNewActivity("RozbudowaSanktuarium");
-                            } catch (ClassNotFoundException e) {
-                                e.printStackTrace();
-                            } catch (InstantiationException e) {
-                                e.printStackTrace();
-                            } catch (IllegalAccessException e) {
-                                e.printStackTrace();
-                            }
-                            break;
+                    try {
+                        startNewActivity(wsparcieClasses[childPosition]);
+                    } catch (ClassNotFoundException e) {
+                        e.printStackTrace();
+                    } catch (InstantiationException e) {
+                        e.printStackTrace();
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
                     }
                 return false;
             }
