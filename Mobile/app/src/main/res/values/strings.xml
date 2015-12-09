@@ -39,20 +39,20 @@
 
     <array name="title_icons">
         <item>@mipmap/faustyna_icon</item>
-        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/tlo</item>
         <item>@mipmap/faustyna_icon</item>
-        <item>@mipmap/faustyna_icon</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/faustyna</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/facebook</item>
+        <item>@mipmap/sdm</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/tlo</item>
     </array>
 
     <string-array name="nabozenstwo_classes">
