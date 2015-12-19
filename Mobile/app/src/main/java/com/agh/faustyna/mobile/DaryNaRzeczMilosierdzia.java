@@ -7,7 +7,7 @@ import android.widget.ProgressBar;
 /**
  * Created by Klaudia on 16.11.2015.
  */
-public class NieustannaKoronka extends GetResourceActivity {
+public class DaryNaRzeczMilosierdzia extends GetResourceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -15,7 +15,7 @@ public class NieustannaKoronka extends GetResourceActivity {
         setContentView(R.layout.obraz);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         WebView webView = (WebView) findViewById(R.id.content_webview);
-        displayResource(R.string.rest_nieustanna_koronka, webView);
+        displayResource(R.string.rest_dary_na_rzecz_milosierdzia, webView);
     }
 
 }

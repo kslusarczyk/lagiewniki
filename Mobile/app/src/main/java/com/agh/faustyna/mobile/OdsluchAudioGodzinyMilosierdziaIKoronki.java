@@ -18,7 +18,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class OdsluchajKoronke extends ProgressBarActivity {
+public class OdsluchAudioGodzinyMilosierdziaIKoronki extends ProgressBarActivity {
     private ImageButton playButton;
     private MediaPlayer mediaPlayer;
     private TextView stateTextView;

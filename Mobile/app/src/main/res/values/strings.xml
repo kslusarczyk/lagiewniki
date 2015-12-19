@@ -4,15 +4,14 @@
     <string name="title_dojazd">Dojazd</string>
 
     <string name="title_aktualnosci">Aktualności</string>
-    <string name="title_dzienniczek">Dzienniczek św. Faustyny</string>
+    <string name="title_dzienniczek">Z Dzienniczka św. Faustyny</string>
     <string name="title_nabozenstwo">Nabożeństwo do Miłosierdzia Bożego</string>
     <string name="title_faustyna">Święta Siostra Faustyna</string>
     <string name="title_sanktuarium">Sanktuarium w Krakowie-Łagiewnikach</string>
     <string name="title_galeria">Galeria</string>
-    <string name="title_multimedia">Multimedia</string>
+    <string name="title_multimedia">Transmisja on-line</string>
     <string name="title_koronka">Koronka za konających</string>
     <string name="title_sklep">Sklep \'Miseridordia\'</string>
-    <string name="title_kwartalnik">Kwartalnik \'Orędzie Miłosierdzia\'</string>
     <string name="title_facebook">Facebook</string>
     <string name="title_sdm">ŚDM 2016</string>
     <string name="title_yt">YouTube</string>
@@ -21,15 +20,14 @@
 
     <string-array name="title_group_items">
         <item>Aktualności</item>
-        <item>Dzienniczek św. Faustyny</item>
+        <item>Z Dzienniczka św. Faustyny</item>
         <item>Nabożeństwo do Miłosierdzia Bożego</item>
         <item>Święta Siostra Faustyna</item>
         <item>Sanktuarium w Krakowie-Łagiewnikach</item>
         <item>Galeria</item>
-        <item>Multimedia</item>
+        <item>Transmisja on-line</item>
         <item>Koronka za konających</item>
         <item>Sklep \'Miseridordia\'</item>
-        <item>Kwartalnik \'Orędzie Miłosierdzia\'</item>
         <item>Facebook</item>
         <item>ŚDM 2016</item>
         <item>YouTube</item>
@@ -45,7 +43,6 @@
         <item>@mipmap/sanktuarium</item>
         <item>@mipmap/tlo</item>
         <item>@mipmap/multimedia</item>
-        <item>@mipmap/tlo</item>
         <item>@mipmap/tlo</item>
         <item>@mipmap/tlo</item>
         <item>@mipmap/facebook</item>
@@ -85,12 +82,12 @@
     </string-array>
 
     <string-array name="multimedia_classes">
-        <item>OdsluchajKoronke</item>
+        <item>OdsluchAudioGodzinyMilosierdziaIKoronki</item>
         <item>Video</item>
     </string-array>
 
     <string-array name="wsparcie_classes">
-        <item>NieustannaKoronka</item>
+        <item>DaryNaRzeczMilosierdzia</item>
         <item>RozbudowaSanktuarium</item>
     </string-array>
 
@@ -117,10 +114,10 @@
     <string name="title_sanktuarium_kontakt">Kontakt</string>
     <string name="title_sanktuarium_dojazd">Dojazd</string>
 
-    <string name="title_multimedia_koronka">Odsłuchaj koronkę</string>
+    <string name="title_multimedia_koronka">Odsłuch audio Godziny Miłosierdzia i Koronki</string>
     <string name="title_multimedia_video">Video</string>
 
-    <string name="title_wsparcie_koronka">Nieustanna Koronka</string>
+    <string name="title_wsparcie_dary_na_rzecz_milosierdzia">Dary na rzecz Miłosierdzia</string>
     <string name="title_wsparcie_rozbudowa">Rozbudowa Sanktuarium</string>
 
     <string name="koronka_phone_number">+48505060205</string>
@@ -255,7 +252,7 @@
     <string name="thumbnail_description">Thumbnail</string>
     <string name="load_error">Wystąpił błąd podczas wczytywania danych</string>
 
-    <!-- OdsluchajKoronke -->
+    <!-- OdsluchAudioGodzinyMilosierdziaIKoronki -->
     <string name="url_audio">http://faustyna.pl/Godzina_Milosierdzia/Nicecast_Archived_Audio_{date}_1501.mp3</string>
     <string name="odsluchaj_koronke">Odsłuchaj koronkę z dnia {date} :</string>
     <string name="pobierz_koronke">Kliknij przycisk, aby pobrać koronkę</string>
@@ -282,7 +279,7 @@
     <string name="rest_biografia">biografia/?json=1</string>
     <string name="rest_misja_gloszenia">gloszenie-milosierdzia-boga/?json=1</string>
     <string name="rest_szkola_duchowosci">szkola-duchowosci/?json=1</string>
-    <string name="rest_nowe_zgromadzenie">apostolski-ruch-bozego-milosierdzia/?json=1</string>
+    <string name="rest_nowe_zgromadzenie">w-pismach-sw-siostry-faustyny/?json=1</string>
     <string name="rest_litania_do_faustyny">litania-do-sw-siostry-faustyny/?json=1</string>
     <string name="rest_modlitwa_przez_przyczyne">inne-modlitwy/?json=1</string>
 
@@ -292,7 +289,7 @@
     <string name="rest_pielgrzymi">pielgrzymi/?json=1</string>
 
     <string name="rest_rozbudowa">rozbudowa/?json=1</string>
-    <string name="rest_nieustanna_koronka">nieustanna-koronka-do-milosierdzia-bozego-zapisy/?json=1</string>
+    <string name="rest_dary_na_rzecz_milosierdzia">dary-na-rzecz-milosierdzia/?json=1</string>
 
     <string name="rest_galeria">api/?lang=pl&amp;action=gallery</string>
 

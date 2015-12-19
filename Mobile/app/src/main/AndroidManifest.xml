@@ -86,8 +86,8 @@
             android:name=".Bazylika"
             android:label="@string/title_sanktuarium_bazylika"></activity>
         <activity
-            android:name=".NieustannaKoronka"
-            android:label="@string/title_wsparcie_koronka"></activity>
+            android:name=".DaryNaRzeczMilosierdzia"
+            android:label="@string/title_wsparcie_dary_na_rzecz_milosierdzia"></activity>
         <activity
             android:name=".RozbudowaSanktuarium"
             android:label="@string/title_wsparcie_rozbudowa"></activity>
@@ -116,7 +116,7 @@
             android:label="@string/title_multimedia_video"
             android:theme="@style/Theme.AppCompat"></activity>
         <activity
-            android:name=".OdsluchajKoronke"
+            android:name=".OdsluchAudioGodzinyMilosierdziaIKoronki"
             android:label="@string/title_multimedia_koronka"
             android:theme="@style/Theme.AppCompat"></activity>
         <activity

@@ -5,7 +5,7 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.agh.faustyna.mobile.OdsluchajKoronke;
+import com.agh.faustyna.mobile.OdsluchAudioGodzinyMilosierdziaIKoronki;
 import com.agh.faustyna.mobile.R;
 
 import java.io.IOException;
@@ -14,9 +14,9 @@ import java.io.IOException;
  * Created by Klaudia on 15.11.2015.
  */
 public class PreparePlayerTask extends AsyncTask<MediaPlayer, Void, Boolean>{
-    private OdsluchajKoronke context;
+    private OdsluchAudioGodzinyMilosierdziaIKoronki context;
 
-    public PreparePlayerTask(OdsluchajKoronke context) {
+    public PreparePlayerTask(OdsluchAudioGodzinyMilosierdziaIKoronki context) {
         this.context = context;
         context.registerTask(this);
     }

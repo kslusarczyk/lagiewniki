@@ -113,17 +113,6 @@ public class MainActivity extends AppCompatActivity {
                         }
                         break;
                     case 9:
-                        try {
-                            startNewActivity("KwartalnikOredzieMilosierdzia");
-                        } catch (ClassNotFoundException e) {
-                            e.printStackTrace();
-                        } catch (InstantiationException e) {
-                            e.printStackTrace();
-                        } catch (IllegalAccessException e) {
-                            e.printStackTrace();
-                        }
-                        break;
-                    case 10:
                         if (internetState){
                             openWebPage(getString(R.string.url_facebook));
                         } else {
@@ -133,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
                             newFragment.show(getFragmentManager(),"dialog");
                         }
                         break;
-                    case 11:
+                    case 10:
                         if (internetState){
                             openWebPage(getString(R.string.url_sdm));
                         } else {
@@ -143,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
                             newFragment.show(getFragmentManager(),"dialog");
                         }
                         break;
-                    case 12:
+                    case 11:
                         if (internetState){
                             openWebPage(getString(R.string.url_yt));
                         } else {
@@ -153,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
                             newFragment.show(getFragmentManager(),"dialog");
                         }
                         break;
-                    case 14:
+                    case 13:
                         if (internetState){
                             openWebPage(getString(R.string.url_faustyna));
                         } else {
@@ -214,7 +203,7 @@ public class MainActivity extends AppCompatActivity {
                     } catch (IllegalAccessException e) {
                         e.printStackTrace();
                     }
-                else if (groupPosition == 13)
+                else if (groupPosition == 12)
                     try {
                         startNewActivity(wsparcieClasses[childPosition]);
                     } catch (ClassNotFoundException e) {
@@ -309,13 +298,12 @@ public class MainActivity extends AppCompatActivity {
 
         List<String> titleKoronka = new ArrayList<String>();
         List<String> titleSklep = new ArrayList<String>();
-        List<String> titleKwartalnik = new ArrayList<String>();
         List<String> titleFacebook = new ArrayList<String>();
         List<String> titleSDM = new ArrayList<String>();
         List<String> titleYt = new ArrayList<String>();
 
         List<String> titleWsparcie = new ArrayList<String>();
-        titleWsparcie.add(getString(R.string.title_wsparcie_koronka));
+        titleWsparcie.add(getString(R.string.title_wsparcie_dary_na_rzecz_milosierdzia));
         titleWsparcie.add(getString(R.string.title_wsparcie_rozbudowa));
 
         List<String> titleWiecej = new ArrayList<String>();
@@ -329,11 +317,10 @@ public class MainActivity extends AppCompatActivity {
         menuChildItems.put(menuGroupItems.get(6), titleMultimedia);
         menuChildItems.put(menuGroupItems.get(7), titleKoronka);
         menuChildItems.put(menuGroupItems.get(8), titleSklep);
-        menuChildItems.put(menuGroupItems.get(9), titleKwartalnik);
-        menuChildItems.put(menuGroupItems.get(10), titleFacebook);
-        menuChildItems.put(menuGroupItems.get(11), titleSDM);
-        menuChildItems.put(menuGroupItems.get(12), titleYt);
-        menuChildItems.put(menuGroupItems.get(13), titleWsparcie);
-        menuChildItems.put(menuGroupItems.get(14), titleWiecej);
+        menuChildItems.put(menuGroupItems.get(9), titleFacebook);
+        menuChildItems.put(menuGroupItems.get(10), titleSDM);
+        menuChildItems.put(menuGroupItems.get(11), titleYt);
+        menuChildItems.put(menuGroupItems.get(12), titleWsparcie);
+        menuChildItems.put(menuGroupItems.get(13), titleWiecej);
     }
 }

@@ -3,16 +3,16 @@ package com.agh.faustyna.mobile.http.tasks;
 import android.media.MediaPlayer;
 import android.os.AsyncTask;
 
-import com.agh.faustyna.mobile.OdsluchajKoronke;
+import com.agh.faustyna.mobile.OdsluchAudioGodzinyMilosierdziaIKoronki;
 
 /**
  * Created by Klaudia on 15.11.2015.
  */
 public class PlayerProgressTask extends AsyncTask<Void, Void, Void>{
-    private OdsluchajKoronke context;
+    private OdsluchAudioGodzinyMilosierdziaIKoronki context;
     private MediaPlayer player;
 
-    public PlayerProgressTask(OdsluchajKoronke context, MediaPlayer player) {
+    public PlayerProgressTask(OdsluchAudioGodzinyMilosierdziaIKoronki context, MediaPlayer player) {
         this.context = context;
         this.player = player;
 

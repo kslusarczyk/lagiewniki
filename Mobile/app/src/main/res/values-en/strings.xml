@@ -5,15 +5,14 @@
     <string name="title_dojazd">How to find us</string>
 
     <string name="title_aktualnosci">News</string>
-    <string name="title_dzienniczek">Saint Faustina\'s Diary</string>
+    <string name="title_dzienniczek">From Saint Faustina\'s Diary</string>
     <string name="title_nabozenstwo">Devotion to The Divine Mercy</string>
     <string name="title_faustyna">Saint Faustina</string>
     <string name="title_sanktuarium">Shrine of Divine Mercy in Cracow-Lagiewniki</string>
     <string name="title_galeria">Gallery</string>
-    <string name="title_multimedia">Multimedia</string>
+    <string name="title_multimedia">On-line transmission</string>
     <string name="title_koronka">Chaplet for death</string>
     <string name="title_sklep">Misericordia Publishing House</string>
-    <string name="title_kwartalnik">Not supported in English version</string>
     <string name="title_facebook">Facebook</string>
     <string name="title_sdm">WYD 2016</string>
     <string name="title_yt">YouTube</string>
@@ -22,15 +21,14 @@
 
     <string-array name="title_group_items">
         <item>News</item>
-        <item>Saint Faustina\'s Diary</item>
+        <item>From Saint Faustina\'s Diary</item>
         <item>Devotion to The Divine Mercy</item>
         <item>Saint Faustina</item>
         <item>Shrine of Divine Mercy in Cracow-Lagiewniki</item>
         <item>Gallery</item>
-        <item>Multimedia</item>
+        <item>On-line transmission</item>
         <item>Chaplet for death</item>
         <item>Misericordia Publishing House</item>
-        <item>Not supported in English version</item>
         <item>Facebook</item>
         <item>WYD 2016</item>
         <item>YouTube</item>
@@ -43,7 +41,6 @@
         <item>@mipmap/ic_launcher</item>
         <item>@mipmap/faustyna_icon</item>
         <item>@mipmap/faustyna_icon</item>
-        <item>@mipmap/ic_launcher</item>
         <item>@mipmap/ic_launcher</item>
         <item>@mipmap/ic_launcher</item>
         <item>@mipmap/ic_launcher</item>
@@ -86,12 +83,12 @@
     </string-array>
 
     <string-array name="multimedia_classes">
-        <item>OdsluchajKoronke</item>
+        <item>OdsluchAudioGodzinyMilosierdziaIKoronki</item>
         <item>Video</item>
     </string-array>
 
     <string-array name="wsparcie_classes">
-        <item>NieustannaKoronka</item>
+        <item>DaryNaRzeczMilosierdzia</item>
         <item>RozbudowaSanktuarium</item>
     </string-array>
 
@@ -255,7 +252,7 @@
     <string name="thumbnail_description">Thumbnail</string>
     <string name="load_error">Errors occured during loading informations</string>
 
-    <!-- OdsluchajKoronke -->
+    <!-- OdsluchAudioGodzinyMilosierdziaIKoronki -->
     <string name="url_audio">http://faustyna.pl/Godzina_Milosierdzia/Nicecast_Archived_Audio_{date}_1501.mp3</string>
     <string name="odsluchaj_koronke">Listen to the Chaplet from {date} :</string>
     <string name="pobierz_koronke"> Click the button to download the Chaplet</string>
@@ -280,7 +277,7 @@
     <string name="rest_biografia">en/biography/?json=1</string>
     <string name="rest_misja_gloszenia">en/proclaiming-god-s-mercy/?json=1</string>
     <string name="rest_szkola_duchowosci">en/the-school-of-spirituality/?json=1</string>
-    <string name="rest_nowe_zgromadzenie">en/the-apostolic-movement-of-the-divine-mercy/?json=1</string>
+    <string name="rest_nowe_zgromadzenie">en/in-the-writings-of-st-faustina/?json=1</string>
     <string name="rest_litania_do_faustyny">en/litany-to-st-faustina/?json=1</string>
     <string name="rest_modlitwa_przez_przyczyne">en/prayer-through-the-intercession-of-st-faustina/?json=1</string>
 
@@ -289,7 +286,7 @@
     <string name="rest_kaplica">en/chapel-of-the-miraculous-image-of-the-merciful-jesus-and-the-tomb-of-st-faustina/?json=1</string>
     <string name="rest_pielgrzymi">en/pilgrims/?json=1</string>
 
-    <string name="rest_rozbudowa">en/shrine-building-expansion/</string>
-    <string name="rest_nieustanna_koronka">nieustanna-koronka-do-milosierdzia-bozego-zapisy/?json=1</string>
+    <string name="rest_rozbudowa">en/shrine-building-expansion/?json=1</string>
+    <string name="rest_dary_na_rzecz_milosierdzia">en/support/?json=1</string>
 
 </resources>
