@@ -33,64 +33,64 @@
         </activity>
         <activity
             android:name=".Istota"
-            android:label="@string/title_nabozenstwo_istota"></activity>
+            android:label="@string/title_nabozenstwo_istota"/>
         <activity
             android:name=".Obraz"
-            android:label="@string/title_nabozenstwo_obraz"></activity>
+            android:label="@string/title_nabozenstwo_obraz"/>
         <activity
             android:name=".Aktualnosci"
-            android:label="@string/title_aktualnosci"></activity>
+            android:label="@string/title_aktualnosci"/>
         <activity
             android:name=".PorzadekNabozenstw"
-            android:label="@string/title_sanktuarium_porzadek"></activity>
+            android:label="@string/title_sanktuarium_porzadek"/>
         <activity
             android:name=".SwietoMilosierdzia"
-            android:label="@string/title_nabozenstwo_swieto"></activity>
+            android:label="@string/title_nabozenstwo_swieto"/>
         <activity
             android:name=".KoronkaDoMilosierdziaBozego"
-            android:label="@string/title_nabozenstwo_koronka"></activity>
+            android:label="@string/title_nabozenstwo_koronka"/>
         <activity
             android:name=".GodzinaMilosierdzia"
-            android:label="@string/title_nabozenstwo_godzina"></activity>
+            android:label="@string/title_nabozenstwo_godzina"/>
         <activity
             android:name=".SzerzenieCzciMilosierdzia"
-            android:label="@string/title_nabozenstwo_szerzenie"></activity>
+            android:label="@string/title_nabozenstwo_szerzenie"/>
         <activity
             android:name=".Biografia"
-            android:label="@string/title_faustyna_biografia"></activity>
+            android:label="@string/title_faustyna_biografia"/>
         <activity
             android:name=".MisjaGloszeniaOredziaMilosierdzia"
-            android:label="@string/title_faustyna_misja"></activity>
+            android:label="@string/title_faustyna_misja"/>
         <activity
             android:name=".SzkolaDuchowosci"
-            android:label="@string/title_faustyna_szkola"></activity>
+            android:label="@string/title_faustyna_szkola"/>
         <activity
             android:name=".NoweZgromadzenie"
-            android:label="@string/title_faustyna_zgromadzenie"></activity>
+            android:label="@string/title_faustyna_zgromadzenie"/>
         <activity
             android:name=".LitaniaDoSwSiostryFaustyny"
-            android:label="@string/title_faustyna_litania"></activity>
+            android:label="@string/title_faustyna_litania"/>
         <activity
             android:name=".ModlitwaPrzezPrzyczyneSwFaustyny"
-            android:label="@string/title_faustyna_modlitwa"></activity>
+            android:label="@string/title_faustyna_modlitwa"/>
         <activity
             android:name=".CudownyObraz"
-            android:label="@string/title_sanktuarium_obraz"></activity>
+            android:label="@string/title_sanktuarium_obraz"/>
         <activity
             android:name=".OprowadzaniePielgrzymow"
-            android:label="@string/title_sanktuarium_oprowadzanie"></activity>
+            android:label="@string/title_sanktuarium_oprowadzanie"/>
         <activity
             android:name=".Kaplica"
-            android:label="@string/title_sanktuarium_kaplica"></activity>
+            android:label="@string/title_sanktuarium_kaplica"/>
         <activity
             android:name=".Bazylika"
-            android:label="@string/title_sanktuarium_bazylika"></activity>
+            android:label="@string/title_sanktuarium_bazylika"/>
         <activity
             android:name=".DaryNaRzeczMilosierdzia"
-            android:label="@string/title_wsparcie_dary_na_rzecz_milosierdzia"></activity>
+            android:label="@string/title_wsparcie_dary_na_rzecz_milosierdzia"/>
         <activity
             android:name=".RozbudowaSanktuarium"
-            android:label="@string/title_wsparcie_rozbudowa"></activity>
+            android:label="@string/title_wsparcie_rozbudowa"/>
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -106,26 +106,29 @@
 
         <activity
             android:name=".Dojazd"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps"/>
         <activity
             android:name=".Kontakt"
             android:label="@string/title_sanktuarium_kontakt"
-            android:theme="@style/Theme.AppCompat"></activity>
+            android:theme="@style/Theme.AppCompat"/>
         <activity
             android:name=".Video"
             android:label="@string/title_multimedia_video"
-            android:theme="@style/Theme.AppCompat"></activity>
+            android:theme="@style/Theme.AppCompat"/>
         <activity
             android:name=".OdsluchAudioGodzinyMilosierdziaIKoronki"
             android:label="@string/title_multimedia_koronka"
-            android:theme="@style/Theme.AppCompat"></activity>
+            android:theme="@style/Theme.AppCompat"/>
         <activity
             android:name=".Galeria"
-            android:label="@string/title_activity_galeria"></activity>
+            android:label="@string/title_galeria"/>
         <activity
             android:name=".DzienniczekSwFaustyny"
             android:label="@string/title_dzienniczek" />
-        <activity android:name=".DisplayGallery"></activity>
+        <activity android:name=".DisplayGallery"/>
+        <activity
+            android:name=".Noclegi"
+            android:label="@string/title_sanktuarium_noclegi"/>
     </application>
 
 </manifest>

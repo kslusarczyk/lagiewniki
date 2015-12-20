@@ -62,7 +62,7 @@ android:layout_height="fill_parent">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/underscore_swieto"
-        android:text="@string/porzadek_swieto_title"/>
+        android:text="@string/porzadek_uroczystosc_title"/>
     <TextView
         android:id="@+id/porzadek_uroczystosc_triduum"
         android:textColor="@color/list_item_text"

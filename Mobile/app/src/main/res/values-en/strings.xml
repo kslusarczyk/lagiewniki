@@ -261,7 +261,8 @@
     <string name="audio_url_error">Transmission is currently unavailable</string>
     <string name="pause">pause</string>
 
-
+    <!-- Galeria -->
+    <string name="error_gallery">The galleries are unavailable.</string>
 
     <!-- REST API -->
     <string name="rest_news">en/category/news/?json=1</string>
@@ -285,8 +286,14 @@
     <string name="rest_bazylika">en/basilica/?json=1</string>
     <string name="rest_kaplica">en/chapel-of-the-miraculous-image-of-the-merciful-jesus-and-the-tomb-of-st-faustina/?json=1</string>
     <string name="rest_pielgrzymi">en/pilgrims/?json=1</string>
+    <string name="rest_noclegi">en/st-sister-faustina-s-house/?json=1</string>
 
     <string name="rest_rozbudowa">en/shrine-building-expansion/?json=1</string>
     <string name="rest_dary_na_rzecz_milosierdzia">en/support/?json=1</string>
+
+    <string name="rest_galeria">api/?lang=en&amp;action=gallery</string>
+
+    <!-- zapisywane dane -->
+    <string name="brak_zasobu">There is no connection to the Internet.</string>
 
 </resources>

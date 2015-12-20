@@ -264,7 +264,6 @@
     <!-- Galeria -->
     <string name="error_gallery">Galerie są obecnie niedostępne.</string>
 
-
     <!-- REST API -->
     <string name="rest_news">blog/category/aktualnosci/?json=1</string>
 
@@ -287,6 +286,7 @@
     <string name="rest_bazylika">bazylika/?json=1</string>
     <string name="rest_kaplica">kaplica-z-laskami-slynacym-obrazem-jezusa-milosiernego-i-grobem-sw-faustyny/?json=1</string>
     <string name="rest_pielgrzymi">pielgrzymi/?json=1</string>
+    <string name="rest_noclegi">dom-sw-siostry-faustyny/?json=1</string>
 
     <string name="rest_rozbudowa">rozbudowa/?json=1</string>
     <string name="rest_dary_na_rzecz_milosierdzia">dary-na-rzecz-milosierdzia/?json=1</string>
@@ -295,7 +295,5 @@
 
     <!-- zapisywane dane -->
     <string name="brak_zasobu">Zasób niedostępny. Brak połączenia z Internetem.</string>
-    <string name="title_activity_galeria">Galeria</string>
-
 
 </resources>
