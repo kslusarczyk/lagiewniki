@@ -10,14 +10,14 @@ import android.support.v7.app.AlertDialog;
 import android.util.Log;
 
 /**
- * Created by Karolina on 2015-11-15.
+ * Created by Karolina on 2015-12-21.
  */
-public class NoInternetConnectionDialogFragment extends DialogFragment {
+public class NoGpsSourceDialogFragment extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setMessage(getString(R.string.wifi_dialog_message))
-                .setTitle(getString(R.string.wifi_dialog_title))
+        builder.setMessage(getString(R.string.gps_dialog_message))
+                .setTitle(getString(R.string.gps_dialog_title))
                 .setPositiveButton(getString(R.string.dialog_positive_button), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

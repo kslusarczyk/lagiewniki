@@ -106,7 +106,7 @@
 
         <activity
             android:name=".Dojazd"
-            android:label="@string/title_activity_maps"/>
+            android:label="@string/title_dojazd"/>
         <activity
             android:name=".Kontakt"
             android:label="@string/title_sanktuarium_kontakt"

@@ -4,6 +4,7 @@ import android.app.DialogFragment;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.TypedArray;
+import android.location.LocationManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
@@ -109,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                             Log.d("Internet", "nie ma INTERNETOW");
 
                             DialogFragment newFragment = new NoInternetConnectionDialogFragment();
-                            newFragment.show(getFragmentManager(),"dialog");
+                            newFragment.show(getFragmentManager(), "dialog");
                         }
                         break;
                     case 9:
@@ -184,7 +185,25 @@ public class MainActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 else if (groupPosition == 4)
-                    try {
+                    if (childPosition == 7){
+                        try {
+                            final LocationManager manager = (LocationManager) getSystemService( Context.LOCATION_SERVICE );
+                            if ( !manager.isProviderEnabled( LocationManager.GPS_PROVIDER ) ) {
+                                Log.d("Dojazd", "GPS wylaczony");
+                                DialogFragment newFragment = new NoGpsSourceDialogFragment();
+                                newFragment.show(getFragmentManager(), "dialog");
+                            } else {
+                                startNewActivity("Dojazd");
+                                Log.d("Dojazd", "GPS is ON");
+                            }
+                        } catch (ClassNotFoundException e) {
+                            e.printStackTrace();
+                        } catch (InstantiationException e) {
+                            e.printStackTrace();
+                        } catch (IllegalAccessException e) {
+                            e.printStackTrace();
+                        }
+                    } else try {
                         startNewActivity(sanktuariumClasses[childPosition]);
                     } catch (ClassNotFoundException e) {
                         e.printStackTrace();
@@ -193,6 +212,7 @@ public class MainActivity extends AppCompatActivity {
                     } catch (IllegalAccessException e) {
                         e.printStackTrace();
                     }
+
                 else if (groupPosition == 6)
                     try {
                         startNewActivity(multimediaClasses[childPosition]);

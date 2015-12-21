@@ -129,7 +129,6 @@
     <string name="url_facebook">https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/</string>
     <string name="url_sdm">https://www.facebook.com/Faustyna2016?fref=ts</string>
     <string name="url_yt">https://www.youtube.com/user/wwwfaustynapl</string>
-    <string name="title_activity_maps">Mapps</string>
     <string name="url_stream">http://livestream.com/accounts/11477776/events/3773195/player?width=560&amp;height=315&amp;autoPlay=true&amp;mute=false</string>
 
     <string-array name="kontakt_array">
@@ -242,10 +241,13 @@
     <string name="porzadek_kaplica_1_pt">The first Friday of the month</string>
     <string name="porzadek_kaplica_1_pt_msza">- 19:00 Holy Mass</string>
 
-    <string name="wifi_dialog_message">To get the full advantages of this activity enable the Internet connection</string>
-    <string name="wifi_dialog_title">Lack of Internet connection</string>
-    <string name="wifi_dialog_positive_button">Settings</string>
-    <string name="wifi_dialog_negative_button">Ignore</string>
+    <string name="wifi_dialog_message">Internet connection is disabled. Do you want to enable it?</string>
+    <string name="wifi_dialog_title">Internet connection disabled</string>
+    <string name="dialog_positive_button">Settings</string>
+    <string name="dialog_negative_button">Ignore</string>
+
+    <string name="gps_dialog_message">GPS is disabled. Do you want to enable it?</string>
+    <string name="gps_dialog_title">GPS disabled</string>
 
     <!-- Aktualnosci -->
     <string name="news_load_error">Errors occured during displaying news</string>
