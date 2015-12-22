@@ -246,7 +246,7 @@
     <string name="dialog_positive_button">Ustawienia</string>
     <string name="dialog_negative_button">Ignoruj</string>
 
-    <string name="gps_dialog_message">Jeśli chcesz korzystać w pełni z tej funkcjonalności, włącz GPS</string>
+    <string name="gps_dialog_message">Aby wyznaczyć dojazd do Sanktuarium, włącz GPS</string>
     <string name="gps_dialog_title">Brak sygnału GPS</string>
 
     <!-- Aktualnosci -->

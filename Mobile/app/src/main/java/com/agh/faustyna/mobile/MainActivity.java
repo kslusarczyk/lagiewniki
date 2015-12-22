@@ -1,7 +1,9 @@
 package com.agh.faustyna.mobile;
 
+import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.TypedArray;
 import android.location.LocationManager;
@@ -9,6 +11,8 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.Settings;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -159,6 +163,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         expListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            boolean internetState = checkInternetConnection();
 
             @Override
             public boolean onChildClick(ExpandableListView parent, View v,
@@ -185,16 +190,15 @@ public class MainActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 else if (groupPosition == 4)
-                    if (childPosition == 7){
+                    if (childPosition == 7) {
                         try {
-                            final LocationManager manager = (LocationManager) getSystemService( Context.LOCATION_SERVICE );
-                            if ( !manager.isProviderEnabled( LocationManager.GPS_PROVIDER ) ) {
-                                Log.d("Dojazd", "GPS wylaczony");
-                                DialogFragment newFragment = new NoGpsSourceDialogFragment();
-                                newFragment.show(getFragmentManager(), "dialog");
+                            final LocationManager manager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+                            if (!manager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+//                                  DialogFragment newFragment = new NoGpsSourceDialogFragment();
+//                                  newFragment.show(getFragmentManager(), "dialog");
+                                buildAlertMsgNoGps();
                             } else {
                                 startNewActivity("Dojazd");
-                                Log.d("Dojazd", "GPS is ON");
                             }
                         } catch (ClassNotFoundException e) {
                             e.printStackTrace();
@@ -265,12 +269,48 @@ public class MainActivity extends AppCompatActivity {
 
     public void startNewActivity(String className) throws ClassNotFoundException, InstantiationException, IllegalAccessException{
         Log.d("startNewActivity", className);
-        Class classTemp = Class.forName(getPackageName()+"."+className);
+        Class classTemp = Class.forName(getPackageName() + "." + className);
         Log.d("Klasy", className);
         Intent intent = new Intent(this, classTemp);
         startActivity(intent);
     }
 
+    private void buildAlertMsgNoGps() {
+        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage(getString(R.string.gps_dialog_message))
+                .setTitle(getString(R.string.gps_dialog_title))
+                .setPositiveButton(getString(R.string.dialog_positive_button), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openLocationSettings();
+                    }
+                })
+
+                .setNegativeButton(getString(R.string.dialog_negative_button), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Log.d("setNegativeButton", "ignoruj");
+                        try {
+                            startNewActivity("Dojazd");
+                        } catch (ClassNotFoundException e) {
+                            e.printStackTrace();
+                        } catch (InstantiationException e) {
+                            e.printStackTrace();
+                        } catch (IllegalAccessException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                });
+        final AlertDialog alert = builder.create();
+        alert.show();
+    }
+
+    public void openLocationSettings(){
+        Intent openLocationSettingsIntent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+        if (openLocationSettingsIntent.resolveActivity(this.getPackageManager()) != null){
+            startActivity(openLocationSettingsIntent);
+        }
+    }
     private void prepareListData() {
         menuGroupItems = new ArrayList<MenuGroupItem>();
         menuChildItems = new HashMap<MenuGroupItem, List<String>>();
