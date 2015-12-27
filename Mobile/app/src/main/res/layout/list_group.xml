@@ -22,7 +22,6 @@
     android:textAppearance="?android:attr/textAppearanceListItemSmall"
     android:gravity="center_vertical"
     android:paddingRight="40dp"
-    android:textSize="@dimen/item_size"
     android:textStyle="normal"
     android:paddingTop="@dimen/text_padding_top"
     android:paddingBottom="@dimen/text_padding_bottom"
