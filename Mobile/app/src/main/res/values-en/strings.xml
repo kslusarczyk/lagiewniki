@@ -37,20 +37,20 @@
     </string-array>
 
     <array name="title_icons">
-        <item>@mipmap/faustyna_icon</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/faustyna_icon</item>
-        <item>@mipmap/faustyna_icon</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
-        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/blue_900</item>
+        <item>@mipmap/blue_900</item>
+        <item>@mipmap/blue_900</item>
+        <item>@mipmap/blue_500</item>
+        <item>@mipmap/blue_500</item>
+        <item>@mipmap/blue_500</item>
+        <item>@mipmap/blue_500</item>
+        <item>@mipmap/blue_500</item>
+        <item>@mipmap/blue_500</item>
+        <item>@mipmap/blue_500</item>
+        <item>@mipmap/blue_500</item>
+        <item>@mipmap/blue_500</item>
+        <item>@mipmap/blue_500</item>
+        <item>@mipmap/blue_500</item>
     </array>
 
     <string-array name="nabozenstwo_classes">
@@ -297,5 +297,7 @@
 
     <!-- zapisywane dane -->
     <string name="brak_zasobu">There is no connection to the Internet.</string>
+
+    <string name="exit_back_toast">Press back again to close this app</string>
 
 </resources>

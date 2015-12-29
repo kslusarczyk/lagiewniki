@@ -9,6 +9,7 @@
         android:id="@+id/childItem"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/item_size"
         android:textStyle="normal"
         android:textColor="@color/list_item_text"
         android:paddingTop="@dimen/text_padding_top"

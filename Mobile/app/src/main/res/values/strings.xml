@@ -298,4 +298,6 @@
     <!-- zapisywane dane -->
     <string name="brak_zasobu">Zasób niedostępny. Brak połączenia z Internetem.</string>
 
+    <string name="exit_back_toast">Naciśnij Wstecz drugi raz aby wyjść z aplikacji</string>
+
 </resources>
