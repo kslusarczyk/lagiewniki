@@ -1,6 +1,5 @@
 package com.agh.faustyna.mobile;
 
-import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -39,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
     private String[] sanktuariumClasses;
     private String[] multimediaClasses;
     private String[] wsparcieClasses;
+
+    private Toast toast;
+    private long lastBackPressTime = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -382,5 +384,19 @@ public class MainActivity extends AppCompatActivity {
         menuChildItems.put(menuGroupItems.get(11), titleYt);
         menuChildItems.put(menuGroupItems.get(12), titleWsparcie);
         menuChildItems.put(menuGroupItems.get(13), titleWiecej);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (this.lastBackPressTime < System.currentTimeMillis() - 4000) {
+            toast = Toast.makeText(getApplicationContext(), getString(R.string.exit_back_toast), Toast.LENGTH_LONG);
+            toast.show();
+            this.lastBackPressTime = System.currentTimeMillis();
+        } else {
+            if (toast != null) {
+                toast.cancel();
+            }
+            super.onBackPressed();
+        }
     }
 }
