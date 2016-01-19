@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Faustyna</string>
+    <string name="app_name">Faustina</string>
     <string name="action_settings">Settings</string>
 
     <string name="title_dojazd">How to find us</string>
@@ -37,20 +37,20 @@
     </string-array>
 
     <array name="title_icons">
-        <item>@mipmap/blue_900</item>
-        <item>@mipmap/blue_900</item>
-        <item>@mipmap/blue_900</item>
-        <item>@mipmap/blue_500</item>
-        <item>@mipmap/blue_500</item>
-        <item>@mipmap/blue_500</item>
-        <item>@mipmap/blue_500</item>
-        <item>@mipmap/blue_500</item>
-        <item>@mipmap/blue_500</item>
-        <item>@mipmap/blue_500</item>
-        <item>@mipmap/blue_500</item>
-        <item>@mipmap/blue_500</item>
-        <item>@mipmap/blue_500</item>
-        <item>@mipmap/blue_500</item>
+        <item>@mipmap/aktualnosci</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/faustyna</item>
+        <item>@mipmap/sanktuarium</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/multimedia</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/facebook</item>
+        <item>@mipmap/sdm</item>
+        <item>@mipmap/yt</item>
+        <item>@mipmap/tlo</item>
+        <item>@mipmap/wiecej</item>
     </array>
 
     <string-array name="nabozenstwo_classes">

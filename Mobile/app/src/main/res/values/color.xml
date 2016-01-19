@@ -6,12 +6,12 @@
     <color name="action_bar_color">#2196F3</color>
     <color name="action_bar_text">#FFFFFF</color>
 
-    <color name="background">#42A5F5</color>
+    <color name="background">#9e9e9e</color>
 
-    <color name="list_group_background">#BBDEFB</color>
-    <color name="list_group_text">#0D47A1</color>
+    <color name="list_group_background">#bdbdbd</color>
+    <color name="list_group_text">#424242</color>
 
-    <color name="list_item_background">#E3F2FD</color>
-    <color name="list_item_text">#0D47A1</color>
+    <color name="list_item_background">#eeeeee</color>
+    <color name="list_item_text">#424242</color>
 
 </resources>
