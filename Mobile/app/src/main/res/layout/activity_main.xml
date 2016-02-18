@@ -6,17 +6,22 @@
     android:background="@color/background" >
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/main_image"
-        android:src="@drawable/faustyna_main"
-        android:layout_alignParentRight="true" />
+        android:src="@drawable/img_main_screen"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"/>
 
     <ExpandableListView
         android:id="@+id/list_view"
-        android:groupIndicator="@null"
         android:layout_below="@+id/main_image"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"/>
+        android:groupIndicator="@null"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:padding="10dip"
+        android:clipToPadding="false"/>
 
 </RelativeLayout>

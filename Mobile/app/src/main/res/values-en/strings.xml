@@ -37,20 +37,20 @@
     </string-array>
 
     <array name="title_icons">
-        <item>@mipmap/aktualnosci</item>
-        <item>@mipmap/tlo</item>
-        <item>@mipmap/tlo</item>
-        <item>@mipmap/faustyna</item>
-        <item>@mipmap/sanktuarium</item>
-        <item>@mipmap/tlo</item>
-        <item>@mipmap/multimedia</item>
-        <item>@mipmap/tlo</item>
-        <item>@mipmap/tlo</item>
-        <item>@mipmap/facebook</item>
-        <item>@mipmap/sdm</item>
-        <item>@mipmap/yt</item>
-        <item>@mipmap/tlo</item>
-        <item>@mipmap/wiecej</item>
+        <item>@mipmap/img_aktualnosci</item>
+        <item>@mipmap/img_dzienniczek</item>
+        <item>@mipmap/img_obraz</item>
+        <item>@mipmap/img_faustyna</item>
+        <item>@mipmap/img_sanktuarium</item>
+        <item>@mipmap/img_galeria</item>
+        <item>@mipmap/img_transmisja</item>
+        <item>@mipmap/img_koronka</item>
+        <item>@mipmap/img_sklep</item>
+        <item>@mipmap/img_facebook</item>
+        <item>@mipmap/img_sdm</item>
+        <item>@mipmap/img_youtube</item>
+        <item>@mipmap/img_wsparcie</item>
+        <item>@mipmap/img_strona</item>
     </array>
 
     <string-array name="nabozenstwo_classes">

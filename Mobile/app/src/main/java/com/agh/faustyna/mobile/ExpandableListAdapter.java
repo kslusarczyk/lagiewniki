@@ -1,6 +1,7 @@
 package com.agh.faustyna.mobile;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -75,6 +76,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
 
         ImageView imgIcon = (ImageView) convertView.findViewById(R.id.icon);
         TextView txtTitle = (TextView) convertView.findViewById(R.id.title);
+        txtTitle.setTypeface(null, Typeface.BOLD);
 
         imgIcon.setImageResource(menuGroupItems.get(groupPosition).getIcon());
         txtTitle.setText(menuGroupItems.get(groupPosition).getTitle());
