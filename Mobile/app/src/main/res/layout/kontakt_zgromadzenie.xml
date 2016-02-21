@@ -11,11 +11,11 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         android:paddingBottom="@dimen/activity_vertical_margin"
-        android:background="@color/list_item_background">
+        android:background="@color/list_background">
 
         <TextView
             android:id="@+id/kontakt_furta_text"
-            android:textColor="@color/list_group_text"
+            android:textColor="@color/list_text"
             android:textSize="@dimen/kontakt_header_size"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
             android:text="@string/kontakt_furta_text"/>
         <TextView
             android:id="@+id/kontakt_furta_tel"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
             android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
             android:text="@string/kontakt_furta_tel"/>
         <TextView
             android:id="@+id/kontakt_furta_mail_1"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -42,7 +42,7 @@
             android:text="@string/kontakt_furta_mail_1"/>
         <TextView
             android:id="@+id/kontakt_furta_mail_2"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -59,7 +59,7 @@
 
         <TextView
             android:id="@+id/kontakt_mlodziezowy_osrodek_text"
-            android:textColor="@color/list_group_text"
+            android:textColor="@color/list_text"
             android:textSize="@dimen/kontakt_header_size"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingBottom="@dimen/kontakt_items_padding"
@@ -69,7 +69,7 @@
             android:text="@string/kontakt_mlodziezowy_osrodek_text"/>
         <TextView
             android:id="@+id/kontakt_mlodziezowy_osrodek_tel_1"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -79,7 +79,7 @@
             android:text="@string/kontakt_mlodziezowy_osrodek_tel_1"/>
         <TextView
             android:id="@+id/kontakt_mlodziezowy_osrodek_tel_2"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -89,7 +89,7 @@
             android:text="@string/kontakt_mlodziezowy_osrodek_tel_2"/>
         <TextView
             android:id="@+id/kontakt_mlodziezowy_osrodek_tel_3"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -99,7 +99,7 @@
             android:text="@string/kontakt_mlodziezowy_osrodek_tel_3"/>
         <TextView
             android:id="@+id/kontakt_mlodziezowy_osrodek_mail"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -116,7 +116,7 @@
 
         <TextView
             android:id="@+id/kontakt_faustinum_text"
-            android:textColor="@color/list_group_text"
+            android:textColor="@color/list_text"
             android:textSize="@dimen/kontakt_header_size"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingBottom="@dimen/kontakt_items_padding"
@@ -126,7 +126,7 @@
             android:text="@string/kontakt_faustinum_text"/>
         <TextView
             android:id="@+id/kontakt_faustinum_tel"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -136,7 +136,7 @@
             android:text="@string/kontakt_faustinum_tel"/>
         <TextView
             android:id="@+id/kontakt_faustinum_mail"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -153,7 +153,7 @@
 
         <TextView
             android:id="@+id/kontakt_wydawnictwo_text"
-            android:textColor="@color/list_group_text"
+            android:textColor="@color/list_text"
             android:textSize="@dimen/kontakt_header_size"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingBottom="@dimen/kontakt_items_padding"
@@ -163,7 +163,7 @@
             android:text="@string/kontakt_wydawnictwo_text"/>
         <TextView
             android:id="@+id/kontakt_wydawnictwo_tel"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -173,7 +173,7 @@
             android:text="@string/kontakt_wydawnictwo_tel"/>
         <TextView
             android:id="@+id/kontakt_wydawnictwo_mail_1"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -183,7 +183,7 @@
             android:text="@string/kontakt_wydawnictwo_mail_1"/>
         <TextView
             android:id="@+id/kontakt_wydawnictwo_mail_2"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -193,7 +193,7 @@
             android:text="@string/kontakt_wydawnictwo_mail_2"/>
         <TextView
             android:id="@+id/kontakt_wydawnictwo_sklep"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -210,7 +210,7 @@
 
         <TextView
             android:id="@+id/kontakt_dom_text"
-            android:textColor="@color/list_group_text"
+            android:textColor="@color/list_text"
             android:textSize="@dimen/kontakt_header_size"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingBottom="@dimen/kontakt_items_padding"
@@ -220,7 +220,7 @@
             android:text="@string/kontakt_dom_text"/>
         <TextView
             android:id="@+id/kontakt_dom_tel"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -230,7 +230,7 @@
             android:text="@string/kontakt_dom_tel"/>
         <TextView
             android:id="@+id/kontakt_dom_mail"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -247,7 +247,7 @@
 
         <TextView
             android:id="@+id/kontakt_redakcja_text"
-            android:textColor="@color/list_group_text"
+            android:textColor="@color/list_text"
             android:textSize="@dimen/kontakt_header_size"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingBottom="@dimen/kontakt_items_padding"
@@ -257,7 +257,7 @@
             android:text="@string/kontakt_redakcja_text"/>
         <TextView
             android:id="@+id/kontakt_redakcja_tel"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"
@@ -267,7 +267,7 @@
             android:text="@string/kontakt_redakcja_tel"/>
         <TextView
             android:id="@+id/kontakt_redakcja_mail"
-            android:textColor="@color/list_item_text"
+            android:textColor="@color/list_text"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:paddingLeft="@dimen/kontakt_padding_left"

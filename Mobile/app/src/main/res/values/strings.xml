@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Faustyna</string>
+    <string name="app_name">Faustyna.pl</string>
 
     <string name="title_dojazd">Dojazd</string>
 
@@ -13,8 +13,8 @@
     <string name="title_koronka">Koronka za konających</string>
     <string name="title_sklep">Sklep \'Miseridordia\'</string>
     <string name="title_facebook">Facebook</string>
-    <string name="title_sdm">ŚDM 2016</string>
-    <string name="title_yt">YouTube</string>
+    <string name="title_sdm">Światowe Dni Młodzieży ŚDM 2016</string>
+    <string name="title_yt">Filmy, Rozmowy, Wywiady</string>
     <string name="title_wsparcie">Wsparcie</string>
     <string name="title_wiecej">Więcej</string>
 
@@ -29,8 +29,8 @@
         <item>Koronka za konających</item>
         <item>Sklep \'Miseridordia\'</item>
         <item>Facebook</item>
-        <item>ŚDM 2016</item>
-        <item>YouTube</item>
+        <item>Światowe Dni Młodzieży ŚDM 2016</item>
+        <item>Filmy, Rozmowy, Wywiady</item>
         <item>Wsparcie</item>
         <item>Więcej</item>
     </string-array>

@@ -6,8 +6,11 @@
     <ListView
         android:id="@+id/new_list_view"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"/>
-
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:padding="10dip"
+        android:clipToPadding="false"/>
 
     <ProgressBar
         android:layout_width="wrap_content"
