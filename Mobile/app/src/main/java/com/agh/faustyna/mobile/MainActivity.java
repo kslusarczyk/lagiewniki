@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                             e.printStackTrace();
                         }
                         break;
-                    case 5:
+                    case 6:
                         try {
                             startNewActivity("Galeria");
                         } catch (ClassNotFoundException e) {
@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
 
-                else if (groupPosition == 6)
+                else if (groupPosition == 5)
                     try {
                         startNewActivity(multimediaClasses[childPosition]);
                     } catch (ClassNotFoundException e) {
@@ -351,19 +351,19 @@ public class MainActivity extends AppCompatActivity {
 
         List<String> titleSanktuarium = new ArrayList<String>();
         titleSanktuarium.add(getString(R.string.title_sanktuarium_obraz));
-        titleSanktuarium.add(getString(R.string.title_sanktuarium_bazylika));
         titleSanktuarium.add(getString(R.string.title_sanktuarium_kaplica));
+        titleSanktuarium.add(getString(R.string.title_sanktuarium_bazylika));
         titleSanktuarium.add(getString(R.string.title_sanktuarium_porzadek));
         titleSanktuarium.add(getString(R.string.title_sanktuarium_oprowadzanie));
         titleSanktuarium.add(getString(R.string.title_sanktuarium_noclegi));
         titleSanktuarium.add(getString(R.string.title_sanktuarium_kontakt));
         titleSanktuarium.add(getString(R.string.title_sanktuarium_dojazd));
 
-        List<String> titleGaleria = new ArrayList<String>();
-
         List<String> titleMultimedia = new ArrayList<String>();
-        titleMultimedia.add(getString(R.string.title_multimedia_koronka));
         titleMultimedia.add(getString(R.string.title_multimedia_video));
+        titleMultimedia.add(getString(R.string.title_multimedia_koronka));
+
+        List<String> titleGaleria = new ArrayList<String>();
 
         List<String> titleKoronka = new ArrayList<String>();
         List<String> titleSklep = new ArrayList<String>();
@@ -382,8 +382,8 @@ public class MainActivity extends AppCompatActivity {
         menuChildItems.put(menuGroupItems.get(2), titleNabozenstwo);
         menuChildItems.put(menuGroupItems.get(3), titleFaustyna);
         menuChildItems.put(menuGroupItems.get(4), titleSanktuarium);
-        menuChildItems.put(menuGroupItems.get(5), titleGaleria);
-        menuChildItems.put(menuGroupItems.get(6), titleMultimedia);
+        menuChildItems.put(menuGroupItems.get(5), titleMultimedia);
+        menuChildItems.put(menuGroupItems.get(6), titleGaleria);
         menuChildItems.put(menuGroupItems.get(7), titleKoronka);
         menuChildItems.put(menuGroupItems.get(8), titleSklep);
         menuChildItems.put(menuGroupItems.get(9), titleFacebook);
