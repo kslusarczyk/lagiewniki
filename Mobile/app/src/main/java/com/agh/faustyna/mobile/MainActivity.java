@@ -65,7 +65,9 @@ public class MainActivity extends AppCompatActivity {
 
         expListView = (ExpandableListView) findViewById(R.id.list_view);
         View mainHeader = getLayoutInflater().inflate(R.layout.header_activity_main, null);
+        View mainFooter = getLayoutInflater().inflate(R.layout.footer_activity_main, null);
         expListView.addHeaderView(mainHeader);
+        expListView.addFooterView(mainFooter);
 
         prepareListData();
 
