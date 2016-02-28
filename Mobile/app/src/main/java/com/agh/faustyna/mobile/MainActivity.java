@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
         expListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
             @Override
             public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) {
+                expListView.setSelection(groupPosition);
                 Log.d("groupPosition -- id", "" + groupPosition + " " + id);
                 boolean internetState = checkInternetConnection();
                 Log.d("internetState", "" + internetState);
