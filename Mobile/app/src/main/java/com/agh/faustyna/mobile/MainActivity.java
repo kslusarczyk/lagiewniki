@@ -64,6 +64,9 @@ public class MainActivity extends AppCompatActivity {
         wsparcieClasses = getResources().getStringArray(R.array.wsparcie_classes);
 
         expListView = (ExpandableListView) findViewById(R.id.list_view);
+        View mainHeader = getLayoutInflater().inflate(R.layout.header_activity_main, null);
+        expListView.addHeaderView(mainHeader);
+
         prepareListData();
 
         listAdapter = new ExpandableListAdapter(this, menuGroupItems, menuChildItems);

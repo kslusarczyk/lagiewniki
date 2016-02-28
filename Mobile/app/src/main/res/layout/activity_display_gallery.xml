@@ -7,16 +7,6 @@
     tools:context="com.agh.faustyna.mobile.DisplayGallery"
     android:background="@color/background">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/gallery_title_textview"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:gravity="center_horizontal"
-        android:elegantTextHeight="true"
-        android:layout_margin="4dp"/>
-
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
