@@ -125,7 +125,7 @@
     <string name="sms_prompt">[wpisz imie konajacego]</string>
     <string name="koronka_toast">W treści SMS wpisz imię konającego</string>
 
-    <string name="url_faustyna">http://www.faustyna.pl/zmbm/</string>
+    <string name="url_faustyna">https://www.faustyna.pl/zmbm/</string>
     <string name="url_images">https://www.faustyna.pl/zmbm/wp-content/uploads/photo-gallery</string>
     <string name="url_facebook">https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/</string>
     <string name="url_sdm">https://www.facebook.com/Faustyna2016?fref=ts</string>
