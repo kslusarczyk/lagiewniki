@@ -38,19 +38,17 @@ public class GetResourceTask extends HttpTask {
                 JSONObject page = responseData.getJSONObject("page");
                 String content = page.getString("content");
                 content = content.replace("\"//www.", "\"https://www.");
-
                 Log.d("debug", content);
                 try {
                     PrintWriter writer = new PrintWriter(new FileOutputStream(file, false));
                     writer.write(content);
                     writer.close();
-                    contentWebView.getSettings().setJavaScriptEnabled(true);
-                    contentWebView.loadDataWithBaseURL("", content, "text/html", "UTF-8", "");
                     Log.d("http", "saved: " + file.getAbsolutePath());
                 } catch (FileNotFoundException e) {
                     Log.d("http", e.getMessage(), e);
                 }
-
+                contentWebView.getSettings().setJavaScriptEnabled(true);
+                contentWebView.loadDataWithBaseURL("", content, "text/html", "UTF-8", "");
 
             } else if (status.equals("exception")){
                 throw new JSONException(responseData.getString("message"));
