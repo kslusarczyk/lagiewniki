@@ -5,6 +5,7 @@ import android.content.ContextWrapper;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.util.Log;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.Toast;
 
@@ -50,6 +51,10 @@ public abstract class GetResourceActivity extends ProgressBarActivity {
                 stringBuffer.append("\n");
             }
             reader.close();
+
+            webView.getSettings().setJavaScriptEnabled(true);
+            webView.loadDataWithBaseURL("", stringBuffer.toString(), "text/html", "UTF-8", "");
+
         } catch (FileNotFoundException e) {
             Toast.makeText(this, R.string.brak_zasobu, Toast.LENGTH_LONG).show();
             Log.d("file", e.getMessage(), e);
@@ -58,8 +63,7 @@ public abstract class GetResourceActivity extends ProgressBarActivity {
             Log.d("file", e.getMessage(), e);
         }
 
-        webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadDataWithBaseURL("", stringBuffer.toString(), "text/html", "UTF-8", "");
+
     }
 
     public void displayResource(int resorceId, WebView webView){
