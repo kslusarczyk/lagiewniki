@@ -52,9 +52,6 @@ public abstract class GetResourceActivity extends ProgressBarActivity {
             }
             reader.close();
 
-            webView.getSettings().setJavaScriptEnabled(true);
-            webView.loadDataWithBaseURL("", stringBuffer.toString(), "text/html", "UTF-8", "");
-
         } catch (FileNotFoundException e) {
             Toast.makeText(this, R.string.brak_zasobu, Toast.LENGTH_LONG).show();
             Log.d("file", e.getMessage(), e);
@@ -62,8 +59,8 @@ public abstract class GetResourceActivity extends ProgressBarActivity {
             Toast.makeText(this, R.string.brak_zasobu, Toast.LENGTH_LONG).show();
             Log.d("file", e.getMessage(), e);
         }
-
-
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.loadDataWithBaseURL("", stringBuffer.toString(), "text/html", "UTF-8", "");
     }
 
     public void displayResource(int resorceId, WebView webView){
