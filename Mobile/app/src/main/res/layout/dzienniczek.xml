@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="@dimen/layout_margin">
 
     <TextView
         android:id="@+id/dzienniczek_date"
@@ -18,6 +19,13 @@
         android:layout_below="@+id/dzienniczek_date"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dzienniczek_info"
+        android:id="@+id/dzienniczek_info"
+        android:layout_alignParentBottom="true"/>
 
     <ProgressBar
         android:id="@+id/progressBar"

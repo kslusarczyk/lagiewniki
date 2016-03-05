@@ -20,10 +20,11 @@
     android:layout_toRightOf="@id/icon"
     android:minHeight="?android:attr/listPreferredItemHeightSmall"
     android:textAppearance="?android:attr/textAppearanceListItemSmall"
-    android:gravity="center_vertical"
     android:textSize="@dimen/item_size"
     android:textStyle="normal"
     android:textColor="@color/list_text"
+    android:layout_marginTop="5dip"
+    android:includeFontPadding="false"
     android:layout_weight="2"/>
 
 </LinearLayout>

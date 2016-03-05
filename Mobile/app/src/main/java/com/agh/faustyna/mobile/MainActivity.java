@@ -205,7 +205,19 @@ public class MainActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 else if (groupPosition == 4)
-                    if (childPosition == 7) {
+                    if (childPosition == 6) {
+                        try {
+                            startNewActivity("Kontakt");
+                        } catch (ClassNotFoundException e) {
+                            e.printStackTrace();
+                        } catch (InstantiationException e) {
+                            e.printStackTrace();
+                        } catch (IllegalAccessException e) {
+                            e.printStackTrace();
+                        }
+                        Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.kontakt_toast), Toast.LENGTH_LONG);
+                        toast.show();
+                    } else if (childPosition == 7) {
                         try {
                             final LocationManager manager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
                             if (!manager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {

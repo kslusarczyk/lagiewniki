@@ -137,6 +137,8 @@
         <item>Rektorat Sanktuarium</item>
     </string-array>
 
+    <string name="kontakt_toast">Aby się skontaktować, przytrzymaj numer telefonu lub mail</string>
+
     <string name="kontakt_furta_text">Furta</string>
     <string name="kontakt_furta_tel">+48123518800</string>
     <string name="kontakt_furta_mail_1">klasztor@faustyna.pl</string>
@@ -295,10 +297,11 @@
     <string name="rest_dary_na_rzecz_milosierdzia">dary-na-rzecz-milosierdzia/?json=1</string>
 
     <string name="rest_galeria">api/?lang=pl&amp;action=gallery</string>
+    <string name="dzienniczek_info">Pełny tekst \'\'Dzienniczka\'\' św. Siostry Faustyny dostępny na stronie https://www.faustyna.pl/zmbm/</string>
 
     <!-- zapisywane dane -->
     <string name="brak_zasobu">Zasób niedostępny. Brak połączenia z Internetem.</string>
 
-    <string name="exit_back_toast">Naciśnij Wstecz drugi raz aby wyjść z aplikacji</string>
+    <string name="exit_back_toast">Naciśnij Wstecz drugi raz aby wyjść</string>
 
 </resources>
