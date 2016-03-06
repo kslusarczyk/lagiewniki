@@ -10,5 +10,5 @@
     <dimen name="kontakt_items_padding">7dp</dimen>
     <dimen name="kontakt_padding_left">20dp</dimen>
 
-    <dimen name="layout_margin">33dp</dimen>
+    <dimen name="layout_margin">20dp</dimen>
 </resources>
