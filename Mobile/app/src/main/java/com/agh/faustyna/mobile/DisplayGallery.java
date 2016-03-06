@@ -15,6 +15,7 @@ public class DisplayGallery extends ProgressBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_gallery);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         //get gallery info passed with intent
         Intent intent = getIntent();

@@ -13,9 +13,9 @@ public class DaryNaRzeczMilosierdzia extends GetResourceActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.obraz);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         WebView webView = (WebView) findViewById(R.id.content_webview);
         displayResource(R.string.rest_dary_na_rzecz_milosierdzia, webView);
     }
-
 }

@@ -27,6 +27,7 @@ public class Dojazd extends FragmentActivity implements OnMapReadyCallback, DCAC
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         mLocationManager = (LocationManager)getSystemService(getApplicationContext().LOCATION_SERVICE);
 

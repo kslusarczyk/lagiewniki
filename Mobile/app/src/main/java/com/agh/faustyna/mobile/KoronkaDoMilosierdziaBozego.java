@@ -10,6 +10,7 @@ public class KoronkaDoMilosierdziaBozego extends GetResourceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         setContentView(R.layout.download_content);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         WebView webView = (WebView) findViewById(R.id.content_webview);

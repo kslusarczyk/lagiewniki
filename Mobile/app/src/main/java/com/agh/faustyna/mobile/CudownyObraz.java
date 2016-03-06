@@ -13,6 +13,7 @@ public class CudownyObraz extends GetResourceActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.download_content);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         WebView webView = (WebView) findViewById(R.id.content_webview);

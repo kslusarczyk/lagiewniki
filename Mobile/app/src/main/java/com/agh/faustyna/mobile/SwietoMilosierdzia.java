@@ -12,6 +12,7 @@ public class SwietoMilosierdzia extends GetResourceActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.istota);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         WebView webView = (WebView) findViewById(R.id.content_webview);
         displayResource(R.string.rest_swieto_milosierdzia, webView);

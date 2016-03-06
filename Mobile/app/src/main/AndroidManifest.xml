@@ -35,82 +35,102 @@
         </activity>
         <activity
             android:name=".Istota"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_nabozenstwo_istota"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".Obraz"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_nabozenstwo_obraz"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".Aktualnosci"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_aktualnosci"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".PorzadekNabozenstw"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_sanktuarium_porzadek"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".SwietoMilosierdzia"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_nabozenstwo_swieto"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".KoronkaDoMilosierdziaBozego"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_nabozenstwo_koronka"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".GodzinaMilosierdzia"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_nabozenstwo_godzina"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".SzerzenieCzciMilosierdzia"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_nabozenstwo_szerzenie"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".Biografia"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_faustyna_biografia"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".MisjaGloszeniaOredziaMilosierdzia"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_faustyna_misja"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".SzkolaDuchowosci"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_faustyna_szkola"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".NoweZgromadzenie"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_faustyna_zgromadzenie"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".LitaniaDoSwSiostryFaustyny"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_faustyna_litania"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".ModlitwaPrzezPrzyczyneSwFaustyny"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_faustyna_modlitwa"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".CudownyObraz"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_sanktuarium_obraz"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".OprowadzaniePielgrzymow"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_sanktuarium_oprowadzanie"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".Kaplica"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_sanktuarium_kaplica"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".Bazylika"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_sanktuarium_bazylika"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".DaryNaRzeczMilosierdzia"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_wsparcie_dary_na_rzecz_milosierdzia"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".RozbudowaSanktuarium"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_wsparcie_rozbudowa"
             android:logo="@android:color/transparent"/>
 
@@ -128,38 +148,46 @@
 
         <activity
             android:name=".Dojazd"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_dojazd"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".Kontakt"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_sanktuarium_kontakt"
             android:theme="@style/CustomAppCompatTheme"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".Video"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_multimedia_video"
             android:theme="@style/CustomAppCompatTheme"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".OdsluchAudioGodzinyMilosierdziaIKoronki"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_multimedia_koronka"
             android:theme="@style/CustomAppCompatTheme"
             android:logo="@android:color/transparent" />
         <activity
             android:name=".Galeria"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_galeria"
             android:logo="@android:color/transparent" />
         <activity
             android:name=".DzienniczekSwFaustyny"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_dzienniczek"
             android:theme="@style/CustomAppCompatTheme"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".DisplayGallery"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_galeria"
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".Noclegi"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_sanktuarium_noclegi"
             android:logo="@android:color/transparent"/>
     </application>

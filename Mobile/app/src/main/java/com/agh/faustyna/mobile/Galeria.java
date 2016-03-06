@@ -17,6 +17,7 @@ public class Galeria extends ProgressBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_galeria);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         final ListView listView = (ListView) findViewById(R.id.gallery_list_view);
 

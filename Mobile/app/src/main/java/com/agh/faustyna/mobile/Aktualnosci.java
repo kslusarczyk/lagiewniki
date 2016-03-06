@@ -14,9 +14,9 @@ public class Aktualnosci extends ProgressBarActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.aktualnosci);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
-
 
         new GetNewsTask(this).execute();
     }
