@@ -4,27 +4,27 @@
     android:layout_height="wrap_content"
     android:background="@color/list_background">
 
-<ImageView
-    android:id="@+id/icon"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_marginRight="10dip"
-    android:scaleType="fitXY"
-    android:adjustViewBounds="true"
-    android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
 
-<TextView
-    android:id="@+id/title"
-    android:layout_width="0dp"
-    android:layout_height="match_parent"
-    android:layout_toRightOf="@id/icon"
-    android:minHeight="?android:attr/listPreferredItemHeightSmall"
-    android:textAppearance="?android:attr/textAppearanceListItemSmall"
-    android:textSize="@dimen/item_size"
-    android:textStyle="normal"
-    android:textColor="@color/list_text"
-    android:layout_marginTop="5dip"
-    android:includeFontPadding="false"
-    android:layout_weight="2"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/icon"
+        android:layout_weight="2"
+        android:includeFontPadding="false"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="@color/list_text"
+        android:textSize="@dimen/item_size"
+        android:textStyle="normal" />
 
 </LinearLayout>
