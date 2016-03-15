@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/kontakt_informacja_mail_3"
-            android:background="@color/divider_color"/>
+            android:background="@color/action_bar_color"/>
 
         <TextView
             android:id="@+id/kontakt_dom_duszpasterski_text"
@@ -75,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/kontakt_dom_duszpasterski_mail"
-            android:background="@color/divider_color"/>
+            android:background="@color/action_bar_color"/>
 
         <TextView
             android:id="@+id/kontakt_poradnia"
@@ -94,7 +94,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/kontakt_poradnia_tel"
-            android:background="@color/divider_color"/>
+            android:background="@color/action_bar_color"/>
 
     </RelativeLayout>
 </ScrollView>

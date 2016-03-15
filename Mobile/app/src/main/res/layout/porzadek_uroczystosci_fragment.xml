@@ -13,28 +13,28 @@ android:layout_height="fill_parent">
 
     <TextView
         android:id="@+id/porzadek_swieto_title"
-        android:textColor="@color/list_text"
+        android:textColor="@color/black"
         android:textSize="@dimen/kontakt_header_size"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/porzadek_swieto_title"/>
     <TextView
         android:id="@+id/porzadek_swieto_nowenna"
-        android:textColor="@color/list_text"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/porzadek_swieto_title"
         android:text="@string/porzadek_swieto_nowenna"/>
     <TextView
         android:id="@+id/porzadek_swieto_czuwanie"
-        android:textColor="@color/list_text"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/porzadek_swieto_nowenna"
         android:text="@string/porzadek_swieto_czuwanie"/>
     <TextView
         android:id="@+id/porzadek_swieto_msze"
-        android:textColor="@color/list_text"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/porzadek_swieto_czuwanie"
@@ -42,7 +42,7 @@ android:layout_height="fill_parent">
     <TextView
         android:id="@+id/porzadek_swieto_koronka"
         android:paddingBottom="@dimen/kontakt_items_padding"
-        android:textColor="@color/list_text"
+        android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/porzadek_swieto_msze"
@@ -58,14 +58,14 @@ android:layout_height="fill_parent">
         android:id="@+id/porzadek_uroczystosc_title"
         android:paddingTop="@dimen/kontakt_items_padding"
         android:textSize="@dimen/kontakt_header_size"
-        android:textColor="@color/list_text"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/underscore_swieto"
         android:text="@string/porzadek_uroczystosc_title"/>
     <TextView
         android:id="@+id/porzadek_uroczystosc_triduum"
-        android:textColor="@color/list_text"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/porzadek_uroczystosc_title"
@@ -73,7 +73,7 @@ android:layout_height="fill_parent">
     <TextView
         android:id="@+id/porzadek_uroczystosc_ceremonie"
         android:paddingBottom="@dimen/kontakt_items_padding"
-        android:textColor="@color/list_text"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/porzadek_uroczystosc_triduum"

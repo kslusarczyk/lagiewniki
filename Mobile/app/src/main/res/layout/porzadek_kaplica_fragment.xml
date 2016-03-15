@@ -13,70 +13,70 @@
 
         <TextView
             android:id="@+id/porzadek_kaplica_dni_powszednie"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:textSize="@dimen/kontakt_header_size"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/porzadek_kaplica_dni_powszednie"/>
         <TextView
             android:id="@+id/porzadek_kaplica_dni_powszednie_msze"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_dni_powszednie"
             android:text="@string/porzadek_kaplica_dni_powszednie_msze"/>
         <TextView
             android:id="@+id/porzadek_kaplica_dni_powszednie_jutrznia"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_dni_powszednie_msze"
             android:text="@string/porzadek_kaplica_dni_powszednie_jutrznia"/>
         <TextView
             android:id="@+id/porzadek_kaplica_dni_powszednie_wystawienie"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/porzadek_kaplica_dni_powszednie_jutrznia"
             android:text="@string/porzadek_kaplica_dni_powszednie_wystawienie"/>
         <TextView
             android:id="@+id/porzadek_kaplica_dni_powszednie_modlitwa"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_dni_powszednie_wystawienie"
             android:text="@string/porzadek_kaplica_dni_powszednie_modlitwa"/>
         <TextView
             android:id="@+id/porzadek_kaplica_dni_powszednie_koronka"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_dni_powszednie_modlitwa"
             android:text="@string/porzadek_kaplica_dni_powszednie_koronka"/>
         <TextView
             android:id="@+id/porzadek_kaplica_dni_powszednie_nieszpory"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_dni_powszednie_koronka"
             android:text="@string/porzadek_kaplica_dni_powszednie_nieszpory"/>
         <TextView
             android:id="@+id/porzadek_kaplica_dni_powszednie_kompleta"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_dni_powszednie_nieszpory"
             android:text="@string/porzadek_kaplica_dni_powszednie_kompleta"/>
         <TextView
             android:id="@+id/porzadek_kaplica_dni_powszednie_rozaniec"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_dni_powszednie_kompleta"
             android:text="@string/porzadek_kaplica_dni_powszednie_rozaniec"/>
         <TextView
             android:id="@+id/porzadek_kaplica_dni_powszednie_apel"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -93,56 +93,56 @@
             android:id="@+id/porzadek_kaplica_nd"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:textSize="@dimen/kontakt_header_size"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/underscore_kaplica_dni_powszednie"
             android:text="@string/porzadek_kaplica_nd"/>
         <TextView
             android:id="@+id/porzadek_kaplica_nd_msze"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_nd"
             android:text="@string/porzadek_kaplica_nd_msze"/>
         <TextView
             android:id="@+id/porzadek_kaplica_nd_wystawienie"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_nd_msze"
             android:text="@string/porzadek_kaplica_nd_wystawienie"/>
         <TextView
             android:id="@+id/porzadek_kaplica_nd_modlitwa"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_nd_wystawienie"
             android:text="@string/porzadek_kaplica_nd_modlitwa"/>
         <TextView
             android:id="@+id/porzadek_kaplica_nd_koronka"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/porzadek_kaplica_nd_modlitwa"
             android:text="@string/porzadek_kaplica_nd_koronka"/>
         <TextView
             android:id="@+id/porzadek_kaplica_nd_nabozenstwo"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_nd_koronka"
             android:text="@string/porzadek_kaplica_nd_nabozenstwo"/>
         <TextView
             android:id="@+id/porzadek_kaplica_nd_rozaniec"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_kaplica_nd_nabozenstwo"
             android:text="@string/porzadek_kaplica_nd_rozaniec"/>
         <TextView
             android:id="@+id/porzadek_kaplica_nd_apel"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -159,14 +159,14 @@
             android:id="@+id/porzadek_kaplica_codziennie"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:textSize="@dimen/kontakt_header_size"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/underscore_kaplica_nd"
             android:text="@string/porzadek_kaplica_codziennie"/>
         <TextView
             android:id="@+id/porzadek_kaplica_codziennie_spowiedz"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -183,7 +183,7 @@
             android:id="@+id/porzadek_kaplica_wt"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:textSize="@dimen/kontakt_header_size"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/underscore_kaplica_codziennie"
@@ -206,14 +206,14 @@
             android:id="@+id/porzadek_kaplica_1_pt"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:textSize="@dimen/kontakt_header_size"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/underscore_kaplica_wt"
             android:text="@string/porzadek_kaplica_1_pt"/>
         <TextView
             android:id="@+id/porzadek_kaplica_1_pt_msza"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

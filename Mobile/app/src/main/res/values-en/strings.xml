@@ -25,8 +25,8 @@
         <item>Devotion to The Divine Mercy</item>
         <item>Saint Faustina</item>
         <item>Shrine of Divine Mercy in Cracow-Lagiewniki</item>
-        <item>Gallery</item>
         <item>On-line transmission</item>
+        <item>Gallery</item>
         <item>Chaplet for death</item>
         <item>Misericordia Publishing House</item>
         <item>Facebook</item>
@@ -42,8 +42,8 @@
         <item>@mipmap/img_obraz</item>
         <item>@mipmap/img_faustyna</item>
         <item>@mipmap/img_sanktuarium</item>
-        <item>@mipmap/img_galeria</item>
         <item>@mipmap/img_transmisja</item>
+        <item>@mipmap/img_galeria</item>
         <item>@mipmap/img_koronka</item>
         <item>@mipmap/img_sklep</item>
         <item>@mipmap/img_facebook</item>
@@ -83,8 +83,8 @@
     </string-array>
 
     <string-array name="multimedia_classes">
-        <item>OdsluchAudioGodzinyMilosierdziaIKoronki</item>
         <item>Video</item>
+        <item>OdsluchAudioGodzinyMilosierdziaIKoronki</item>
     </string-array>
 
     <string-array name="wsparcie_classes">
@@ -125,7 +125,7 @@
     <string name="sms_prompt">[write in the dying\'s name]</string>
     <string name="koronka_toast">In the text message write in the dying\'s name</string>
 
-    <string name="url_faustyna">http://www.faustyna.pl/zmbm/en/</string>
+    <string name="url_faustyna">https://www.faustyna.pl/zmbm/en/</string>
     <string name="url_facebook">https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/</string>
     <string name="url_sdm">https://www.facebook.com/Faustyna2016?fref=ts</string>
     <string name="url_yt">https://www.youtube.com/user/wwwfaustynapl</string>
@@ -299,5 +299,8 @@
     <string name="brak_zasobu">There is no connection to the Internet.</string>
 
     <string name="exit_back_toast">Press back again to close this app</string>
+    <string name="dzienniczek_info">Full text of Saint Faustinas \'\'Diary\'\' is at https://www.faustyna.pl/zmbm/en</string>
+    <string name="kontakt_toast">To contact,long click on telephone number or mail address</string>
+    <string name="title_wsparcie_dary_na_rzecz_milosierdzia"> Make a gift from your heart</string>
 
 </resources>

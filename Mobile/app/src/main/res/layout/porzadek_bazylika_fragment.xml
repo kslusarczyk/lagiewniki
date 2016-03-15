@@ -13,14 +13,14 @@
 
         <TextView
             android:id="@+id/porzadek_bazylika_dni_powszednie"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:textSize="@dimen/kontakt_header_size"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/porzadek_bazylika_dni_powszednie"/>
         <TextView
             android:id="@+id/porzadek_bazylika_dni_powszednie_msze"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_dni_powszednie"
@@ -28,7 +28,7 @@
         <TextView
             android:id="@+id/porzadek_bazylika_dni_powszednie_koronka"
             android:paddingBottom="@dimen/kontakt_items_padding"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_dni_powszednie_msze"
@@ -44,14 +44,14 @@
             android:id="@+id/porzadek_bazylika_nd"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:textSize="@dimen/kontakt_header_size"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/underscore_dni_powszednie"
             android:text="@string/porzadek_bazylika_nd"/>
         <TextView
             android:id="@+id/porzadek_bazylika_nd_msze"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_nd"
@@ -59,7 +59,7 @@
         <TextView
             android:id="@+id/porzadek_bazylika_nd_koronka"
             android:paddingBottom="@dimen/kontakt_items_padding"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_nd_msze"
@@ -73,7 +73,7 @@
 
         <TextView
             android:id="@+id/porzadek_bazylika_codziennie"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:textSize="@dimen/kontakt_header_size"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
@@ -82,14 +82,14 @@
             android:text="@string/porzadek_bazylika_codziennie"/>
         <TextView
             android:id="@+id/porzadek_bazylika_codziennie_spowiedz"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_codziennie"
             android:text="@string/porzadek_bazylika_codziennie_spowiedz"/>
         <TextView
             android:id="@+id/porzadek_bazylika_codziennie_adoracja"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
 
         <TextView
             android:id="@+id/porzadek_bazylika_pt"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:textSize="@dimen/kontakt_header_size"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
@@ -113,7 +113,7 @@
             android:text="@string/porzadek_bazylika_pt"/>
         <TextView
             android:id="@+id/porzadek_bazylika_pt_msza"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
 
         <TextView
             android:id="@+id/porzadek_bazylika_post_pt"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:textSize="@dimen/kontakt_header_size"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
@@ -138,7 +138,7 @@
         <TextView
             android:id="@+id/porzadek_bazylika_post_pt_droga"
             android:paddingBottom="@dimen/kontakt_items_padding"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/porzadek_bazylika_post_pt"
@@ -152,7 +152,7 @@
 
         <TextView
             android:id="@+id/porzadek_bazylika_post_nd"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:textSize="@dimen/kontakt_header_size"
             android:paddingTop="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
@@ -161,7 +161,7 @@
             android:text="@string/porzadek_bazylika_post_nd"/>
         <TextView
             android:id="@+id/porzadek_bazylika_post_nd_gorzkie_zale"
-            android:textColor="@color/list_text"
+            android:textColor="@color/black"
             android:paddingBottom="@dimen/kontakt_items_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

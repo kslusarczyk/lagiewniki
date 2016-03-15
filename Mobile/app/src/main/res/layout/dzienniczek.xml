@@ -5,14 +5,26 @@
     android:padding="@dimen/layout_margin">
 
     <TextView
-        android:id="@+id/dzienniczek_date"
+        android:id="@+id/dzienniczek_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/list_background"
+        android:text="@string/title_dzienniczek"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="@dimen/kontakt_items_padding"
+        android:textColor="@color/action_bar_color"/>
+
+    <TextView
+        android:id="@+id/dzienniczek_date"
+        android:layout_below="@+id/dzienniczek_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
         android:textSize="@dimen/item_size"
         android:paddingTop="@dimen/kontakt_items_padding"
         android:paddingBottom="@dimen/kontakt_items_padding"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textColor="@color/action_bar_color"/>
 
     <WebView
         android:id="@+id/content_webview"
@@ -25,7 +37,8 @@
         android:layout_height="wrap_content"
         android:text="@string/dzienniczek_info"
         android:id="@+id/dzienniczek_info"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/action_bar_color"/>
 
     <ProgressBar
         android:id="@+id/progressBar"

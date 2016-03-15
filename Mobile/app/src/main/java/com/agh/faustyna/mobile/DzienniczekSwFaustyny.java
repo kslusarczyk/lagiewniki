@@ -44,7 +44,7 @@ public class DzienniczekSwFaustyny extends ProgressBarActivity implements View.O
     public void onClick(View v) {
         boolean internetState = checkInternetConnection();
         if (internetState){
-            openWebPage(getString(R.string.url_faustyna));
+            openWebPage(getString(R.string.url_dzienniczek));
         } else {
             DialogFragment newFragment = new NoInternetConnectionDialogFragment();
             newFragment.show(getFragmentManager(),"dialog");

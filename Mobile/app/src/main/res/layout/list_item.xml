@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/list_background">
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/childItem"
@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/item_size"
         android:textStyle="normal"
-        android:textColor="@color/list_text"
+        android:textColor="@color/black"
         android:paddingTop="@dimen/text_padding_top"
         android:paddingBottom="@dimen/text_padding_bottom"
         android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />

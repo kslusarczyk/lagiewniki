@@ -182,7 +182,7 @@
             android:logo="@android:color/transparent"/>
         <activity
             android:name=".DisplayGallery"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Galeria"
             android:label="@string/title_galeria"
             android:logo="@android:color/transparent"/>
         <activity
