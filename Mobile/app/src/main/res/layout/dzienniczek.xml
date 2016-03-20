@@ -38,7 +38,7 @@
         android:text="@string/dzienniczek_info"
         android:id="@+id/dzienniczek_info"
         android:layout_alignParentBottom="true"
-        android:textColor="@color/action_bar_color"/>
+        android:textColor="@color/hyperlink"/>
 
     <ProgressBar
         android:id="@+id/progressBar"

@@ -195,7 +195,7 @@
 
     <string name="porzadek_bazylika_title">Bazylika Miłosierdzia Bożego</string>
     <string name="porzadek_bazylika_dni_powszednie">Dni powszednie</string>
-    <string name="porzadek_bazylika_dni_powszednie_msze">- Msze Święte: 9:00, 10:00, 15:20, 18:00</string>
+    <string name="porzadek_bazylika_dni_powszednie_msze">- Msze Święte: 9:00, 10:30, 12:00, 15:20, 18:00</string>
     <string name="porzadek_bazylika_dni_powszednie_koronka">- 15:00 Modlitwa w Godzinie Miłosierdzia i Koronka do Miłosierdzia Bożego</string>
 
     <string name="porzadek_bazylika_nd">Niedziele i święta</string>
@@ -206,11 +206,11 @@
     <string name="porzadek_bazylika_codziennie_spowiedz">- 8:30 - 18:00 spowiedź</string>
     <string name="porzadek_bazylika_codziennie_adoracja">- Wieczysta Adoracja Najświętszego Sakramentu w Kaplicy Wieczystej Adoracji</string>
 
-    <string name="porzadek_bazylika_pt">I i III piątek miesiąca</string>
+    <string name="porzadek_bazylika_pt">I piątek miesiąca</string>
     <string name="porzadek_bazylika_pt_msza">- 17:00 Msza Święta (transmisja TVP 3)</string>
 
     <string name="porzadek_bazylika_post_pt">Wielki Post - piątki</string>
-    <string name="porzadek_bazylika_post_pt_droga">- Droga krzyżowa, a po niej Msza Święta</string>
+    <string name="porzadek_bazylika_post_pt_droga">- 16:00 Droga krzyżowa, a po niej Msza Święta</string>
 
     <string name="porzadek_bazylika_post_nd">Wielki Post - niedziele</string>
     <string name="porzadek_bazylika_post_nd_gorzkie_zale">- 15:20  Gorzkie żale z kazaniem pasyjnym, a po nich Msza Święta</string>
@@ -225,7 +225,7 @@
     <string name="porzadek_kaplica_dni_powszednie_nieszpory">- 18:40 Nieszpory</string>
     <string name="porzadek_kaplica_dni_powszednie_kompleta">- 19:00 Nabożeństwo, Kompleta</string>
     <string name="porzadek_kaplica_dni_powszednie_rozaniec">- 20:30 Różaniec</string>
-    <string name="porzadek_kaplica_dni_powszednie_apel">-21:00 Apel Maryjny</string>
+    <string name="porzadek_kaplica_dni_powszednie_apel">- 21:00 Apel Maryjny</string>
 
     <string name="porzadek_kaplica_nd">Niedziele i święta</string>
     <string name="porzadek_kaplica_nd_msze">- Msze Świete: 7:00, 8:30, 19:00</string>

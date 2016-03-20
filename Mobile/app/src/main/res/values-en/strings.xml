@@ -191,7 +191,7 @@
 
     <string name="porzadek_bazylika_title">TIMES OF SERVICES IN THE BASILICA</string>
     <string name="porzadek_bazylika_dni_powszednie">Weekdays</string>
-    <string name="porzadek_bazylika_dni_powszednie_msze">- Holy Mass: 9:00, 10:00, 15:20, 18:00</string>
+    <string name="porzadek_bazylika_dni_powszednie_msze">- Holy Mass: 9:00, 10:30, 12:00, 15:20, 18:00</string>
     <string name="porzadek_bazylika_dni_powszednie_koronka">- 15:00  Prayer at the Hour of Mercy and the Chaplet of The Divine Mercy</string>
 
     <string name="porzadek_bazylika_nd">Sundays and Holy Days</string>
@@ -202,11 +202,11 @@
     <string name="porzadek_bazylika_codziennie_spowiedz">- 8:30 - 18:00 Confession (also available in different languages)</string>
     <string name="porzadek_bazylika_codziennie_adoracja">- Perpetual Adoration of the Blessed Sacrament in the Chapel of Perpetual Adoration</string>
 
-    <string name="porzadek_bazylika_pt">First and third Friday of the month</string>
+    <string name="porzadek_bazylika_pt">First Friday of the month</string>
     <string name="porzadek_bazylika_pt_msza">- 17:00 Holy Mass (live broadcast by TVP 3)</string>
 
     <string name="porzadek_bazylika_post_pt">Lent – Fridays</string>
-    <string name="porzadek_bazylika_post_pt_droga">- Way of the Cross followed by Holy Mass</string>
+    <string name="porzadek_bazylika_post_pt_droga">- 16:00 Way of the Cross followed by Holy Mass</string>
 
     <string name="porzadek_bazylika_post_nd">Lent – Sundays</string>
     <string name="porzadek_bazylika_post_nd_gorzkie_zale">- 15:20  Lenten Psalms Service with a homily on the Passion, followed by Holy Mass</string>
@@ -221,7 +221,7 @@
     <string name="porzadek_kaplica_dni_powszednie_nieszpory">- 18:40 Vespers</string>
     <string name="porzadek_kaplica_dni_powszednie_kompleta">- 19:00 Worship and Compline</string>
     <string name="porzadek_kaplica_dni_powszednie_rozaniec">- 20:30 The Rosary</string>
-    <string name="porzadek_kaplica_dni_powszednie_apel">-21:00 Marian Call</string>
+    <string name="porzadek_kaplica_dni_powszednie_apel">- 21:00 Marian Call</string>
 
     <string name="porzadek_kaplica_nd">Sundays and Holidays</string>
     <string name="porzadek_kaplica_nd_msze">- Holy Mass: 7:00, 8:30, 19:00</string>

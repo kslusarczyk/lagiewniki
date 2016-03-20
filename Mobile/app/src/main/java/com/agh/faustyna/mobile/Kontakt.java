@@ -66,6 +66,30 @@ public class Kontakt extends AppCompatActivity implements View.OnLongClickListen
 
         View kontaktRedakcjaMail = findViewById(kontakt_redakcja_mail);
         kontaktRedakcjaMail.setOnLongClickListener(this);
+
+        View kontaktInformacjaTel1 = findViewById(kontakt_informacja_tel_1);
+        kontaktInformacjaTel1.setOnLongClickListener(this);
+
+        View kontaktInformacjaTel2 = findViewById(kontakt_informacja_tel_2);
+        kontaktInformacjaTel2.setOnLongClickListener(this);
+
+        View kontaktInformacjaMail1 = findViewById(kontakt_informacja_mail_1);
+        kontaktInformacjaMail1.setOnLongClickListener(this);
+
+        View kontaktInformacjaMail2 = findViewById(kontakt_informacja_mail_2);
+        kontaktInformacjaMail2.setOnLongClickListener(this);
+
+        View kontaktInformacjaMail3 = findViewById(kontakt_informacja_mail_3);
+        kontaktInformacjaMail3.setOnLongClickListener(this);
+
+        View kontaktDomDuszpasterskiTel = findViewById(kontakt_dom_duszpasterski_tel);
+        kontaktDomDuszpasterskiTel.setOnLongClickListener(this);
+
+        View kontaktDomDuszpasterskiMail = findViewById(kontakt_dom_duszpasterski_mail);
+        kontaktDomDuszpasterskiMail.setOnLongClickListener(this);
+
+        View kontaktPoradniaTel = findViewById(kontakt_poradnia_tel);
+        kontaktPoradniaTel.setOnLongClickListener(this);
     }
 
     public boolean onLongClick(View v) {
