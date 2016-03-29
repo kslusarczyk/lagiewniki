@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Faustina</string>
+    <string name="app_name">Faustyna.pl</string>
     <string name="action_settings">Settings</string>
 
     <string name="title_dojazd">How to find us</string>
@@ -121,7 +121,6 @@
     <string name="title_wsparcie_koronka">Perpetual Chaplet to Divine Mercy</string>
     <string name="title_wsparcie_rozbudowa">Shrine building expansion</string>
 
-    <string name="koronka_phone_number">+48505060205</string>
     <string name="sms_prompt">[write in the dying\'s name]</string>
     <string name="koronka_toast">In the text message write in the dying\'s name</string>
 
@@ -137,47 +136,22 @@
     </string-array>
 
     <string name="kontakt_furta_text">Convent Gate</string>
-    <string name="kontakt_furta_tel">+48123518800</string>
-    <string name="kontakt_furta_mail_1">klasztor@faustyna.pl</string>
-    <string name="kontakt_furta_mail_2">dom-krakow@faustyna.pl</string>
 
     <string name="kontakt_mlodziezowy_osrodek_text">Youth Educational Centre – MOW</string>
-    <string name="kontakt_mlodziezowy_osrodek_tel_1">+48122663029</string>
-    <string name="kontakt_mlodziezowy_osrodek_tel_2">+48122668431</string>
-    <string name="kontakt_mlodziezowy_osrodek_tel_3">+48122668980</string>
-    <string name="kontakt_mlodziezowy_osrodek_mail">mowkrakow@faustyna.pl</string>
 
     <string name="kontakt_faustinum_text">The Faustinum Association</string>
-    <string name="kontakt_faustinum_tel">+48122694855</string>
-    <string name="kontakt_faustinum_mail">faustinum@faustyna.pl</string>
 
     <string name="kontakt_wydawnictwo_text">Misericordia Publishing House</string>
-    <string name="kontakt_wydawnictwo_tel">+48122676101</string>
-    <string name="kontakt_wydawnictwo_mail_1">misericordia@faustyna.pl</string>
-    <string name="kontakt_wydawnictwo_mail_2">sklepmisericordia@op.pl</string>
-    <string name="kontakt_wydawnictwo_sklep">http://www.misericordia.faustyna.pl/</string>
 
     <string name="kontakt_dom_text">St. Sister Faustina\’s House</string>
-    <string name="kontakt_dom_tel">+48123624315</string>
-    <string name="kontakt_dom_mail">dom-krakow@faustyna.pl</string>
 
     <string name="kontakt_redakcja_text">Orędzie Miłosierdzia, Message of Mercy – Quarterly Editorial Office</string>
-    <string name="kontakt_redakcja_tel">+48123518800</string>
-    <string name="kontakt_redakcja_mail">redakcja@faustyna.pl</string>
 
     <string name="kontakt_informacja_text">Information Desk</string>
-    <string name="kontakt_informacja_tel_1">+48122523311</string>
-    <string name="kontakt_informacja_tel_2">+48122523333</string>
-    <string name="kontakt_informacja_mail_1">pielgrzymki@milosierdzie.pl</string>
-    <string name="kontakt_informacja_mail_2">adoracja@milosierdzie.pl</string>
-    <string name="kontakt_informacja_mail_3">informacja@pastorallodge.com.pl</string>
 
     <string name="kontakt_dom_duszpasterski_text">Pastoral House – Reception</string>
-    <string name="kontakt_dom_duszpasterski_tel">+48122523300</string>
-    <string name="kontakt_dom_duszpasterski_mail">domduszpasterski@milosierdzie.pl</string>
 
     <string name="kontakt_poradnia">Poradnia Miłosierdzia</string>
-    <string name="kontakt_poradnia_tel">+48122523300</string>
 
     <string name="porzadek_swieto_title">Feast of Mercy on the first Sunday after Easter</string>
     <string name="porzadek_swieto_nowenna">- Preceded by the Novena to The Divine Mercy, which begins on Good Friday after the prayer at the Hour of Mercy (15:00)</string>
@@ -189,7 +163,7 @@
     <string name="porzadek_uroczystosc_triduum">- Preceded by a Triduum of Masses with preaching in the convent chapel at 17:00</string>
     <string name="porzadek_uroczystosc_ceremonie">- Ceremonies of the Faustinum Association</string>
 
-    <string name="porzadek_bazylika_title">TIMES OF SERVICES IN THE BASILICA</string>
+    <string name="porzadek_bazylika_title">BASILICA</string>
     <string name="porzadek_bazylika_dni_powszednie">Weekdays</string>
     <string name="porzadek_bazylika_dni_powszednie_msze">- Holy Mass: 9:00, 10:30, 12:00, 15:20, 18:00</string>
     <string name="porzadek_bazylika_dni_powszednie_koronka">- 15:00  Prayer at the Hour of Mercy and the Chaplet of The Divine Mercy</string>

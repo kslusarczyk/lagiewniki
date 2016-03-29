@@ -121,7 +121,7 @@
     <string name="title_wsparcie_dary_na_rzecz_milosierdzia">Dary na rzecz Miłosierdzia</string>
     <string name="title_wsparcie_rozbudowa">Rozbudowa Sanktuarium</string>
 
-    <string name="koronka_phone_number">+48505060205</string>
+    <string name="koronka_phone_number" translatable="false">+48505060205</string>
     <string name="sms_prompt">[wpisz imie konajacego]</string>
     <string name="koronka_toast">W treści SMS wpisz imię konającego</string>
 
@@ -141,53 +141,53 @@
     <string name="kontakt_toast">Aby się skontaktować, przytrzymaj numer telefonu lub mail</string>
 
     <string name="kontakt_furta_text">Furta</string>
-    <string name="kontakt_furta_tel">+48123518800</string>
-    <string name="kontakt_furta_mail_1">klasztor@faustyna.pl</string>
-    <string name="kontakt_furta_mail_2">dom-krakow@faustyna.pl</string>
+    <string name="kontakt_furta_tel" translatable="false">+48123518800</string>
+    <string name="kontakt_furta_mail_1" translatable="false">klasztor@faustyna.pl</string>
+    <string name="kontakt_furta_mail_2" translatable="false">dom-krakow@faustyna.pl</string>
 
     <string name="kontakt_mlodziezowy_osrodek_text">Młodzieżowy Ośrodek Wychowawczy</string>
-    <string name="kontakt_mlodziezowy_osrodek_tel_1">+48122663029</string>
-    <string name="kontakt_mlodziezowy_osrodek_tel_2">+48122668431</string>
-    <string name="kontakt_mlodziezowy_osrodek_tel_3">+48122668980</string>
-    <string name="kontakt_mlodziezowy_osrodek_mail">mowkrakow@faustyna.pl</string>
+    <string name="kontakt_mlodziezowy_osrodek_tel_1" translatable="false">+48122663029</string>
+    <string name="kontakt_mlodziezowy_osrodek_tel_2" translatable="false">+48122668431</string>
+    <string name="kontakt_mlodziezowy_osrodek_tel_3" translatable="false">+48122668980</string>
+    <string name="kontakt_mlodziezowy_osrodek_mail" translatable="false">mowkrakow@faustyna.pl</string>
 
     <string name="kontakt_faustinum_text">Stowarzyszenie Faustinum</string>
-    <string name="kontakt_faustinum_tel">+48122694855</string>
-    <string name="kontakt_faustinum_mail">faustinum@faustyna.pl</string>
+    <string name="kontakt_faustinum_tel" translatable="false">+48122694855</string>
+    <string name="kontakt_faustinum_mail" translatable="false">faustinum@faustyna.pl</string>
 
     <string name="kontakt_wydawnictwo_text">Wydawnictwo Misericordia</string>
-    <string name="kontakt_wydawnictwo_tel">+48122676101</string>
-    <string name="kontakt_wydawnictwo_mail_1">misericordia@faustyna.pl</string>
-    <string name="kontakt_wydawnictwo_mail_2">sklepmisericordia@op.pl</string>
-    <string name="kontakt_wydawnictwo_sklep">http://www.misericordia.faustyna.pl/</string>
+    <string name="kontakt_wydawnictwo_tel" translatable="false">+48122676101</string>
+    <string name="kontakt_wydawnictwo_mail_1" translatable="false">misericordia@faustyna.pl</string>
+    <string name="kontakt_wydawnictwo_mail_2" translatable="false">sklepmisericordia@op.pl</string>
+    <string name="kontakt_wydawnictwo_sklep" translatable="false">http://www.misericordia.faustyna.pl/</string>
 
     <string name="kontakt_dom_text">Dom św. Siostry Faustyny</string>
-    <string name="kontakt_dom_tel">+48123624315</string>
-    <string name="kontakt_dom_mail">dom-krakow@faustyna.pl</string>
+    <string name="kontakt_dom_tel" translatable="false">+48123624315</string>
+    <string name="kontakt_dom_mail" translatable="false">dom-krakow@faustyna.pl</string>
 
     <string name="kontakt_redakcja_text">Redakcja Orędzia Miłosierdzia</string>
-    <string name="kontakt_redakcja_tel">+48123518800</string>
-    <string name="kontakt_redakcja_mail">redakcja@faustyna.pl</string>
+    <string name="kontakt_redakcja_tel" translatable="false">+48123518800</string>
+    <string name="kontakt_redakcja_mail" translatable="false">redakcja@faustyna.pl</string>
 
     <string name="kontakt_informacja_text">Punkt informacyjny</string>
-    <string name="kontakt_informacja_tel_1">+48122523311</string>
-    <string name="kontakt_informacja_tel_2">+48122523333</string>
-    <string name="kontakt_informacja_mail_1">pielgrzymki@milosierdzie.pl</string>
-    <string name="kontakt_informacja_mail_2">adoracja@milosierdzie.pl</string>
-    <string name="kontakt_informacja_mail_3">informacja@pastorallodge.com.pl</string>
+    <string name="kontakt_informacja_tel_1" translatable="false">+48122523311</string>
+    <string name="kontakt_informacja_tel_2" translatable="false">+48122523333</string>
+    <string name="kontakt_informacja_mail_1" translatable="false">pielgrzymki@milosierdzie.pl</string>
+    <string name="kontakt_informacja_mail_2" translatable="false">adoracja@milosierdzie.pl</string>
+    <string name="kontakt_informacja_mail_3" translatable="false">informacja@pastorallodge.com.pl</string>
 
     <string name="kontakt_dom_duszpasterski_text">Dom Duszpasterski - recepcja</string>
-    <string name="kontakt_dom_duszpasterski_tel">+48122523300</string>
-    <string name="kontakt_dom_duszpasterski_mail">domduszpasterski@milosierdzie.pl</string>
+    <string name="kontakt_dom_duszpasterski_tel" translatable="false">+48122523300</string>
+    <string name="kontakt_dom_duszpasterski_mail" translatable="false">domduszpasterski@milosierdzie.pl</string>
 
     <string name="kontakt_poradnia">Poradnia Miłosierdzie</string>
-    <string name="kontakt_poradnia_tel">+48122523300</string>
+    <string name="kontakt_poradnia_tel" translatable="false">+48122523300</string>
 
     <string name="porzadek_swieto_title">Święto Miłosierdzia w pierwszą niedzielę po Wielkanocy</string>
     <string name="porzadek_swieto_nowenna">- Poprzedzone nowenną, która rozpoczyna się w Wielki Piątek po modlitwie w Godzinie Miłosierdzia (15:00)</string>
     <string name="porzadek_swieto_czuwanie">- Nocne czuwanie przed Świętem Miłosierdzia w bazylice od 21:00</string>
     <string name="porzadek_swieto_msze">- Msze Święte: 6:00, 8:00, 10:00, 12:00, 16:30, 18:00 w bazylice i przy ołtarzu polowym. O godz. 19:00 - w kaplicy klasztornej</string>
-    <string name="porzadek_swieto_koronka">Modlitwa w Godzinie Miłosierdzia i Koronka do Miłosierdzia Bożego - 15:00</string>
+    <string name="porzadek_swieto_koronka">- Modlitwa w Godzinie Miłosierdzia i Koronka do Miłosierdzia Bożego - 15:00</string>
 
     <string name="porzadek_uroczystosc_title">5 października - liturgiczna uroczystość św. Faustyny</string>
     <string name="porzadek_uroczystosc_triduum">- Poprzedzone triduum Mszy św. z okolicznościowymi kazaniami w kaplicy klasztornej o 17:00</string>
@@ -213,7 +213,7 @@
     <string name="porzadek_bazylika_post_pt_droga">- 16:00 Droga krzyżowa, a po niej Msza Święta</string>
 
     <string name="porzadek_bazylika_post_nd">Wielki Post - niedziele</string>
-    <string name="porzadek_bazylika_post_nd_gorzkie_zale">- 15:20  Gorzkie żale z kazaniem pasyjnym, a po nich Msza Święta</string>
+    <string name="porzadek_bazylika_post_nd_gorzkie_zale">- 15:20 Gorzkie żale z kazaniem pasyjnym, a po nich Msza Święta</string>
 
     <string name="porzadek_kaplica_title">Kaplica Cudownego Obrazu Jezusa Miłosiernego i grobu św. Faustyny</string>
     <string name="porzadek_kaplica_dni_powszednie">Dni powszednie</string>

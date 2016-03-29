@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Faustyna</string>
+    <string name="app_name">Faustyna.pl</string>
+    <string name="kontakt_dom_duszpasterski_text">Dom Duszpasterski – Casa del Pellegrino – reception</string>
+    <string name="kontakt_dom_text">Casa di Santa Suor Faustina</string>
+    <string name="kontakt_faustinum_text">Associazione Faustinum</string>
+    <string name="kontakt_furta_text">Portoncino del convento</string>
+    <string name="kontakt_informacja_text">Punto d’informazione</string>
+    <string name="kontakt_mlodziezowy_osrodek_text">MOW – Centro Educativo Giovanile</string>
+    <string name="kontakt_redakcja_text">Redazione del Il Messaggio della Misericordia</string>
+    <string name="kontakt_wydawnictwo_text">Edizioni Misericordia</string>
 </resources>
