@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Faustyna.pl</string>
     <string name="kontakt_dom_duszpasterski_text">Dom Duszpasterski – Casa del Pellegrino – reception</string>
     <string name="kontakt_dom_text">Casa di Santa Suor Faustina</string>
     <string name="kontakt_faustinum_text">Associazione Faustinum</string>
@@ -58,4 +57,5 @@
     <string name="porzadek_uroczystosc_ceremonie">- Cerimonie dell’Associazione Faustinum</string>
     <string name="porzadek_uroczystosc_title">5 ottobre – festività liturgica di Santa Faustina</string>
     <string name="porzadek_uroczystosc_triduum">- Preceduta da un triduo di Sante Messe, con omelie per l’occasione, presso la Cappella del convento alle ore 17:00.</string>
+    <string name="title_sdm">Giornata mondiale della gioventù 2016</string>
 </resources>

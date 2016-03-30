@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Faustyna.pl</string>
     <string name="kontakt_dom_duszpasterski_text">Миссийный Дом – администрация</string>
     <string name="kontakt_dom_text">Дом св. Сестры Фаустины</string>
     <string name="kontakt_faustinum_text">Сообщество Faustinum</string>
@@ -58,4 +57,5 @@
     <string name="porzadek_uroczystosc_ceremonie">- Церемонии сообщества Faustinum</string>
     <string name="porzadek_uroczystosc_title">5 октября – литургическое торжество св. Фаустины</string>
     <string name="porzadek_uroczystosc_triduum">- Торжеству предшествует триденствие Святых Месс с тематическими проповедями в монастырской часовне в 17:00.</string>
+    <string name="title_sdm">Всемирный день молодёжи 2016</string>
 </resources>

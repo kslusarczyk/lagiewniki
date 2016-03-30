@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Faustyna.pl</string>
-    <string name="app_footer">Copyright © 2016 ZMBM</string>
+    <string name="app_name" translatable="false">Faustyna.pl</string>
+    <string name="app_footer" translatable="false">Copyright © 2016 ZMBM</string>
 
     <string name="title_dojazd">Dojazd</string>
 
@@ -13,8 +13,8 @@
     <string name="title_galeria">Galeria</string>
     <string name="title_koronka">Koronka za konających</string>
     <string name="title_sklep">Sklep \'\'Miseridordia\'\'</string>
-    <string name="title_facebook">Facebook</string>
-    <string name="title_sdm">Światowe Dni Młodzieży ŚDM 2016</string>
+    <string name="title_facebook" translatable="false">Facebook</string>
+    <string name="title_sdm">Światowe Dni Młodzieży 2016</string>
     <string name="title_yt">Filmy, Rozmowy, Wywiady</string>
     <string name="title_wsparcie">Wsparcie</string>
     <string name="title_wiecej">Więcej</string>
@@ -126,11 +126,11 @@
     <string name="koronka_toast">W treści SMS wpisz imię konającego</string>
 
     <string name="url_faustyna">https://www.faustyna.pl/zmbm/</string>
-    <string name="url_images">https://www.faustyna.pl/zmbm/wp-content/uploads/photo-gallery</string>
-    <string name="url_facebook">https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/</string>
-    <string name="url_sdm">https://www.facebook.com/Faustyna2016?fref=ts</string>
-    <string name="url_yt">https://www.youtube.com/user/wwwfaustynapl</string>
-    <string name="url_stream">http://livestream.com/accounts/11477776/events/3773195/player?width=560&amp;height=315&amp;autoPlay=true&amp;mute=false</string>
+    <string name="url_images" translatable="false">https://www.faustyna.pl/zmbm/wp-content/uploads/photo-gallery</string>
+    <string name="url_facebook" translatable="false">https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/</string>
+    <string name="url_sdm" translatable="false">https://www.facebook.com/Faustyna2016</string>
+    <string name="url_yt" translatable="false">https://www.youtube.com/user/wwwfaustynapl</string>
+    <string name="url_stream" translatable="false">http://livestream.com/accounts/11477776/events/3773195/player?width=560&amp;height=315&amp;autoPlay=true&amp;mute=false</string>
     <string name="url_dzienniczek">https://www.faustyna.pl/zmbm/dzienniczek-sw-siostry-faustyny/</string>
 
     <string-array name="kontakt_array">
@@ -255,11 +255,11 @@
 
     <!-- Aktualnosci -->
     <string name="news_load_error">Wystąpił błąd podczas wczytywania aktualności</string>
-    <string name="thumbnail_description">Thumbnail</string>
+    <string name="thumbnail_description" translatable="false">Thumbnail</string>
     <string name="load_error">Wystąpił błąd podczas wczytywania danych</string>
 
     <!-- OdsluchAudioGodzinyMilosierdziaIKoronki -->
-    <string name="url_audio">http://faustyna.pl/Godzina_Milosierdzia/Nicecast_Archived_Audio_{date}_1501.mp3</string>
+    <string name="url_audio" translatable="false">http://faustyna.pl/Godzina_Milosierdzia/Nicecast_Archived_Audio_{date}_1501.mp3</string>
     <string name="odsluchaj_koronke">Odsłuchaj Godzinę Miłosierdzia i Koronkę z dnia {date}:</string>
     <string name="pobierz_koronke">Kliknij przycisk aby pobrać plik</string>
     <string name="pobieranie_koronki">Pobieranie ... </string>
@@ -297,7 +297,7 @@
     <string name="rest_rozbudowa">rozbudowa/?json=1</string>
     <string name="rest_dary_na_rzecz_milosierdzia">dary-na-rzecz-milosierdzia/?json=1</string>
 
-    <string name="rest_galeria">api/?lang=pl&amp;action=gallery</string>
+    <string name="rest_galeria">api/?lang=pl&amp;action=sentence</string>
     <string name="dzienniczek_info">Pełny tekst \'\'Dzienniczka\'\' św. Siostry Faustyny dostępny na stronie https://www.faustyna.pl/zmbm/</string>
 
     <!-- zapisywane dane -->

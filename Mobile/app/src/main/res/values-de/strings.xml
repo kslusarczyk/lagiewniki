@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Faustyna.pl</string>
     <string name="kontakt_dom_duszpasterski_text">Seelsorgehaus – Rezeption</string>
     <string name="kontakt_dom_text">Haus der hl. Schwester Faustina – Pilgerhaus</string>
     <string name="kontakt_faustinum_text">Verein Faustinum</string>
@@ -59,4 +58,59 @@
     <string name="porzadek_uroczystosc_ceremonie">- Zeremonien des Vereins Faustinum</string>
     <string name="porzadek_uroczystosc_title">5. Oktober – liturgisches Hochfest der hl. Faustina</string>
     <string name="porzadek_uroczystosc_triduum">- vor dem Fest – Triduum der Heiligen Messen mit Predigten in der Klosterkapelle um 17:00 Uhr</string>
+    <string name="rest_istota">de/das-wesen/?json=1</string>
+    <string name="rest_obraz">de/das-bild/?json=1</string>
+    <string name="rest_swieto_milosierdzia">de/das-fest-der-barmherzigkeit/?json=1</string>
+    <string name="title_nabozenstwo_swieto">Das Fest der Barmherzigkeit</string>
+    <string name="title_nabozenstwo_istota">Das Wesen</string>
+    <string name="title_nabozenstwo_obraz">Das Bild</string>
+    <string name="title_nabozenstwo_koronka">Der Rosenkranz zur Barmherzigkeit Gottes</string>
+    <string name="rest_koronka_do_milosierdzia_bozego">de/der-rosenkranz-zur-barmherzigkeit-gottes/?json=1</string>
+    <string name="title_nabozenstwo_godzina">Die Stunde der Barmherzigkeit</string>
+    <string name="rest_godzina_milosierdzia">de/die-stunde-der-barmherzigkeit/?json=1</string>
+    <string name="title_nabozenstwo_szerzenie">Die Verbreitung der Verehrung der Barmherzigkeit Gottes</string>
+    <string name="rest_szerzenie_czci_milosierdzia">de/die-verbreitung-der-verehrung-der-barmherzigkeit-gottes/?json=1</string>
+    <string name="title_faustyna">Die heilige Faustina</string>
+    <string name="title_faustyna_biografia">Die Biografie</string>
+    <string name="rest_biografia">de/die-biografie/?json=1</string>
+    <string name="rest_misja_gloszenia">de/die-verkundung-der-barmherzigkeit-gottes/?json=1</string>
+    <string name="title_faustyna_szkola">Die Schule der Spiritualität</string>
+    <string name="rest_szkola_duchowosci">de/die-schule-der-spiritualitat/?json=1</string>
+    <string name="title_faustyna_zgromadzenie">Die neue Kongregation</string>
+    <string name="rest_nowe_zgromadzenie">de/in-den-schriften-der-hl-schwester-faustina/?json=1</string>
+    <string name="title_faustyna_litania">Die Litanei zu Ehren der hl. Schwester Faustina</string>
+    <string name="rest_litania_do_faustyny">de/die-litanei-zu-ehren-der-hl-schwester-faustina/?json=1</string>
+    <string name="title_faustyna_modlitwa">Das Gebet um Gnaden durch die Fürbitte der hl. Schwester Faustina</string>
+    <string name="rest_modlitwa_przez_przyczyne">de/das-gebet-um-gnaden-durch-die-furbitte-der-hl-schwester-faustina/?json=1</string>
+    <string name="title_sanktuarium">Heiligtum der Barmherzigkeit Gottes in Krakau-Lagiewniki</string>
+    <string name="title_sanktuarium_kontakt">Kontakt</string>
+    <string name="title_galeria">Galerie</string>
+    <string name="title_sanktuarium_kaplica">Die Kapelle</string>
+    <string name="rest_kaplica">de/die-kapelle-mit-dem-gnadenbild-des-barmherzigen-jesus-und-mit-dem-grab-der-hl-schwester-faustina/?json=1</string>
+    <string name="title_sanktuarium_bazylika">Die Basilika</string>
+    <string name="rest_bazylika">de/die-basilika/?json=1</string>
+    <string name="title_wsparcie_rozbudowa">Ausbau</string>
+    <string name="rest_rozbudowa">de/ausbau/?json=1</string>
+    <string name="title_sanktuarium_oprowadzanie">Pilger</string>
+    <string name="rest_pielgrzymi">de/pilger/?json=1</string>
+    <string name="title_dojazd">Zufahrt</string>
+    <string name="title_dzienniczek">Aus dem \'\'Tagebuch\'\' der hl. Schwester Faustina</string>
+    <string name="title_aktualnosci">Aktuelle Nachrichten</string>
+    <string name="dzienniczek_info">Der vollständige Text des \'\'Tagebuchs\'\' der hl. Schwester Faustina</string>
+    <string name="title_faustyna_misja">Die Verkündung der Barmherzigkeit Gottes</string>
+    <string name="title_sanktuarium_obraz">Das Gnadenbild des Barmherzigen Jesus</string>
+    <string name="rest_cudowny_obraz">de/das-gnadenbild-des-barmherzigen-jesus/?json=1</string>
+    <string name="rest_dary_na_rzecz_milosierdzia">de/unterstutzung/?json=1</string>
+    <string name="title_wsparcie">Unterstützung</string>
+    <string name="title_wsparcie_dary_na_rzecz_milosierdzia">Unterstützung</string>
+    <string name="rest_dzienniczek_siostry_faustyny">api/?lang=de&amp;action=sentence</string>
+    <string name="rest_galeria">api/?lang=de&amp;action=sentence</string>
+    <string name="rest_news">de/category/aktuelle-nachrichten/?json=1</string>
+    <string name="rest_noclegi">de/haus-der-hl-schwester-faustina/?json=1</string>
+    <string name="url_dzienniczek">https://www.faustyna.pl/zmbm/de/das-tagebuch-2/</string>
+    <string name="url_faustyna">https://www.faustyna.pl/zmbm/de/</string>
+    <string name="title_wiecej">Mehr</string>
+    <string name="title_sklep">Der \'\'Misericordia\'\' – Verlag</string>
+    <string name="title_multimedia_koronka">Internet-Übertragung des Gebets in der Stunde der Barmherzigkeit und des Rosenkranzes zur Barmherzigkeit Gottes</string>
+    <string name="title_sdm">Weltjugendtag 2016</string>
 </resources>

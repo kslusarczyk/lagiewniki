@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Faustyna.pl</string>
     <string name="kontakt_dom_duszpasterski_text">Maison Pastorale – réception</string>
     <string name="kontakt_dom_text">Maison de sainte Sœur Faustine</string>
     <string name="kontakt_faustinum_text">Association Faustinum</string>
@@ -58,4 +57,5 @@
     <string name="porzadek_uroczystosc_ceremonie">- Cérémonies de l’association Faustinum</string>
     <string name="porzadek_uroczystosc_title">5 octobre – célébration liturgique de sainte Faustine</string>
     <string name="porzadek_uroczystosc_triduum">- Précédée par un triduum de messes avec homélies de circonstance à la chapelle du couvent à 17:00.</string>
+    <string name="title_sdm">Journées mondiales de la jeunesse 2016 </string>
 </resources>

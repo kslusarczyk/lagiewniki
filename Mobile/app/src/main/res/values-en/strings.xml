@@ -1,7 +1,4 @@
 <resources>
-    <string name="app_name">Faustyna.pl</string>
-    <string name="action_settings">Settings</string>
-
     <string name="title_dojazd">How to find us</string>
 
     <string name="title_aktualnosci">News</string>
@@ -13,8 +10,7 @@
     <string name="title_multimedia">On-line transmission</string>
     <string name="title_koronka">Chaplet for death</string>
     <string name="title_sklep">Misericordia Publishing House</string>
-    <string name="title_facebook">Facebook</string>
-    <string name="title_sdm">WYD 2016</string>
+    <string name="title_sdm">World Youth Day 2016</string>
     <string name="title_yt">YouTube</string>
     <string name="title_wsparcie">Congregation</string>
     <string name="title_wiecej">More</string>
@@ -100,7 +96,7 @@
     <string name="title_nabozenstwo_szerzenie">Spreading of Devotion to The Divine Mercy</string>
 
     <string name="title_faustyna_biografia">Biography</string>
-    <string name="title_faustyna_misja">Charism</string>
+    <string name="title_faustyna_misja">Proclaiming God\’s Mercy</string>
     <string name="title_faustyna_szkola">The School of Spirituality</string>
     <string name="title_faustyna_zgromadzenie">The New Congregation</string>
     <string name="title_faustyna_litania">Litany to St. Faustina</string>
@@ -125,10 +121,6 @@
     <string name="koronka_toast">In the text message write in the dying\'s name</string>
 
     <string name="url_faustyna">https://www.faustyna.pl/zmbm/en/</string>
-    <string name="url_facebook">https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/</string>
-    <string name="url_sdm">https://www.facebook.com/Faustyna2016?fref=ts</string>
-    <string name="url_yt">https://www.youtube.com/user/wwwfaustynapl</string>
-    <string name="url_stream">http://livestream.com/accounts/11477776/events/3773195/player?width=560&amp;height=315&amp;autoPlay=true&amp;mute=false</string>
 
     <string-array name="kontakt_array">
         <item>Congregation of the Sisters of Our Lady of Mercy</item>
@@ -223,11 +215,9 @@
 
     <!-- Aktualnosci -->
     <string name="news_load_error">Errors occured during displaying news</string>
-    <string name="thumbnail_description">Thumbnail</string>
     <string name="load_error">Errors occured during loading informations</string>
 
     <!-- OdsluchAudioGodzinyMilosierdziaIKoronki -->
-    <string name="url_audio">http://faustyna.pl/Godzina_Milosierdzia/Nicecast_Archived_Audio_{date}_1501.mp3</string>
     <string name="odsluchaj_koronke">Listen to the Chaplet from {date} :</string>
     <string name="pobierz_koronke"> Click the button to download the Chaplet</string>
     <string name="pobieranie_koronki">Downloading ... </string>
@@ -275,5 +265,6 @@
     <string name="kontakt_toast">To contact,long click on telephone number or mail address</string>
     <string name="title_wsparcie_dary_na_rzecz_milosierdzia"> Make a gift from your heart</string>
     <string name="kontakt_poradnia"></string>
+    <string name="url_dzienniczek">https://www.faustyna.pl/zmbm/en/diary-full-text/</string>
 
 </resources>
