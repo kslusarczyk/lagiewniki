@@ -151,8 +151,6 @@
 
     <string name="kontakt_dom_duszpasterski_text">Pastoral House – Reception</string>
 
-    <string name="kontakt_poradnia">Poradnia Miłosierdzia</string>
-
     <string name="porzadek_swieto_title">Feast of Mercy on the first Sunday after Easter</string>
     <string name="porzadek_swieto_nowenna">- Preceded by the Novena to The Divine Mercy, which begins on Good Friday after the prayer at the Hour of Mercy (15:00)</string>
     <string name="porzadek_swieto_czuwanie">- Night vigil before the Feast of The Divine Mercy in the basilica from 21:00</string>
@@ -276,5 +274,6 @@
     <string name="dzienniczek_info">Full text of Saint Faustinas \'\'Diary\'\' is at https://www.faustyna.pl/zmbm/en</string>
     <string name="kontakt_toast">To contact,long click on telephone number or mail address</string>
     <string name="title_wsparcie_dary_na_rzecz_milosierdzia"> Make a gift from your heart</string>
+    <string name="kontakt_poradnia"></string>
 
 </resources>
