@@ -122,7 +122,6 @@
     <string name="title_wsparcie_rozbudowa">Rozbudowa Sanktuarium</string>
 
     <string name="koronka_phone_number" translatable="false">+48505060205</string>
-    <string name="sms_prompt">[wpisz imie konajacego]</string>
     <string name="koronka_toast">W treści SMS wpisz imię konającego</string>
 
     <string name="url_faustyna">https://www.faustyna.pl/zmbm/</string>

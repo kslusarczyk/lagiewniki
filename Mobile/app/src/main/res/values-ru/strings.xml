@@ -58,4 +58,8 @@
     <string name="porzadek_uroczystosc_title">5 октября – литургическое торжество св. Фаустины</string>
     <string name="porzadek_uroczystosc_triduum">- Торжеству предшествует триденствие Святых Месс с тематическими проповедями в монастырской часовне в 17:00.</string>
     <string name="title_sdm">Всемирный день молодёжи 2016</string>
+    <string name="rest_dzienniczek_siostry_faustyny">api/?lang=ru&amp;action=sentence</string>
+    <string name="rest_galeria">api/?lang=ru&amp;action=sentence</string>
+    <string name="url_faustyna">https://www.faustyna.pl/zmbm/ru/</string>
+    <string name="url_dzienniczek">https://www.faustyna.pl/zmbm/ru/?page_id=1534</string>
 </resources>

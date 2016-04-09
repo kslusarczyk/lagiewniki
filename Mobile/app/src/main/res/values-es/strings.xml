@@ -58,4 +58,79 @@
     <string name="porzadek_uroczystosc_title">5 de octubre – Festividad solemne de santa Faustina</string>
     <string name="porzadek_uroczystosc_triduum">- Precedida por ell Triduo de la Misa con predicación ocasional en la capilla del convento a las 17:00.</string>
     <string name="title_sdm">Jornada Mundial de la Juventud 2016</string>
+    <string name="rest_bazylika">es/basilica/?json=1</string>
+    <string name="title_sanktuarium_bazylika">Basilica</string>
+    <string name="rest_biografia">es/biografia/?json=1</string>
+    <string name="title_faustyna_biografia">Biografia</string>
+    <string name="rest_cudowny_obraz">es/la-imagen-milagrosa-de-jesus-de-la-divina-misericordia/?json=1</string>
+    <string name="title_sanktuarium_obraz">Imagen</string>
+    <string name="title_sanktuarium_porzadek">Orden de las celebraciones</string>
+    <string name="title_sanktuarium_oprowadzanie">Peregrinos</string>
+    <string name="rest_kaplica">es/la-capilla-con-la-imagen-de-jesus-misericordioso-conocido-por-sus-milagros-y-por-la-tumba-de-la-san/?json=1</string>
+    <string name="title_sanktuarium_kaplica">La capilla con la imagen de Jesús Misericordioso conocido por sus milagros y por la tumba de la San</string>
+    <string name="rest_pielgrzymi">es/peregrinos/?json=1</string>
+    <string name="title_dojazd">Mapa y cómo llegar</string>
+    <string name="rest_dzienniczek_siostry_faustyny">api/?lang=es&amp;action=sentence</string>
+    <string name="rest_galeria">api/?lang=es&amp;action=sentence</string>
+    <string name="url_faustyna">https://www.faustyna.pl/zmbm/es/</string>
+    <string name="url_dzienniczek">https://www.faustyna.pl/zmbm/es/el-diario-2/</string>
+    <string name="title_sklep">Editorial \'\'Misericordia\'\'</string>
+    <string name="title_nabozenstwo_istota">Lo esencial del Culto</string>
+    <string name="rest_istota">es/lo-esencial-del-culto/?json=1</string>
+    <string name="rest_obraz">es/imagen/?json=1</string>
+    <string name="title_wiecej">Más</string>
+    <string name="rest_godzina_milosierdzia">es/hora-de-la-misericordia/?json=1</string>
+    <string name="title_nabozenstwo_godzina">Hora de la Misericordia</string>
+    <string name="rest_dary_na_rzecz_milosierdzia">es/donativos-para-el-culto-de-la-misericordia/?json=1</string>
+    <string name="title_wsparcie">Ayúdanos</string>
+    <string name="title_wsparcie_dary_na_rzecz_milosierdzia">Donativos para el culto de la Misericordia</string>
+    <string name="rest_koronka_do_milosierdzia_bozego">es/coronilla-a-la-divina-misericordia/?json=1</string>
+    <string name="title_nabozenstwo_koronka">Coronilla a la Divina Misericordia</string>
+    <string name="rest_litania_do_faustyny">es/letanias-de-santa-faustina/?json=1</string>
+    <string name="title_faustyna_litania">Letanías de santa Faustina</string>
+    <string name="rest_misja_gloszenia">es/la-proclamacion-de-la-misericordia-divina/?json=1</string>
+    <string name="title_faustyna_misja">La proclamación de la Misericordia Divina</string>
+    <string name="title_faustyna">Santa Sor Faustina</string>
+    <string name="rest_modlitwa_przez_przyczyne">es/la-oracion-para-pedir-por-intercesion-de-santa-faustina/?json=1</string>
+    <string name="title_faustyna_modlitwa">La oración para pedir por intercesión de santa Faustina</string>
+    <string name="rest_news">es/category/noticias/?json=1</string>
+    <string name="title_faustyna_zgromadzenie">Nueva Congregación</string>
+    <string name="rest_nowe_zgromadzenie">es/en-las-cartas-de-santa-faustina/?json=1</string>
+    <string name="rest_noclegi">es/la-casa-de-santa-sor-faustina/?json=1</string>
+    <string name="title_wsparcie_rozbudowa">Ampliación</string>
+    <string name="rest_rozbudowa">es/ampliacion/?json=1</string>
+    <string name="rest_swieto_milosierdzia">es/la-fiesta-de-la-misericordia/?json=1</string>
+    <string name="title_nabozenstwo_swieto">La Fiesta de la Misericordia</string>
+    <string name="title_nabozenstwo_obraz">Imagen</string>
+    <string name="title_nabozenstwo_szerzenie">Propagación de la Devoción a la Divina Misericordia</string>
+    <string name="rest_szerzenie_czci_milosierdzia">es/propagacion-de-la-devocion-a-la-divina-misericordia/?json=1</string>
+    <string name="rest_szkola_duchowosci">es/la-escuela-de-la-espiritualidad/?json=1</string>
+    <string name="title_sanktuarium">El Santuario de Misericordia en Cracovia-Łagiewniki</string>
+    <string name="title_aktualnosci">Noticias</string>
+    <string name="title_dzienniczek">Del \'\'Diario\'\' de Santa Faustina</string>
+    <string name="title_faustyna_szkola">La escuela de la Espiritualidad</string>
+    <string name="title_galeria">Galería</string>
+    <string name="title_multimedia_koronka">Retransmisión radiofónica de la Hora de la Misericordia y de la Coronilla</string>
+    <string name="title_nabozenstwo">Devoción a la Divina Misericordia</string>
+    <string name="title_sanktuarium_dojazd">Mapa y cómo llegar</string>
+    <string name="title_sanktuarium_kontakt">Contacto</string>
+    <string name="title_multimedia">Transmision on-line</string>
+    <string name="title_yt">YouTube</string>
+
+    <string-array name="title_group_items">
+        <item>Noticias</item>
+        <item>Del \'\'Diario\'\' de Santa Faustina</item>
+        <item>Devoción a la Divina Misericordia</item>
+        <item>Santa Sor Faustina</item>
+        <item>El Santuario de Misericordia en Cracovia-Łagiewniki</item>
+        <item>Transmision on-line</item>
+        <item>Galería</item>
+        <item>Koronka za konających</item>
+        <item>Editorial \'\'Misericordia\'\'</item>
+        <item>Facebook</item>
+        <item>Jornada Mundial de la Juventud 2016</item>
+        <item>YouTube</item>
+        <item>Ayúdanos</item>
+        <item>Más</item>
+    </string-array>
 </resources>

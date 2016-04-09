@@ -32,62 +32,6 @@
         <item>More</item>
     </string-array>
 
-    <array name="title_icons">
-        <item>@mipmap/img_aktualnosci</item>
-        <item>@mipmap/img_dzienniczek</item>
-        <item>@mipmap/img_obraz</item>
-        <item>@mipmap/img_faustyna</item>
-        <item>@mipmap/img_sanktuarium</item>
-        <item>@mipmap/img_transmisja</item>
-        <item>@mipmap/img_galeria</item>
-        <item>@mipmap/img_koronka</item>
-        <item>@mipmap/img_sklep</item>
-        <item>@mipmap/img_facebook</item>
-        <item>@mipmap/img_sdm</item>
-        <item>@mipmap/img_youtube</item>
-        <item>@mipmap/img_wsparcie</item>
-        <item>@mipmap/img_strona</item>
-    </array>
-
-    <string-array name="nabozenstwo_classes">
-        <item>Istota</item>
-        <item>Obraz</item>
-        <item>SwietoMilosierdzia</item>
-        <item>KoronkaDoMilosierdziaBozego</item>
-        <item>GodzinaMilosierdzia</item>
-        <item>SzerzenieCzciMilosierdzia</item>
-    </string-array>
-
-    <string-array name="faustyna_classes">
-        <item>Biografia</item>
-        <item>MisjaGloszeniaOredziaMilosierdzia</item>
-        <item>SzkolaDuchowosci</item>
-        <item>NoweZgromadzenie</item>
-        <item>LitaniaDoSwSiostryFaustyny</item>
-        <item>ModlitwaPrzezPrzyczyneSwFaustyny</item>
-    </string-array>
-
-    <string-array name="sanktuarium_classes">
-        <item>CudownyObraz</item>
-        <item>Bazylika</item>
-        <item>Kaplica</item>
-        <item>PorzadekNabozenstw</item>
-        <item>OprowadzaniePielgrzymow</item>
-        <item>Noclegi</item>
-        <item>Kontakt</item>
-        <item>Dojazd</item>
-    </string-array>
-
-    <string-array name="multimedia_classes">
-        <item>Video</item>
-        <item>OdsluchAudioGodzinyMilosierdziaIKoronki</item>
-    </string-array>
-
-    <string-array name="wsparcie_classes">
-        <item>DaryNaRzeczMilosierdzia</item>
-        <item>RozbudowaSanktuarium</item>
-    </string-array>
-
     <string name="title_nabozenstwo_istota">Essence</string>
     <string name="title_nabozenstwo_obraz">Image</string>
     <string name="title_nabozenstwo_swieto">Feast of Mercy</string>
@@ -104,7 +48,7 @@
 
     <string name="title_sanktuarium_obraz">Chapel of the miraculous image of the Merciful Jesus and the tomb of St. Faustina</string>
     <string name="title_sanktuarium_bazylika">Basilica</string>
-    <string name="title_sanktuarium_kaplica">Chapel of Perpetual Adoration</string>
+    <string name="title_sanktuarium_kaplica">Chapel of the miraculous image of the Merciful Jesus and the tomb of St. Faustina</string>
     <string name="title_sanktuarium_porzadek">Times of Services</string>
     <string name="title_sanktuarium_oprowadzanie">Pilgrims</string>
     <string name="title_sanktuarium_noclegi">Hostels</string>
@@ -113,11 +57,8 @@
 
     <string name="title_multimedia_koronka">Listen to the Chaplet</string>
     <string name="title_multimedia_video">Video</string>
-
-    <string name="title_wsparcie_koronka">Perpetual Chaplet to Divine Mercy</string>
     <string name="title_wsparcie_rozbudowa">Shrine building expansion</string>
 
-    <string name="sms_prompt">[write in the dying\'s name]</string>
     <string name="koronka_toast">In the text message write in the dying\'s name</string>
 
     <string name="url_faustyna">https://www.faustyna.pl/zmbm/en/</string>

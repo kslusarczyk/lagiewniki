@@ -113,4 +113,26 @@
     <string name="title_sklep">Der \'\'Misericordia\'\' – Verlag</string>
     <string name="title_multimedia_koronka">Internet-Übertragung des Gebets in der Stunde der Barmherzigkeit und des Rosenkranzes zur Barmherzigkeit Gottes</string>
     <string name="title_sdm">Weltjugendtag 2016</string>
+    <string name="title_nabozenstwo">Die Andacht an die Barmherzigkeit Gottes</string>
+    <string name="title_sanktuarium_dojazd">Karte und Zufahrt</string>
+    <string name="title_multimedia">On-line</string>
+    <string name="title_yt">YouTube</string>
+
+    <string-array name="title_group_items">
+        <item>Aktuelle Nachrichten</item>
+        <item>Aus dem \'\'Tagebuch\'\' der hl. Schwester Faustina</item>
+        <item>Die Andacht an die Barmherzigkeit Gottes</item>
+        <item>Die heilige Faustina</item>
+        <item>Heiligtum der Barmherzigkeit Gottes in Krakau-Lagiewniki</item>
+        <item>On-line</item>
+        <item>Galerie</item>
+        <item>Koronka za konających</item>
+        <item>Der \'\'Misericordia\'\' – Verlag</item>
+        <item>Facebook</item>
+        <item>Weltjugendtag 2016</item>
+        <item>YouTube</item>
+        <item>Unterstützung</item>
+        <item>Mehr</item>
+    </string-array>
+
 </resources>

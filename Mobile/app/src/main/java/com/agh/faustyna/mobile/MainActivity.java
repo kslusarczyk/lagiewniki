@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         break;
                     case 7:
-                        sendSMS(getString(R.string.koronka_phone_number), getString(R.string.sms_prompt));
+                        sendSMS(getString(R.string.koronka_phone_number));
 
                         Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.koronka_toast), Toast.LENGTH_LONG);
                         toast.show();
@@ -285,10 +285,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void sendSMS(String phoneNumber, String message){
+    public void sendSMS(String phoneNumber){
         Intent sendSMSIntent = new Intent(Intent.ACTION_SENDTO);
         sendSMSIntent.setData(Uri.parse("smsto:" + phoneNumber));
-        sendSMSIntent.putExtra("sms_body", message);
         if (sendSMSIntent.resolveActivity(getPackageManager()) != null){
             startActivity(sendSMSIntent);
         }

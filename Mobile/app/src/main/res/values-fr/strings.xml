@@ -57,5 +57,79 @@
     <string name="porzadek_uroczystosc_ceremonie">- Cérémonies de l’association Faustinum</string>
     <string name="porzadek_uroczystosc_title">5 octobre – célébration liturgique de sainte Faustine</string>
     <string name="porzadek_uroczystosc_triduum">- Précédée par un triduum de messes avec homélies de circonstance à la chapelle du couvent à 17:00.</string>
-    <string name="title_sdm">Journées mondiales de la jeunesse 2016 </string>
+    <string name="title_sdm">Journées mondiales de la jeunesse 2016</string>
+    <string name="title_sanktuarium_kaplica">Chapelle</string>
+    <string name="rest_dzienniczek_siostry_faustyny">api/?lang=fr&amp;action=sentence</string>
+    <string name="rest_galeria">api/?lang=fr&amp;action=sentence</string>
+    <string name="url_faustyna">https://www.faustyna.pl/zmbm/fr/</string>
+    <string name="title_nabozenstwo">Dévotion à la Miséricorde divine</string>
+    <string name="rest_bazylika">fr/basilique-sanctuaires/?json=1</string>
+    <string name="rest_istota">fr/principe/?json=1</string>
+    <string name="title_nabozenstwo_istota">Principe</string>
+    <string name="rest_obraz">fr/image-du-christ-misericordieux/?json=1</string>
+    <string name="title_nabozenstwo_obraz">Image du Christ Miséricordieux</string>
+    <string name="title_nabozenstwo_swieto">Fête de la Miséricorde</string>
+    <string name="rest_swieto_milosierdzia">fr/fete-de-la-misericorde/?json=1</string>
+    <string name="title_nabozenstwo_koronka">Chapelet à la Miséricorde divine</string>
+    <string name="rest_koronka_do_milosierdzia_bozego">fr/chapelet-a-la-misericorde-divine/?json=1</string>
+    <string name="rest_godzina_milosierdzia">fr/l-heure-de-la-misericorde/?json=1</string>
+    <string name="title_nabozenstwo_godzina">L’Heure de la Miséricorde</string>
+    <string name="title_nabozenstwo_szerzenie">Diffusion du culte de la Miséricorde</string>
+    <string name="rest_szerzenie_czci_milosierdzia">fr/diffusion-du-culte-de-la-misericorde/?json=1</string>
+    <string name="title_faustyna">Sainte Soeur Faustine</string>
+    <string name="title_faustyna_biografia">Biographie</string>
+    <string name="rest_biografia">fr/biographie/?json=1</string>
+    <string name="title_faustyna_misja">Proclamation de la Miséricorde divine</string>
+    <string name="rest_misja_gloszenia">fr/proclamation-de-la-misericorde-divine/?json=1</string>
+    <string name="rest_szkola_duchowosci">fr/ecole-de-spiritualite-spiritualite/?json=1</string>
+    <string name="title_faustyna_szkola">Ecole de spiritualité</string>
+    <string name="title_faustyna_zgromadzenie">La Nouvelle Congrégation</string>
+    <string name="rest_nowe_zgromadzenie">fr/dans-les-ecrits-de-sainte-soeur-faustine/?json=1</string>
+    <string name="title_faustyna_litania">Litanies de la Sainte Faustine</string>
+    <string name="rest_litania_do_faustyny">fr/litanies-de-la-sainte-faustine/?json=1</string>
+    <string name="title_faustyna_modlitwa">Prière pour obtenir des grâces par l’intercession de sainte Soeur Faustine</string>
+    <string name="rest_modlitwa_przez_przyczyne">fr/autres-prieres/?json=1</string>
+    <string name="title_sanktuarium_obraz">Tableau miraculeux de Jésus Miséricordieux</string>
+    <string name="rest_cudowny_obraz">fr/l-image-de-jesus-misericordieux-celebre-par-les-graces/?json=1</string>
+    <string name="rest_kaplica">fr/chapelle-avec-le-tableau-de-jesus-misericordieux-celebre-pour-ses-graces-et-la-tombe-de-sainte-fau-sanctuaires/?json=1</string>
+    <string name="title_sanktuarium_bazylika">Basilique</string>
+    <string name="title_sanktuarium_porzadek">Horaires des dévotions</string>
+    <string name="title_sanktuarium_oprowadzanie">Les pèlerins</string>
+    <string name="rest_pielgrzymi">fr/les-pelerins-sanctuaires/?json=1</string>
+    <string name="title_sanktuarium_kontakt">Contact</string>
+    <string name="title_sanktuarium_dojazd">Carte et accès</string>
+    <string name="rest_dary_na_rzecz_milosierdzia">fr/pour-soutenir-nos-oeuvres-de-la-misericorde/?json=1</string>
+    <string name="rest_news">fr/category/novuelles/?json=1</string>
+    <string name="rest_noclegi">fr/maison-de-sainte-soeur-faustine-sanctuaires/?json=1</string>
+    <string name="rest_rozbudowa">fr/extension-sanctuaires/?json=1</string>
+    <string name="title_aktualnosci">Novuelles</string>
+    <string name="title_dojazd">Carte et accès</string>
+    <string name="title_galeria">Galerie</string>
+    <string name="title_multimedia">Émissions en ligne on-line</string>
+    <string name="title_multimedia_koronka">Transmission de l’Heure de la Miséricorde et du Chapelet à la Miséricorde</string>
+    <string name="title_sanktuarium">Sanctuaire de la Miséricorde Divine de Cracovie-Łagiewniki</string>
+    <string name="title_sklep">Editions \'\'Misericordia\'\'</string>
+    <string name="title_wiecej">Plus</string>
+    <string name="title_wsparcie">Soutien</string>
+    <string name="title_wsparcie_dary_na_rzecz_milosierdzia">Pour soutenir nos oeuvres de la Miséricorde</string>
+    <string name="title_wsparcie_rozbudowa">Extension</string>
+    <string name="title_yt">YouTube</string>
+    <string name="url_dzienniczek">http://www.faustyna.pl/fr/index.php?option=com_content&amp;task=view&amp;id=52&amp;Itemid=57</string>
+
+    <string-array name="title_group_items">
+        <item>Novuelles</item>
+        <item>Z \'\'Dzienniczka\'\' św. Siostry Faustyny</item>
+        <item>Dévotion à la Miséricorde divine</item>
+        <item>Sainte Soeur Faustine</item>
+        <item>Sanctuaire de la Miséricorde Divine de Cracovie-Łagiewniki</item>
+        <item>Émissions en ligne on-line</item>
+        <item>Galerie</item>
+        <item>Koronka za konających</item>
+        <item>Editions \'\'Misericordia\'\'</item>
+        <item>Facebook</item>
+        <item>Journées mondiales de la jeunesse 2016</item>
+        <item>YouTube</item>
+        <item>Soutien</item>
+        <item>Plus</item>
+    </string-array>
 </resources>
