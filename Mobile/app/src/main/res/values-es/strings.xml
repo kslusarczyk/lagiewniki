@@ -133,4 +133,9 @@
         <item>Ayúdanos</item>
         <item>Más</item>
     </string-array>
+    <string-array name="porzadek_nabozenstw">
+        <item>La capilla</item>
+        <item>Basilica</item>
+        <item>Celebraciones principales</item>
+    </string-array>
 </resources>

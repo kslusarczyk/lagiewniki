@@ -207,5 +207,9 @@
     <string name="title_wsparcie_dary_na_rzecz_milosierdzia"> Make a gift from your heart</string>
     <string name="kontakt_poradnia"></string>
     <string name="url_dzienniczek">https://www.faustyna.pl/zmbm/en/diary-full-text/</string>
-
+    <string-array name="porzadek_nabozenstw">
+        <item>Chapel</item>
+        <item>Basilica</item>
+        <item>Major celebrations</item>
+    </string-array>
 </resources>

@@ -134,5 +134,10 @@
         <item>Unterstützung</item>
         <item>Mehr</item>
     </string-array>
+    <string-array name="porzadek_nabozenstw">
+        <item>Die Kapelle</item>
+        <item>Die Basilika</item>
+        <item>Die hauptfeierlichkeiten</item>
+    </string-array>
 
 </resources>

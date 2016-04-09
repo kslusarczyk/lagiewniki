@@ -132,4 +132,9 @@
         <item>Soutien</item>
         <item>Plus</item>
     </string-array>
+    <string-array name="porzadek_nabozenstw">
+        <item>Chapelle</item>
+        <item>Basilique</item>
+        <item>Celebracions principales</item>
+    </string-array>
 </resources>

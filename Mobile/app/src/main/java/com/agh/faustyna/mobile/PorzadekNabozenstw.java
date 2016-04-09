@@ -14,8 +14,7 @@ public class PorzadekNabozenstw extends FragmentActivity implements ActionBar.Ta
     private ViewPager viewPager;
     private PorzadekTabsPagerAdapter mAdapter;
     private ActionBar actionBar;
-
-    private String[] tabs = {"Kaplica", "Bazylika", "Główne uroczystości"};
+    private String[] tabs;
 
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -28,6 +27,7 @@ public class PorzadekNabozenstw extends FragmentActivity implements ActionBar.Ta
         viewPager.setAdapter(mAdapter);
         actionBar.setHomeButtonEnabled(false);
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+        tabs = getResources().getStringArray(R.array.porzadek_nabozenstw);
 
         for (String tab_name : tabs) {
             actionBar.addTab(actionBar.newTab().setText(tab_name).setTabListener(this));
