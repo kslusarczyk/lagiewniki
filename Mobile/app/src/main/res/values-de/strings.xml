@@ -93,7 +93,6 @@
     <string name="rest_rozbudowa">de/ausbau/?json=1</string>
     <string name="title_sanktuarium_oprowadzanie">Pilger</string>
     <string name="rest_pielgrzymi">de/pilger/?json=1</string>
-    <string name="title_dojazd">Zufahrt</string>
     <string name="title_dzienniczek">Aus dem \'\'Tagebuch\'\' der hl. Schwester Faustina</string>
     <string name="title_aktualnosci">Aktuelle Nachrichten</string>
     <string name="dzienniczek_info">Der vollständige Text des \'\'Tagebuchs\'\' der hl. Schwester Faustina</string>
@@ -139,5 +138,8 @@
         <item>Die Basilika</item>
         <item>Die hauptfeierlichkeiten</item>
     </string-array>
+    <string name="dialog_positive_button">Einstellungen</string>
+    <string name="dialog_negative_button">Ignorieren</string>
+    <string name="title_multimedia_video">Video</string>
 
 </resources>

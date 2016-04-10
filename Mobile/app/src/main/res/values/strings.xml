@@ -2,8 +2,6 @@
     <string name="app_name" translatable="false">Faustyna.pl</string>
     <string name="app_footer" translatable="false">Copyright © 2016 ZMBM</string>
 
-    <string name="title_dojazd">Dojazd</string>
-
     <string name="title_aktualnosci">Aktualności</string>
     <string name="title_dzienniczek">Z \'\'Dzienniczka\'\' św. Siostry Faustyny</string>
     <string name="title_nabozenstwo">Nabożeństwo do Miłosierdzia Bożego</string>
@@ -253,7 +251,6 @@
     <string name="gps_dialog_title">Brak sygnału GPS</string>
 
     <!-- Aktualnosci -->
-    <string name="news_load_error">Wystąpił błąd podczas wczytywania aktualności</string>
     <string name="thumbnail_description" translatable="false">Thumbnail</string>
     <string name="load_error">Wystąpił błąd podczas wczytywania danych</string>
 
@@ -264,7 +261,6 @@
     <string name="pobieranie_koronki">Pobieranie ... </string>
     <string name="pobrana_koronka">Koronka została pobrana. Kliknij przycisk aby odsłuchać</string>
     <string name="audio_url_error">Transmisja jest obecnie niedostępna</string>
-    <string name="pause">pauza</string>
 
     <!-- Galeria -->
     <string name="error_gallery">Galerie są obecnie niedostępne.</string>

@@ -51,7 +51,7 @@ public class GetNewsTask extends HttpTask {
             }
 
         } catch (JSONException e) {
-            Toast.makeText(context,R.string.news_load_error, Toast.LENGTH_LONG).show();
+            Toast.makeText(context,R.string.load_error, Toast.LENGTH_LONG).show();
             Log.d("http", e.getMessage(), e);
         }
 

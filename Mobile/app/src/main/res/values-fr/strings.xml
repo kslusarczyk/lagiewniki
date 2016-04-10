@@ -103,7 +103,6 @@
     <string name="rest_noclegi">fr/maison-de-sainte-soeur-faustine-sanctuaires/?json=1</string>
     <string name="rest_rozbudowa">fr/extension-sanctuaires/?json=1</string>
     <string name="title_aktualnosci">Novuelles</string>
-    <string name="title_dojazd">Carte et accès</string>
     <string name="title_galeria">Galerie</string>
     <string name="title_multimedia">Émissions en ligne on-line</string>
     <string name="title_multimedia_koronka">Transmission de l’Heure de la Miséricorde et du Chapelet à la Miséricorde</string>
@@ -137,4 +136,8 @@
         <item>Basilique</item>
         <item>Celebracions principales</item>
     </string-array>
+    <string name="title_dzienniczek">Dans le \'\'Petit Journal\'\' de sainte Soeur Faustine</string>
+    <string name="dialog_positive_button">Paramétres</string>
+    <string name="dialog_negative_button">Ignorer</string>
+    <string name="title_multimedia_video">Vidéo</string>
 </resources>

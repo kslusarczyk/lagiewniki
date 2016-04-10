@@ -23,7 +23,7 @@
     <string name="porzadek_bazylika_post_pt_droga">- 16:00 Via Crucis seguita dalla Santa Messa</string>
     <string name="porzadek_bazylika_pt">Il I° venerdì del mese</string>
     <string name="porzadek_bazylika_pt_msza">- 17:00 Santa Messa (trasmessa dalla TVP 3)</string>
-    <string name="porzadek_bazylika_title">BASILICA</string>
+    <string name="porzadek_bazylika_title">Basilica</string>
     <string name="porzadek_kaplica_1_pt">Il I° venerdì del mese</string>
     <string name="porzadek_kaplica_1_pt_msza">- 19:00 – Santa Messa</string>
     <string name="porzadek_kaplica_codziennie">Ogni giorno</string>
@@ -46,7 +46,7 @@
     <string name="porzadek_kaplica_nd_nabozenstwo">- 18:30	– Liturgia</string>
     <string name="porzadek_kaplica_nd_rozaniec">- 20:30	– Rosario</string>
     <string name="porzadek_kaplica_nd_wystawienie">- 12:00	– Esposizione del Santissimo Sacramento e adorazione fino alle 19:00</string>
-    <string name="porzadek_kaplica_title">CAPPELLA</string>
+    <string name="porzadek_kaplica_title">Cappella</string>
     <string name="porzadek_kaplica_wt">Ogni martedì</string>
     <string name="porzadek_kaplica_wt_nowenna">- 16:40 – Novena e Santa Messa dedicata a Santa Suor Faustina</string>
     <string name="porzadek_swieto_czuwanie">- Veglia notturna nella Basilica, prima della Festa della Misericordia, a partire dalle ore 21:00</string>
@@ -62,4 +62,82 @@
     <string name="rest_galeria">api/?lang=it&amp;action=sentence</string>
     <string name="url_faustyna">https://www.faustyna.pl/zmbm/it/</string>
     <string name="url_dzienniczek">https://www.faustyna.pl/zmbm/it/diario-2/</string>
+    <string name="title_nabozenstwo">Culto della Divina Misericordia</string>
+    <string name="title_nabozenstwo_istota">Essenza</string>
+    <string name="rest_istota">it/essenza/?json=1</string>
+    <string name="rest_obraz">it/immagine/?json=1</string>
+    <string name="title_nabozenstwo_obraz">Immagine</string>
+    <string name="title_nabozenstwo_swieto">Festa della Divina Misericordia</string>
+    <string name="rest_swieto_milosierdzia">it/festa-della-divina-misericordia/?json=1</string>
+    <string name="rest_koronka_do_milosierdzia_bozego">it/coroncina-alla-divina-misericordia/?json=1</string>
+    <string name="title_nabozenstwo_koronka">Coroncina alla Divina Misericordia</string>
+    <string name="title_nabozenstwo_godzina">Ora della Misericordia</string>
+    <string name="rest_godzina_milosierdzia">it/ora-della-misericordia/?json=1</string>
+    <string name="rest_szerzenie_czci_milosierdzia">it/diffusione-del-culto-della-misericordia/?json=1</string>
+    <string name="title_nabozenstwo_szerzenie">Diffusione del culto della Misericordia</string>
+    <string name="title_faustyna">Santa Suor Faustina</string>
+    <string name="title_faustyna_biografia">Biografia</string>
+    <string name="rest_biografia">it/biografia/?json=1</string>
+    <string name="title_faustyna_misja">Annuncio della Divina Misericordia</string>
+    <string name="rest_misja_gloszenia">it/annuncio-della-divina-misericordia/?json=1</string>
+    <string name="title_faustyna_szkola">Scuola di spiritualità</string>
+    <string name="rest_szkola_duchowosci">it/scuola-di-spiritualita/?json=1</string>
+    <string name="title_faustyna_zgromadzenie">Nuova Congregazione</string>
+    <string name="rest_nowe_zgromadzenie">it/negli-scritti-di-santa-suor-faustina/?json=1</string>
+    <string name="title_faustyna_litania">Litanie di Santa Faustina</string>
+    <string name="rest_litania_do_faustyny">it/litanie-di-santa-faustina/?json=1</string>
+    <string name="title_faustyna_modlitwa">Preghiera per l’intercessione di Santa Faustina</string>
+    <string name="rest_modlitwa_przez_przyczyne">it/preghiera-per-l-intercessione-di-santa-faustina/?json=1</string>
+    <string name="rest_cudowny_obraz">it/immagine-de-gesu/?json=1</string>
+    <string name="title_sanktuarium_obraz">L’Immagine di Gesù Misericordioso famosa per le grazie </string>
+    <string name="title_sanktuarium_kaplica">Cappella </string>
+    <string name="rest_kaplica">it/cappella-con-l-immagine-di-gesu-misericordioso-famosa-per-le-grazie-e-con-la-tomba-di-santa-faustina/?json=1</string>
+    <string name="rest_bazylika">it/basilica/?json=1</string>
+    <string name="title_sanktuarium_bazylika">Basilica</string>
+    <string name="title_sanktuarium">Il Santuario della Divina Misericordia a Cracovia-Łagiewniki</string>
+    <string name="title_sanktuarium_porzadek">Orario delle funzioni</string>
+    <string name="title_sanktuarium_oprowadzanie">Pellegrini</string>
+    <string name="rest_pielgrzymi">it/pellegrini/?json=1</string>
+    <string name="rest_noclegi">it/casa-di-santa-suor-faustina/?json=1</string>
+    <string name="rest_rozbudowa">it/ampliamento/?json=1</string>
+    <string name="title_sanktuarium_kontakt">Contatti</string>
+    <string name="title_sanktuarium_dojazd">Mappa e come arrivare</string>
+    <string name="title_wsparcie_rozbudowa">Ampliamento</string>
+    <string name="title_yt">YouTube</string>
+    <string name="title_sklep">Edizioni \'\'Misericordia\'\'</string>
+    <string name="title_wsparcie">Sostegno</string>
+    <string name="rest_dary_na_rzecz_milosierdzia">it/chiediamo-sostegno-per-diffondere-la-devozione-alla-divina-misericordia/?json=1</string>
+    <string name="rest_news">it/category/messaggi/?json=1</string>
+    <string name="title_aktualnosci">Messaggi</string>
+    <string name="title_dzienniczek">Nel \'\'Diario\'\' di Santa Suor Faustina</string>
+    <string name="title_galeria">Galleria</string>
+    <string name="title_multimedia">La transmissione on-line</string>
+    <string name="title_multimedia_koronka">Trasmissione dell’Ora della Misericordia e della Coroncina</string>
+    <string name="title_wiecej">Più</string>
+    <string name="title_wsparcie_dary_na_rzecz_milosierdzia">Chiediamo sostegno per diffondere la Devozione alla Divina Misericordia</string>
+
+    <string-array name="title_group_items">
+        <item>Messaggi</item>
+        <item>Nel \'\'Diario\'\' di Santa Suor Faustina</item>
+        <item>Culto della Divina Misericordia</item>
+        <item>Santa Suor Faustina</item>
+        <item>Il Santuario della Divina Misericordia a Cracovia-Łagiewniki</item>
+        <item>La transmissione on-line</item>
+        <item>Galleria</item>
+        <item>Koronka za konających</item>
+        <item>Edizioni \'\'Misericordia\'\'</item>
+        <item>Facebook</item>
+        <item>Światowe Dni Młodzieży ŚDM 2016</item>
+        <item>YouTube</item>
+        <item>Sostegno</item>
+        <item>Più</item>
+    </string-array>
+    <string-array name="porzadek_nabozenstw">
+        <item>Cappella</item>
+        <item>Basilica</item>
+        <item>Festivita\' Principali</item>
+    </string-array>
+    <string name="dialog_positive_button">Impostazioni</string>
+    <string name="dialog_negative_button">Ignorare</string>
+    <string name="title_multimedia_video">Video</string>
 </resources>

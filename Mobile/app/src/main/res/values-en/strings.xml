@@ -1,6 +1,4 @@
 <resources>
-    <string name="title_dojazd">How to find us</string>
-
     <string name="title_aktualnosci">News</string>
     <string name="title_dzienniczek">From Saint Faustina\'s Diary</string>
     <string name="title_nabozenstwo">Devotion to The Divine Mercy</string>
@@ -155,7 +153,6 @@
     <string name="gps_dialog_title">GPS disabled</string>
 
     <!-- Aktualnosci -->
-    <string name="news_load_error">Errors occured during displaying news</string>
     <string name="load_error">Errors occured during loading informations</string>
 
     <!-- OdsluchAudioGodzinyMilosierdziaIKoronki -->
@@ -164,7 +161,6 @@
     <string name="pobieranie_koronki">Downloading ... </string>
     <string name="pobrana_koronka">Chaplet is downloaded. Click the button to listen to</string>
     <string name="audio_url_error">Transmission is currently unavailable</string>
-    <string name="pause">pause</string>
 
     <!-- Galeria -->
     <string name="error_gallery">The galleries are unavailable.</string>

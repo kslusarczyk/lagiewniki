@@ -62,4 +62,61 @@
     <string name="rest_galeria">api/?lang=ru&amp;action=sentence</string>
     <string name="url_faustyna">https://www.faustyna.pl/zmbm/ru/</string>
     <string name="url_dzienniczek">https://www.faustyna.pl/zmbm/ru/?page_id=1534</string>
+    <string name="dialog_positive_button">настройки</string>
+    <string name="dialog_negative_button">игнорировать</string>
+    <string name="title_nabozenstwo">Почитание Божьего Милосердия</string>
+    <string name="title_nabozenstwo_istota">Сущность</string>
+    <string name="title_nabozenstwo_obraz">Образ</string>
+    <string name="title_nabozenstwo_swieto">Праздник Милосердия</string>
+    <string name="title_nabozenstwo_koronka">Венчик Божьему Милосердию</string>
+    <string name="title_nabozenstwo_godzina">Час Милосердия</string>
+    <string name="title_nabozenstwo_szerzenie">Распространение почитания Милосердия</string>
+    <string name="title_faustyna">Святая Сестра Фаустина</string>
+    <string name="title_faustyna_biografia">Биография</string>
+    <string name="title_faustyna_misja">Провозглашение милосердия Бога</string>
+    <string name="title_faustyna_szkola">Школа духовности</string>
+    <string name="title_faustyna_zgromadzenie">Новая конгрегация</string>
+    <string name="title_faustyna_litania">Литания к св. Сестре Фаустине</string>
+    <string name="title_faustyna_modlitwa">Молитва через заступничество св.Фаустины</string>
+    <string name="title_sanktuarium">Святилище Божьего Милосердия в Кракове-Лагевниках</string>
+    <string name="title_sanktuarium_obraz">Известный благодатьями образ Иисуса Милосердного</string>
+    <string name="title_sanktuarium_kaplica">Часовня с чудотворным образом Милосердного Иисуса и мощами св. Фаустины</string>
+    <string name="title_sanktuarium_bazylika">Базилика</string>
+    <string name="title_sanktuarium_porzadek">Порядок богослужений</string>
+    <string name="title_sanktuarium_oprowadzanie">Паломники</string>
+    <string name="title_sanktuarium_kontakt">Контакт</string>
+    <string name="title_sanktuarium_dojazd">Карта и проезд</string>
+    <string name="title_aktualnosci">Новости</string>
+    <string name="title_dzienniczek">Из \'\'Дневника\'\' св. Сестры Фаустины</string>
+    <string name="title_galeria">Галерея</string>
+    <string name="title_multimedia">ТРАНСЛЯЦИЯ ON-LINE</string>
+    <string name="title_multimedia_koronka">Трансляция Часа Милосердия и Венчика</string>
+    <string name="title_sklep">Издательство \'\'Misericordia\'\'</string>
+    <string name="title_wiecej">подробнее</string>
+    <string name="title_wsparcie">Помощь</string>
+    <string name="title_wsparcie_dary_na_rzecz_milosierdzia">Дары сердца на помощь сайту: www.faustyna.pl</string>
+    <string name="title_wsparcie_rozbudowa">Расширение строительства</string>
+    <string name="title_multimedia_video">видео</string>
+
+    <string-array name="title_group_items">
+        <item>Новости</item>
+        <item>Из \'\'Дневника\'\' св. Сестры Фаустины</item>
+        <item>Почитание Божьего Милосердия</item>
+        <item>Святая Сестра Фаустина</item>
+        <item>Святилище Божьего Милосердия в Кракове-Лагевниках</item>
+        <item>ТРАНСЛЯЦИЯ ON-LINE</item>
+        <item>Галерея</item>
+        <item>Koronka za konających</item>
+        <item>Издательство \'\'Misericordia\'\'</item>
+        <item>Facebook</item>
+        <item>Всемирный день молодёжи 2016</item>
+        <item>Filmy, Rozmowy, Wywiady</item>
+        <item>Помощь</item>
+        <item>подробнее</item>
+    </string-array>
+    <string-array name="porzadek_nabozenstw">
+        <item>Часовня</item>
+        <item>Базилика</item>
+        <item>ОСНОВНЫЕ ТОРЖЕСТВА</item>
+    </string-array>
 </resources>
