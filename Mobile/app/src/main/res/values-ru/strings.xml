@@ -119,4 +119,24 @@
         <item>Базилика</item>
         <item>ОСНОВНЫЕ ТОРЖЕСТВА</item>
     </string-array>
+    <string name="rest_istota">ru/?page_id=178ru/?page_id=178&amp;json=1</string>
+    <string name="rest_obraz">ru/?page_id=177&amp;json=1</string>
+    <string name="rest_swieto_milosierdzia">ru/?page_id=176&amp;json=1</string>
+    <string name="rest_koronka_do_milosierdzia_bozego">ru/?page_id=175&amp;json=1</string>
+    <string name="rest_godzina_milosierdzia">ru/?page_id=174&amp;json=1</string>
+    <string name="rest_szerzenie_czci_milosierdzia">ru/?page_id=173&amp;json=1</string>
+    <string name="rest_biografia">ru/?page_id=286&amp;json=1</string>
+    <string name="rest_misja_gloszenia">ru/?page_id=291&amp;json=1</string>
+    <string name="rest_szkola_duchowosci">ru/?page_id=316&amp;json=1</string>
+    <string name="rest_nowe_zgromadzenie">ru/?page_id=322&amp;json=1</string>
+    <string name="rest_litania_do_faustyny">ru/?page_id=338&amp;json=1</string>
+    <string name="rest_modlitwa_przez_przyczyne">ru/?page_id=336&amp;json=1</string>
+    <string name="rest_cudowny_obraz">ru/?page_id=1515&amp;json=1</string>
+    <string name="rest_kaplica">ru/?page_id=423&amp;json=1</string>
+    <string name="rest_bazylika">ru/?page_id=422&amp;json=1</string>
+    <string name="rest_pielgrzymi">ru/?page_id=406&amp;json=1</string>
+    <string name="rest_rozbudowa">ru/?page_id=409&amp;json=1</string>
+    <string name="rest_noclegi">ru/?page_id=408&amp;json=1</string>
+    <string name="rest_dary_na_rzecz_milosierdzia">ru/?page_id=606&amp;json=1</string>
+    <string name="rest_news">ru/?cat=86&amp;json=1</string>
 </resources>
