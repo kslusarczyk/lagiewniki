@@ -6,10 +6,10 @@
     <string name="title_sanktuarium">Shrine of Divine Mercy in Cracow-Lagiewniki</string>
     <string name="title_galeria">Gallery</string>
     <string name="title_multimedia">On-line transmission</string>
-    <string name="title_koronka">Chaplet for death</string>
+    <string name="title_koronka">Chaplet for the Dying</string>
     <string name="title_sklep">Misericordia Publishing House</string>
     <string name="title_sdm">World Youth Day 2016</string>
-    <string name="title_yt">YouTube</string>
+    <string name="title_yt">Films, discussions, interviews</string>
     <string name="title_wsparcie">Congregation</string>
     <string name="title_wiecej">More</string>
 
@@ -44,12 +44,12 @@
     <string name="title_faustyna_litania">Litany to St. Faustina</string>
     <string name="title_faustyna_modlitwa">Prayer through the Intercession of St. Faustina</string>
 
-    <string name="title_sanktuarium_obraz">Chapel of the miraculous image of the Merciful Jesus and the tomb of St. Faustina</string>
+    <string name="title_sanktuarium_obraz">Miraculous image of Merciful Jesus</string>
     <string name="title_sanktuarium_bazylika">Basilica</string>
-    <string name="title_sanktuarium_kaplica">Chapel of the miraculous image of the Merciful Jesus and the tomb of St. Faustina</string>
+    <string name="title_sanktuarium_kaplica">Chapel </string>
     <string name="title_sanktuarium_porzadek">Times of Services</string>
     <string name="title_sanktuarium_oprowadzanie">Pilgrims</string>
-    <string name="title_sanktuarium_noclegi">Hostels</string>
+    <string name="title_sanktuarium_noclegi">Accommodation</string>
     <string name="title_sanktuarium_kontakt">Contact</string>
     <string name="title_sanktuarium_dojazd">How to find us</string>
 
@@ -57,7 +57,7 @@
     <string name="title_multimedia_video">Video</string>
     <string name="title_wsparcie_rozbudowa">Shrine building expansion</string>
 
-    <string name="koronka_toast">In the text message write in the dying\'s name</string>
+    <string name="koronka_toast">Enter the name of the dying person in the SMS</string>
 
     <string name="url_faustyna">https://www.faustyna.pl/zmbm/en/</string>
 
@@ -144,26 +144,26 @@
     <string name="porzadek_kaplica_1_pt">The first Friday of the month</string>
     <string name="porzadek_kaplica_1_pt_msza">- 19:00 Holy Mass</string>
 
-    <string name="wifi_dialog_message">Internet connection is disabled. Do you want to enable it?</string>
-    <string name="wifi_dialog_title">Internet connection disabled</string>
+    <string name="wifi_dialog_message">If you want to benefit fully from this functionality, enable your Internet connection</string>
+    <string name="wifi_dialog_title">No Internet connection</string>
     <string name="dialog_positive_button">Settings</string>
     <string name="dialog_negative_button">Ignore</string>
 
-    <string name="gps_dialog_message">GPS is disabled. Do you want to enable it?</string>
-    <string name="gps_dialog_title">GPS disabled</string>
+    <string name="gps_dialog_message">To determine route to the Shrine, turn on GPS</string>
+    <string name="gps_dialog_title">No GPS signal</string>
 
     <!-- Aktualnosci -->
-    <string name="load_error">Errors occured during loading informations</string>
+    <string name="load_error">Data loading error</string>
 
     <!-- OdsluchAudioGodzinyMilosierdziaIKoronki -->
-    <string name="odsluchaj_koronke">Listen to the Chaplet from {date} :</string>
-    <string name="pobierz_koronke"> Click the button to download the Chaplet</string>
+    <string name="odsluchaj_koronke">Listen to the Hour of Mercy prayer and Chaplet from {date}:</string>
+    <string name="pobierz_koronke">Press the button to download the file</string>
     <string name="pobieranie_koronki">Downloading ... </string>
-    <string name="pobrana_koronka">Chaplet is downloaded. Click the button to listen to</string>
+    <string name="pobrana_koronka">The Chaplet\'s download is ready. Press the button to listen.</string>
     <string name="audio_url_error">Transmission is currently unavailable</string>
 
     <!-- Galeria -->
-    <string name="error_gallery">The galleries are unavailable.</string>
+    <string name="error_gallery">Galleries are currently unavailable</string>
 
     <!-- REST API -->
     <string name="rest_news">en/category/news/?json=1</string>
@@ -195,13 +195,13 @@
     <string name="rest_galeria">api/?lang=en&amp;action=gallery</string>
 
     <!-- zapisywane dane -->
-    <string name="brak_zasobu">There is no connection to the Internet.</string>
+    <string name="brak_zasobu">Resource unavailable. No connection to the Internet.</string>
 
-    <string name="exit_back_toast">Press back again to close this app</string>
-    <string name="dzienniczek_info">Full text of Saint Faustinas \'\'Diary\'\' is at https://www.faustyna.pl/zmbm/en</string>
-    <string name="kontakt_toast">To contact,long click on telephone number or mail address</string>
+    <string name="exit_back_toast">Click Back one more time to exit</string>
+    <string name="dzienniczek_info">Full text of the \'\'Diary\'\' of St. Faustina available at https://www.faustyna.pl/zmbm/en</string>
+    <string name="kontakt_toast">To get in touch, hold the phone number or e-mail address</string>
     <string name="title_wsparcie_dary_na_rzecz_milosierdzia"> Make a gift from your heart</string>
-    <string name="kontakt_poradnia"></string>
+    <string name="kontakt_poradnia">Mercy Counseling</string>
     <string name="url_dzienniczek">https://www.faustyna.pl/zmbm/en/diary-full-text/</string>
     <string-array name="porzadek_nabozenstw">
         <item>Chapel</item>

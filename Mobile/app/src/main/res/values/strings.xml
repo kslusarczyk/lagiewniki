@@ -242,7 +242,7 @@
     <string name="porzadek_kaplica_1_pt">I piątek miesiąca</string>
     <string name="porzadek_kaplica_1_pt_msza">- 19:00 Msza Święta</string>
 
-    <string name="wifi_dialog_message">Jeśli chcesz korzystać w pełni z tej funkcjonalności, włącz internet</string>
+    <string name="wifi_dialog_message">Jeśli chcesz korzystać w pełni z tej funkcjonalności, włącz Internet</string>
     <string name="wifi_dialog_title">Brak połączenia z Internetem</string>
     <string name="dialog_positive_button">Ustawienia</string>
     <string name="dialog_negative_button">Ignoruj</string>
@@ -259,11 +259,11 @@
     <string name="odsluchaj_koronke">Odsłuchaj Godzinę Miłosierdzia i Koronkę z dnia {date}:</string>
     <string name="pobierz_koronke">Kliknij przycisk aby pobrać plik</string>
     <string name="pobieranie_koronki">Pobieranie ... </string>
-    <string name="pobrana_koronka">Koronka została pobrana. Kliknij przycisk aby odsłuchać</string>
+    <string name="pobrana_koronka">Koronka została pobrana. Kliknij przycisk aby odsłuchać.</string>
     <string name="audio_url_error">Transmisja jest obecnie niedostępna</string>
 
     <!-- Galeria -->
-    <string name="error_gallery">Galerie są obecnie niedostępne.</string>
+    <string name="error_gallery">Galerie są obecnie niedostępne</string>
 
     <!-- REST API -->
     <string name="rest_news">blog/category/aktualnosci/?json=1</string>
