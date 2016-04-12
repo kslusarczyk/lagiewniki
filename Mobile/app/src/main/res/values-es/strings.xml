@@ -114,7 +114,6 @@
     <string name="title_sanktuarium_dojazd">Mapa y cómo llegar</string>
     <string name="title_sanktuarium_kontakt">Contacto</string>
     <string name="title_multimedia">Transmision on-line</string>
-    <string name="title_yt">YouTube</string>
 
     <string-array name="title_group_items">
         <item>Noticias</item>
@@ -124,11 +123,11 @@
         <item>El Santuario de Misericordia en Cracovia-Łagiewniki</item>
         <item>Transmision on-line</item>
         <item>Galería</item>
-        <item>Koronka za konających</item>
+        <item>Coronilla por los moribundos</item>
         <item>Editorial \'\'Misericordia\'\'</item>
         <item>Facebook</item>
         <item>Jornada Mundial de la Juventud 2016</item>
-        <item>YouTube</item>
+        <item>Películas, Debates Entrevistas</item>
         <item>Ayúdanos</item>
         <item>Más</item>
     </string-array>
@@ -140,4 +139,24 @@
     <string name="dialog_positive_button">Ajustes</string>
     <string name="dialog_negative_button">Pasar por alto</string>
     <string name="title_multimedia_video">Vídeo</string>
+    <string name="audio_url_error">La transmisión no está disponible en este momento</string>
+    <string name="brak_zasobu">Recurso no disponible. No hay conexión a Internet.</string>
+    <string name="dzienniczek_info">Texto completo \'\' Diario \'\' Santa Sor Faustina disponible en https://www.faustyna.pl/zmbm/es/</string>
+    <string name="error_gallery">Las galerías no están disponibles en este momento</string>
+    <string name="exit_back_toast">Haga clic otra vez para salir</string>
+    <string name="gps_dialog_message">Para determinar el trayecto al santuario, encienda el GPS</string>
+    <string name="gps_dialog_title">Falta de señal del GPS</string>
+    <string name="kontakt_poradnia">Consulta de la Misericordia</string>
+    <string name="kontakt_toast">Para ponerse en contacto, presione el número de teléfono o dirección de correo</string>
+    <string name="koronka_toast">En el contenido del SMS, introduzca el nombre del agonizante</string>
+    <string name="load_error">Ha producido un error al cargar los datos</string>
+    <string name="odsluchaj_koronke">Escuche la Hora de la Misericordia y la Coronilla del la fecha {date}:</string>
+    <string name="pobieranie_koronki">Cargando ...</string>
+    <string name="pobierz_koronke">Haga clic para descargar</string>
+    <string name="pobrana_koronka">La Coronilla se ha descargado. Haga clic para escuchar.</string>
+    <string name="title_koronka">Coronilla por los moribundos</string>
+    <string name="title_sanktuarium_noclegi">Alojamiento</string>
+    <string name="title_yt">Películas, Debates Entrevistas</string>
+    <string name="wifi_dialog_message">Si desea beneficiarse plenamente de esta funcionalidad, active Internet</string>
+    <string name="wifi_dialog_title">No hay conexión a Internet</string>
 </resources>

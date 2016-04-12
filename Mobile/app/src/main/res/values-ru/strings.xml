@@ -106,11 +106,11 @@
         <item>Святилище Божьего Милосердия в Кракове-Лагевниках</item>
         <item>ТРАНСЛЯЦИЯ ON-LINE</item>
         <item>Галерея</item>
-        <item>Koronka za konających</item>
+        <item>Венчик за умирающих</item>
         <item>Издательство \'\'Misericordia\'\'</item>
         <item>Facebook</item>
         <item>Всемирный день молодёжи 2016</item>
-        <item>Filmy, Rozmowy, Wywiady</item>
+        <item>Фильмы, Разговоры, Интервью</item>
         <item>Помощь</item>
         <item>подробнее</item>
     </string-array>
@@ -139,4 +139,24 @@
     <string name="rest_noclegi">ru/?page_id=408&amp;json=1</string>
     <string name="rest_dary_na_rzecz_milosierdzia">ru/?page_id=606&amp;json=1</string>
     <string name="rest_news">ru/?cat=86&amp;json=1</string>
+    <string name="audio_url_error">Трансляция сейчас недоступна</string>
+    <string name="brak_zasobu">Запас недоступен. Нет подключения к Интернету.</string>
+    <string name="dzienniczek_info">Полный текст \'\'Дневника\'\' св. Сестры Фаустины доступен на сайте https://www.faustyna.pl/zmbm/ru/</string>
+    <string name="error_gallery">Галереи  сейчас недоступны.</string>
+    <string name="exit_back_toast"> Для выхода нажми вторично Обратно </string>
+    <string name="gps_dialog_message">Для определения подъезда к Святилищу включи GPS</string>
+    <string name="gps_dialog_title">Нет сигнала GPS</string>
+    <string name="kontakt_poradnia">Консультация Милосердие</string>
+    <string name="kontakt_toast">Чтобы связаться, придержи номер телефона либо mail</string>
+    <string name="koronka_toast">В содержании SMS впиши имя умирающего</string>
+    <string name="load_error">Произошла ошибка во время   введения данных</string>
+    <string name="odsluchaj_koronke">Выслушай Час Милосердия и Венчик с дня {date}:</string>
+    <string name="pobieranie_koronki">Скачивание…</string>
+    <string name="pobierz_koronke"> Чтобы скачать файл щёлкни кнопку</string>
+    <string name="pobrana_koronka">Венчик скачан. Чтобы выслушать щёлкни кнопку </string>
+    <string name="title_koronka">Венчик за умирающих</string>
+    <string name="title_sanktuarium_noclegi">Ночлеги </string>
+    <string name="title_yt">Фильмы, Разговоры, Интервью</string>
+    <string name="wifi_dialog_message"> Если хочешь полностью воспользоваться этой функциональностью, включи интернет</string>
+    <string name="wifi_dialog_title">Нет подключения к Интернету</string>
 </resources>

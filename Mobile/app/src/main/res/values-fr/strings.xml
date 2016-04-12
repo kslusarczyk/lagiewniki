@@ -112,22 +112,21 @@
     <string name="title_wsparcie">Soutien</string>
     <string name="title_wsparcie_dary_na_rzecz_milosierdzia">Pour soutenir nos oeuvres de la Miséricorde</string>
     <string name="title_wsparcie_rozbudowa">Extension</string>
-    <string name="title_yt">YouTube</string>
     <string name="url_dzienniczek">http://www.faustyna.pl/fr/index.php?option=com_content&amp;task=view&amp;id=52&amp;Itemid=57</string>
 
     <string-array name="title_group_items">
         <item>Novuelles</item>
-        <item>Z \'\'Dzienniczka\'\' św. Siostry Faustyny</item>
+        <item>Dans le \'\'Petit Journal\'\' de sainte Soeur Faustine</item>
         <item>Dévotion à la Miséricorde divine</item>
         <item>Sainte Soeur Faustine</item>
         <item>Sanctuaire de la Miséricorde Divine de Cracovie-Łagiewniki</item>
         <item>Émissions en ligne on-line</item>
         <item>Galerie</item>
-        <item>Koronka za konających</item>
+        <item>Chapelet pour les mourants</item>
         <item>Editions \'\'Misericordia\'\'</item>
         <item>Facebook</item>
         <item>Journées mondiales de la jeunesse 2016</item>
-        <item>YouTube</item>
+        <item>Vidées, Interviews</item>
         <item>Soutien</item>
         <item>Plus</item>
     </string-array>
@@ -140,4 +139,24 @@
     <string name="dialog_positive_button">Paramétres</string>
     <string name="dialog_negative_button">Ignorer</string>
     <string name="title_multimedia_video">Vidéo</string>
+    <string name="audio_url_error">La transmission est actuellement indisponible</string>
+    <string name="brak_zasobu">Ressource indisponible. Pas de connexion à Internet.</string>
+    <string name="dzienniczek_info">Texte intégral du \'\'Petit Journal\'\' de Sainte Faustine disponible sur https://www.faustyna.pl/zmbm/fr/</string>
+    <string name="error_gallery">Les galeries sont actuellement indisponibles</string>
+    <string name="exit_back_toast">Cliquez Retour encore une fois pour quitter</string>
+    <string name="gps_dialog_message">Pour déterminer l\'accès au Sanctuaire, activez GPS</string>
+    <string name="gps_dialog_title">Pas de signal GPS</string>
+    <string name="kontakt_poradnia">Centre de conseil Miséricorde</string>
+    <string name="kontakt_toast">Pour entrer en contact, maintenez le numéro de téléphone ou l\'e-mail</string>
+    <string name="koronka_toast">Dans le contenu du SMS, entrez le nom de l\'agonisant</string>
+    <string name="load_error">Une erreur est survenue lors du chargement des données</string>
+    <string name="odsluchaj_koronke">Écoutez l\'Heure de la Miséricorde et le Chapelet du {date}:</string>
+    <string name="pobieranie_koronki">Chargement en cours ...</string>
+    <string name="pobierz_koronke">Cliquez pour télécharger</string>
+    <string name="pobrana_koronka">Le Chapelet a été téléchargé. Cliquez pour écouter</string>
+    <string name="title_sanktuarium_noclegi">Hébergement</string>
+    <string name="title_yt">Vidées, Interviews</string>
+    <string name="wifi_dialog_message">Si vous voulez profiter pleinement de cette fonctionnalité, activez Internet</string>
+    <string name="wifi_dialog_title">Pas de connexion Internet</string>
+    <string name="title_koronka">Chapelet pour les mourants</string>
 </resources>
