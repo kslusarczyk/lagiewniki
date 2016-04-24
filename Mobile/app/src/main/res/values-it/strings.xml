@@ -123,11 +123,11 @@
         <item>Il Santuario della Divina Misericordia a Cracovia-Łagiewniki</item>
         <item>La transmissione on-line</item>
         <item>Galleria</item>
-        <item>Koronka za konających</item>
+        <item>La Coroncina per gli agonizzanti</item>
         <item>Edizioni \'\'Misericordia\'\'</item>
         <item>Facebook</item>
-        <item>Światowe Dni Młodzieży ŚDM 2016</item>
-        <item>YouTube</item>
+        <item>Giornata mondiale della gioventù 2016</item>
+        <item>Film, conversazioni, interviste</item>
         <item>Sostegno</item>
         <item>Più</item>
     </string-array>
@@ -139,4 +139,24 @@
     <string name="dialog_positive_button">Impostazioni</string>
     <string name="dialog_negative_button">Ignorare</string>
     <string name="title_multimedia_video">Video</string>
+    <string name="audio_url_error">Trasmissione  adesso non disponibile</string>
+    <string name="brak_zasobu">Risorsa non disponibile. Non c\'e adesso collegamento con l\'internet.</string>
+    <string name="dzienniczek_info">Il testo completo del \'\'Diario\'\' di santa Suor Faustina disponibile sul sito https://www.faustyna.pl/zmbm/it/</string>
+    <string name="error_gallery">Gallery non disponibile adesso</string>
+    <string name="exit_back_toast">Premere il tasto \'\'indietro\'\' un\'altra volta</string>
+    <string name="gps_dialog_message">Per arrivare al. Santuario, accendere GPS</string>
+    <string name="gps_dialog_title">Nessun segnale GPS</string>
+    <string name="kontakt_poradnia">Centro di consulenza \'\'Milosierdzie\'\'</string>
+    <string name="kontakt_toast">Per contattare, tieni premuto numero di telefono o il mail</string>
+    <string name="koronka_toast">Nel contenuto di SMS scrivi il nome dell\'agonizzante</string>
+    <string name="load_error">E apparso un errore durante il carico dei dati</string>
+    <string name="odsluchaj_koronke">Riascoltare l\'Ora di Misericordia e la Coroncina della Misericordia dal {date}:</string>
+    <string name="pobieranie_koronki">Scaricare…</string>
+    <string name="pobierz_koronke">Cliccare il pulsante per scaricare il file</string>
+    <string name="pobrana_koronka">La Coroncina e stata scaricata</string>
+    <string name="title_koronka">La Coroncina per gli agonizzanti</string>
+    <string name="title_sanktuarium_noclegi">Alloggio</string>
+    <string name="title_yt">Film, conversazioni, interviste</string>
+    <string name="wifi_dialog_message">Se vuoi approfittare pienamente del funzionamento, accendi l\'internet</string>
+    <string name="wifi_dialog_title">Non c\'e collegamento con l\'internet</string>
 </resources>
