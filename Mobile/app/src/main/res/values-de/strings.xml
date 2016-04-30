@@ -95,7 +95,7 @@
     <string name="rest_pielgrzymi">de/pilger/?json=1</string>
     <string name="title_dzienniczek">Aus dem \'\'Tagebuch\'\' der hl. Schwester Faustina</string>
     <string name="title_aktualnosci">Aktuelle Nachrichten</string>
-    <string name="dzienniczek_info">Der vollständige Text des \'\'Tagebuchs\'\' der hl. Schwester Faustina</string>
+    <string name="dzienniczek_info">Der vollständige Text des \'\'Tagebuches\'\' der hl. Faustina befindet sich auf: https://www.faustyna.pl/zmbm/de/</string>
     <string name="title_faustyna_misja">Die Verkündung der Barmherzigkeit Gottes</string>
     <string name="title_sanktuarium_obraz">Das Gnadenbild des Barmherzigen Jesus</string>
     <string name="rest_cudowny_obraz">de/das-gnadenbild-des-barmherzigen-jesus/?json=1</string>
@@ -124,9 +124,9 @@
         <item>Heiligtum der Barmherzigkeit Gottes in Krakau-Lagiewniki</item>
         <item>On-line</item>
         <item>Galerie</item>
-        <item>Koronka za konających</item>
+        <item>Barmherzigkeitsrosenkranz für die Sterbenden</item>
         <item>Der \'\'Misericordia\'\' – Verlag</item>
-        <item>Facebook</item>
+        <item>Filme, Gespräche, Interviews</item>
         <item>Weltjugendtag 2016</item>
         <item>YouTube</item>
         <item>Unterstützung</item>
@@ -140,5 +140,24 @@
     <string name="dialog_positive_button">Einstellungen</string>
     <string name="dialog_negative_button">Ignorieren</string>
     <string name="title_multimedia_video">Video</string>
+    <string name="audio_url_error"> Die Übertragung ist momentan nicht erreichbar.</string>
+    <string name="brak_zasobu">Die Inhalte sind nicht erreichbar. Es besteht keine  Internetverbindung.</string>
+    <string name="error_gallery"> Die Galerie ist momentan nicht erreichbar.</string>
+    <string name="exit_back_toast">Klicken Sie auf \'\'Zurück\'\', um die Seite zu verlassen.</string>
+    <string name="gps_dialog_message">Um den Weg zum Heiligtum zu finden, schalten Sie bitteIhr GPS-Gerät ein.</string>
+    <string name="gps_dialog_title">Kein GPS-Signal</string>
+    <string name="kontakt_poradnia">Beratung der Barmherzigkeit</string>
+    <string name="kontakt_toast">Um Kontakt aufzubauen, halten Sie folgendes Symbol (Telefonnummer oder E-Mail-Adresse) einige Sekunden lang gedrückt.</string>
+    <string name="koronka_toast">Schreiben Sie den Namen der sterbenden Person als Inhalt einer SMS.</string>
+    <string name="load_error">Fehler beim Herunterladen</string>
+    <string name="odsluchaj_koronke">Hören Sie die Stunde der Barmherzigkeit und den Rosenkranz vom (date): </string>
+    <string name="pobieranie_koronki">Wird heruntergeladen…</string>
+    <string name="pobierz_koronke"> Klicken Sie hier, um die Datei herunterzuladen</string>
+    <string name="pobrana_koronka">Der Rosenkranz wurde heruntergeladen. Klicken Sie hier, um ihn zu hören.</string>
+    <string name="title_koronka">Barmherzigkeitsrosenkranz für die Sterbenden</string>
+    <string name="title_sanktuarium_noclegi">Übernachtungsmöglichkeit</string>
+    <string name="title_yt">Filme, Gespräche, Interviews</string>
+    <string name="wifi_dialog_message">Wollen Sie alle Funktionen benutzen, verbinden Sie sich mit Internet</string>
+    <string name="wifi_dialog_title">Keine Internetverbindung</string>
 
 </resources>
