@@ -60,7 +60,7 @@
     <string name="title_sdm">Journées mondiales de la jeunesse 2016</string>
     <string name="title_sanktuarium_kaplica">Chapelle</string>
     <string name="rest_dzienniczek_siostry_faustyny">api/?lang=fr&amp;action=sentence</string>
-    <string name="rest_galeria">api/?lang=fr&amp;action=sentence</string>
+    <string name="rest_galeria">api/?lang=fr&amp;action=gallery</string>
     <string name="url_faustyna">https://www.faustyna.pl/zmbm/fr/</string>
     <string name="title_nabozenstwo">Dévotion à la Miséricorde divine</string>
     <string name="rest_bazylika">fr/basilique-sanctuaires/?json=1</string>

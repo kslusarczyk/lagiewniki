@@ -59,7 +59,7 @@
     <string name="porzadek_uroczystosc_triduum">- Preceduta da un triduo di Sante Messe, con omelie per l’occasione, presso la Cappella del convento alle ore 17:00.</string>
     <string name="title_sdm">Giornata mondiale della gioventù 2016</string>
     <string name="rest_dzienniczek_siostry_faustyny">api/?lang=it&amp;action=sentence</string>
-    <string name="rest_galeria">api/?lang=it&amp;action=sentence</string>
+    <string name="rest_galeria">api/?lang=it&amp;action=gallery</string>
     <string name="url_faustyna">https://www.faustyna.pl/zmbm/it/</string>
     <string name="url_dzienniczek">https://www.faustyna.pl/zmbm/it/diario-2/</string>
     <string name="title_nabozenstwo">Culto della Divina Misericordia</string>

@@ -292,7 +292,7 @@
     <string name="rest_rozbudowa">rozbudowa/?json=1</string>
     <string name="rest_dary_na_rzecz_milosierdzia">dary-na-rzecz-milosierdzia/?json=1</string>
 
-    <string name="rest_galeria">api/?lang=pl&amp;action=sentence</string>
+    <string name="rest_galeria">api/?lang=pl&amp;action=gallery</string>
     <string name="dzienniczek_info">Pełny tekst \'\'Dzienniczka\'\' św. Siostry Faustyny dostępny na stronie https://www.faustyna.pl/zmbm/</string>
 
     <!-- zapisywane dane -->
@@ -304,5 +304,6 @@
         <item>Bazylika</item>
         <item>Główne uroczystości</item>
     </string-array>
+    <string name="url_faustyna_default" translatable="false">https://www.faustyna.pl/zmbm/</string>
 
 </resources>
