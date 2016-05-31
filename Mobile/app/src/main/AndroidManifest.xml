@@ -183,7 +183,6 @@
         <activity
             android:name=".Video"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"
             android:label="@string/title_multimedia_video"
             android:theme="@style/CustomAppCompatTheme"
             android:logo="@android:color/transparent"/>
